@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +19,48 @@ a {
 
 #root {
   height: 100svh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+:root {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  /*BRANDING-COLORS*/
+  --pf-color1: #ffffff;
+  --pf-color2: #1f1d1d;
+  --pf-color3: #c9bbb0;
+  --pf-color4: #92afe6;
+  --pf-color5: #cbb4e0;
+  --pf-color6: #aea066;
+
+  /*BACKGROUND COLORS*/
+  --pf-first-bg: var(--pf-color1);
+
+  /*TEXT COLORS*/
+  --pf-first-text: var(--pf-color2);
+
+  /*SPACING*/
+  --pf-margin-xs: 10px;
+  --pf-margin-s: 20px;
+  --pf-margin-m: 30px;
+  --pf-margin-l: 40px;
+  --pf-margin-xl: 50px;
+  --pf-margin-section: 100px;
+
+  --pf-padding-xs: 10px;
+  --pf-padding-s: 20px;
+  --pf-padding-m: 30px;
+  --pf-padding-l: 40px;
+  --pf-padding-xl: 50px;
+  --pf-padding-section: 100px;
 }

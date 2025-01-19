@@ -1,5 +1,83 @@
+/*HEADER*/
 #header {
   width: 100%;
-  height: 100px;
-  background-color: red;
+  height: 140px;
+  background-color: transparent;
+  border: 1px solid var(--pf-color2);
+}
+nav {
+  width: auto;
+  height: auto;
+}
+.ul-header {
+  gap: 50px;
+}
+.li-header {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background: var(--pf-first-bg);
+  border-radius: 75px;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+}
+.li-header:hover {
+  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.li-header:hover::before,
+.li-header:hover::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background: var(--pf-color5);
+  border-radius: 75px;
+  z-index: -1;
+  animation: 1s clockwise infinite;
+}
+.li-header > a {
+  color: var(--pf-first-text);
+}
+/*ANIMATION*/
+@keyframes clockwise {
+  0% {
+    top: -3px;
+    left: 0;
+  }
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+  25% {
+    top: 0;
+    left: 3px;
+  }
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+  50% {
+    top: 3px;
+    left: 0;
+  }
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+  75% {
+    top: 0;
+    left: -3px;
+  }
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+  100% {
+    top: -3px;
+    left: 0;
+  }
 }
