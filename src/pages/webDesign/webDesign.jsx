@@ -1,7 +1,7 @@
-import './webDesign.css'
+import './WebDesign.css'
 
-const webDesign = () => {
+const WebDesign = () => {
   return <section id='section-webDesign'>webDesign</section>
 }
 
-export default webDesign
+export default WebDesign

@@ -1,9 +1,9 @@
-import './audiovisualProjects.jsx'
+import './audiovisualProjects.css'
 
-const audiovisualProjects = () => {
+const AudiovisualProjects = () => {
   return (
     <section id='section-audiovisualProjects'>audiovisual-projects</section>
   )
 }
 
-export default audiovisualProjects
+export default AudiovisualProjects

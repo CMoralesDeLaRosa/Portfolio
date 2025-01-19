@@ -1,7 +1,7 @@
-import './graphicDesign.css'
+import './GraphicDesign.css'
 
-const graphicDesign = () => {
+const GraphicDesign = () => {
   return <section id='section-graphicDesign'>graphicDesign</section>
 }
 
-export default graphicDesign
+export default GraphicDesign

@@ -1,7 +1,7 @@
-import './about.css'
+import './About.css'
 
-const about = () => {
+const About = () => {
   return <section id='section-about'>about</section>
 }
 
-export default about
+export default About

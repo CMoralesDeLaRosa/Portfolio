@@ -1,7 +1,7 @@
-import './header.css'
+import './Header.css'
 
-const header = () => {
+const Header = () => {
   return <header id='header'>header</header>
 }
 
-export default header
+export default Header

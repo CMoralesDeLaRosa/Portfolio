@@ -1,7 +1,7 @@
-import './landingPage.css'
+import './LandingPage.css'
 
-const landingPage = () => {
+const LandingPage = () => {
   return <section id='section-landingPage'>landingPage</section>
 }
 
-export default landingPage
+export default LandingPage
