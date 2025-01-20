@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
 * {
   margin: 0;
@@ -38,16 +39,21 @@ a {
   /*BRANDING-COLORS*/
   --pf-color1: #ffffff;
   --pf-color2: #1f1d1d;
-  --pf-color3: #c9bbb0;
-  --pf-color4: #92afe6;
-  --pf-color5: #cbb4e0;
-  --pf-color6: #aea066;
+  --pf-color3: #cac2bc;
+  --pf-color4: #b4c7eb;
+  --pf-color5: #878acb;
+  --pf-color6: #ded19b;
 
   /*BACKGROUND COLORS*/
   --pf-first-bg: var(--pf-color1);
+  --pf-second-bg: var(--pf-color5);
+  --pf-third-bg: var(--pf-color4);
+  --pf-forth-bg: var(--pf-color6);
+  --pf-fifth-bg: var(--pf-color3);
 
   /*TEXT COLORS*/
   --pf-first-text: var(--pf-color2);
+  --pf-second-text: var(--pf-color1);
 
   /*SPACING*/
   --pf-margin-xs: 10px;
@@ -63,4 +69,8 @@ a {
   --pf-padding-l: 40px;
   --pf-padding-xl: 50px;
   --pf-padding-section: 100px;
+
+  /*BORDER RADIUS*/
+  --pf-br1: 20px;
+  --pf-br2: 160px;
 }

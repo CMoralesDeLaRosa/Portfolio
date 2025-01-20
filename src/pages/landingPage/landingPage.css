@@ -1,0 +1,123 @@
+/*LANDING PAGE*/
+#section-landing-page {
+  width: 100%;
+  height: 100svh;
+  padding: var(--pf-padding-xl);
+  background-color: var(--pf-fifth-bg);
+  gap: 60px;
+}
+.article-presentation-landing-page {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: start;
+  align-items: start;
+  padding: var(--pf-padding-l) var(--pf-padding-l);
+  flex-direction: column;
+  gap: 20px;
+}
+.article-presentation-landing-page > h1 {
+  color: var(--pf-second-first);
+  width: 450px;
+  font-size: 60px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: start;
+}
+.div-line-landing-page {
+  width: 100%;
+  height: 3px;
+  background-color: var(--pf-color5);
+}
+
+.article-presentation-landing-page > p {
+  width: 400px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: start;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: var(--pf-first-text);
+}
+.highlight {
+  font-weight: 600;
+}
+.article-options-landing-page {
+  height: 600px;
+  width: auto;
+  flex-direction: column;
+  gap: 25px;
+}
+.div-option-landing-page {
+  width: 350px;
+  height: 120px;
+  padding: var(--pf-padding-m) var(--pf-padding-m);
+  box-shadow: 0 5px 35px 0px rgba(135, 138, 203, 0.5);
+  cursor: pointer;
+  opacity: 0.9;
+  border: 2px solid var(--pf-color2);
+}
+.div-option-landing-page:hover {
+  opacity: 1;
+  animation: vibrar 0.4s ease-in-out infinite;
+}
+.div-option-landing-page:first-of-type {
+  border-radius: var(--pf-br2) var(--pf-br1) var(--pf-br1) var(--pf-br1);
+}
+.div-option-landing-page:first-of-type > h2 {
+  width: 100%;
+  text-align: end;
+}
+.div-option-landing-page:nth-of-type(2) {
+  border-radius: var(--pf-br1) var(--pf-br2) var(--pf-br1) var(--pf-br1);
+}
+.div-option-landing-page:nth-of-type(3) {
+  border-radius: var(--pf-br1) var(--pf-br1) var(--pf-br1) var(--pf-br2);
+}
+.div-option-landing-page:nth-of-type(3) > h2 {
+  width: 100%;
+  text-align: end;
+}
+.div-option-landing-page:nth-of-type(4) {
+  border-radius: var(--pf-br1) var(--pf-br1) var(--pf-br2) var(--pf-br1);
+}
+
+.div-option-landing-page > h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+.icon-landing-page {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  color: var(--pf-color2);
+}
+.icon-landing-page.web-design,
+.icon-landing-page.graphic-design {
+  margin-left: 240px;
+  width: 35px;
+  height: 35px;
+}
+
+/*ANIMACIÓN*/
+@keyframes vibrar {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(2px);
+  }
+}
