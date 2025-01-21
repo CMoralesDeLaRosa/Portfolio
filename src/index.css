@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 * {
   margin: 0;
@@ -40,8 +40,10 @@ a {
   --pf-color1: #ffffff;
   --pf-color2: #1f1d1d;
   --pf-color3: #cac2bc;
-  --pf-color4: #878acb;
-  --pf-color5: rgb(35, 87, 124);
+
+  --pf-color4: #6b9a73;
+  --pf-color5: #878acb;
+  --pf-color6: rgb(196, 91, 110);
 
   /*BACKGROUND COLORS*/
   --pf-first-bg: var(--pf-color1);
