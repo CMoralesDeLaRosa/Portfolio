@@ -38,11 +38,10 @@ a {
 
   /*BRANDING-COLORS*/
   --pf-color1: #ffffff;
-  --pf-color2: #1f1d1d;
+  --pf-color2: rgb(31, 29, 29);
   --pf-color3: #cac2bc;
-
   --pf-color4: #6b9a73;
-  --pf-color5: #878acb;
+  --pf-color5: rgb(135, 138, 203);
   --pf-color6: rgb(196, 91, 110);
 
   /*BACKGROUND COLORS*/
@@ -55,6 +54,8 @@ a {
   /*TEXT COLORS*/
   --pf-first-text: var(--pf-color2);
   --pf-second-text: var(--pf-color1);
+  --pf-third-text: var(--pf-color4);
+  --pf-forth-text: var(--pf-color6);
 
   /*SPACING*/
   --pf-margin-xs: 10px;

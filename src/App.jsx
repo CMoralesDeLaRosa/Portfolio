@@ -4,6 +4,7 @@ import LandingPage from './pages/landingPage/landingPage'
 import WebDesign from './pages/webDesign/webDesign'
 import GraphicDesign from './pages/graphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
+import About from './pages/about/about'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Route path='web-design' element={<WebDesign />} />
       <Route path='audiovisual' element={<Audiovisual />} />
       <Route path='graphic-design' element={<GraphicDesign />} />
-      <Route path='about' element={<about />} />
+      <Route path='about' element={<About />} />
     </Routes>
   )
 }

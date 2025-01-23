@@ -12,7 +12,7 @@ const Header = () => {
             <li key={item} className='li-header flex-container'>
               <NavLink
                 to={`/${item.toLowerCase().replace(' ', '-')}`}
-                className={({ isActive }) => (isActive ? 'li-active' : '')}
+                className={({ isActive }) => (isActive ? 'active' : '')}
               >
                 {item}
               </NavLink>
@@ -20,6 +20,7 @@ const Header = () => {
           ))}
         </ul>
       </nav>
+      <div className='div-line-header'></div>
     </header>
   )
 }
