@@ -41,12 +41,9 @@
   align-content: end;
 }
 .div-line-landing-page {
-
-
   width: 95%;
   height: 5px;
   background-color: var(--pf-color5);
-
 }
 .div-box-landing-page {
   position: absolute;
@@ -97,11 +94,8 @@
 .div-option-landing-page:hover {
   opacity: 1;
   animation: vibrar 0.4s ease-in-out infinite;
-<<<<<<< HEAD
-  border: 2.2px solid var(--pf-color5);
-=======
+
   box-shadow: 0 5px 35px 0px rgba(196, 91, 110, 0.4);
->>>>>>> develop
 }
 .div-option-landing-page:first-of-type {
   border-radius: var(--pf-br2) var(--pf-br1) var(--pf-br1) var(--pf-br1);
