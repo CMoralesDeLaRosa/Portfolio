@@ -15,3 +15,11 @@
   text-align: center;
   margin-top: var(--pf-margin-section);
 }
+.div-line-title-audiovisual {
+  position: absolute;
+  left: 860px;
+  top: 255px;
+  width: 193px;
+  height: 4px;
+  background-color: var(--pf-color5);
+}

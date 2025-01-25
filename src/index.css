@@ -75,4 +75,51 @@ a {
   /*BORDER RADIUS*/
   --pf-br1: 20px;
   --pf-br2: 160px;
+
+  /*PROJECTS*/
+
+  .article-projects {
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    gap: 120px;
+  }
+
+  .div-project {
+    width: 350px;
+    height: 450px;
+    cursor: pointer;
+    filter: brightness(0.7);
+    border-top: 6px solid var(--pf-color6);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .div-project:hover {
+    transform: scale(1.02);
+    filter: brightness(0.8);
+    border-top: 5px solid var(--pf-color4);
+  }
+
+  .div-project h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: var(--pf-margin-s);
+    letter-spacing: 2px;
+  }
+  .div-project h4 {
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 1px;
+  }
+  .div-project > img {
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0 var(--pf-br1) var(--pf-br1);
+  }
 }
