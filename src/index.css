@@ -93,7 +93,7 @@ a {
     cursor: pointer;
     filter: brightness(0.7);
     box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-    border-radius: 0 0 var(--pf-br1) var(--pf-br1);
+    border-radius: var(--pf-br1) var(--pf-br1);
     transition: transform 0.3s ease, filter 0.3s ease;
   }
 
