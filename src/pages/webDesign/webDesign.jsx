@@ -27,7 +27,6 @@ const WebDesign = () => {
   return (
     <section id='section-webDesign'>
       <Header />
-      <div className='div-line-title-webDesign'></div>
       <h2>Web Design</h2>
       <article className='article-projects flex-container'>
         {webDesignProjects.map((project, index) => (

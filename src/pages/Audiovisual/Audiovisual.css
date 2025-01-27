@@ -10,16 +10,8 @@
   text-transform: uppercase;
   font-size: 22px;
   letter-spacing: 3px;
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   text-align: center;
   margin-top: var(--pf-margin-section);
-}
-.div-line-title-audiovisual {
-  position: absolute;
-  left: 860px;
-  top: 255px;
-  width: 193px;
-  height: 4px;
-  background-color: var(--pf-color5);
 }

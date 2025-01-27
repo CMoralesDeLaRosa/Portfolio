@@ -26,9 +26,7 @@ const Audiovisual = () => {
   return (
     <section id='section-audiovisual'>
       <Header />
-      <div className='div-line-title-audiovisual'></div>
       <h2>Audiovisual</h2>
-      <div className='div-line-title-audiovisual'></div>
       <article className='article-projects flex-container'>
         {audiovisualProjects.map((project, index) => (
           <div
