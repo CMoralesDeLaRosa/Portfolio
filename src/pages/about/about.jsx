@@ -1,7 +1,12 @@
 import Header from '../../components/header/header'
 import './About.css'
-import { FaSquare } from 'react-icons/fa'
+import { FaSquare, FaGithubSquare, FaLinkedin, FaBahai } from 'react-icons/fa'
 import { BsPersonArmsUp } from 'react-icons/bs'
+import { IoMdBookmarks } from 'react-icons/io'
+import { MdOutlineWork } from 'react-icons/md'
+import { LiaConnectdevelop } from 'react-icons/lia'
+import { GiCactusPot } from 'react-icons/gi'
+import { FaSquarePlus } from 'react-icons/fa6'
 
 const skills = [
   'HTML',
@@ -17,10 +22,22 @@ const skills = [
   'Davinci Resolver',
   'Microsoft Office'
 ]
+const highlights = [
+  '9 years of experience in design across various areas: audiovisual, graphic, murals, and web design.',
+  'Multidisciplinary background in architecture, directing photography, artistic event management, and Full Stack web development.',
+  'Professional experience both as a freelancer and in companies, balancing client-facing roles with more technical-focused positions.',
+  'Ability to adapt to different design areas and manage projects from concept to execution.',
+  'Passion for gardening and cacti, which has enhanced my patience and attention to detail.'
+]
+const links = [
+  { icon: <FaLinkedin />, label: 'LinkedIn', url: 'https://www.linkedin.com' },
+  { icon: <FaGithubSquare />, label: 'GitHub', url: 'https://www.github.com' },
+  { icon: <FaSquarePlus />, label: 'Otro', url: '#' }
+]
 
 const About = () => {
   return (
-    <section id='section-about'>
+    <section id='section-about' className='flex-container'>
       <Header />
       <article className='article-contain-about flex-container'>
         <h2>About</h2>
@@ -98,27 +115,30 @@ const About = () => {
           </div>
         </article>
         <article className='article-highlights-about flex-container'>
-          <h3>Highlights</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatem, ipsam quasi sunt eligendi, nihil debitis cum unde alias
-            doloribus amet, est totam. Reiciendis doloribus blanditiis at amet.
-            Ea, perspiciatis suscipit?
-          </p>
-        </article>
-
-        <article className='article-experience-about flex-container'>
-          <h3>Experience</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatem, ipsam quasi sunt eligendi, nihil debitis cum unde alias
-            doloribus amet, est totam. Reiciendis doloribus blanditiis at amet.
-            Ea, perspiciatis suscipit?
-          </p>
+          <div className='div-icons-highlights flex-container'>
+            <FaBahai className='icon-highlight' />
+            <IoMdBookmarks className='icon-highlight' />
+            <MdOutlineWork className='icon-highlight' />
+            <LiaConnectdevelop className='icon-highlight' />
+            <GiCactusPot className='icon-highlight' />
+          </div>
+          <ul className='ul-highlights-about flex-container'>
+            {highlights.map((highlight, index) => (
+              <li key={index} className='li-highlight-about flex-container'>
+                <FaSquare className='square-hightlight' />
+                {highlight}
+                <FaSquare className='square-hightlight' />
+              </li>
+            ))}
+          </ul>
         </article>
         <article className='article-contact-about flex-container'>
-          <button></button>
-          <button></button>
+          <div className='div-images-contact-about'></div>
+          {links.map((link, index) => (
+            <div key={index} className='div-links-contact-about flex-container'>
+              {link.icon}
+            </div>
+          ))}
         </article>
       </article>
     </section>

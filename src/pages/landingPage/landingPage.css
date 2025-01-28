@@ -68,7 +68,6 @@
   line-height: 1.9;
   letter-spacing: 0.7px;
   color: var(--pf-first-text);
-  animation: translation-left-items 4s ease-in-out;
 }
 .highlight {
   font-weight: 600;
@@ -78,7 +77,6 @@
   width: auto;
   flex-direction: column;
   gap: 25px;
-  animation: translation-right-items 4s ease-in-out;
 }
 .div-option-landing-page {
   width: 350px;
@@ -169,22 +167,5 @@
   }
   100% {
     transform: translate(20px) rotate(-360deg);
-  }
-}
-@keyframes vibrar {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-2px);
-  }
-  50% {
-    transform: translateX(2px);
-  }
-  75% {
-    transform: translateX(-2px);
-  }
-  100% {
-    transform: translateX(2px);
   }
 }
