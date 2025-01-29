@@ -3,7 +3,8 @@
   width: 100%;
   height: auto;
   flex-direction: column;
-  padding: var(--pf-padding-xl) var(--pf-padding-section);
+  padding: var(--pf-padding-xl) var(--pf-padding-section) 0
+    var(--pf-padding-section);
   background-color: var(--pf-fifth-bg);
 }
 
@@ -134,36 +135,51 @@
   width: 100%;
   height: auto;
   flex-direction: column;
-  margin-top: var(--pf-margin-l);
+  margin-top: var(--pf-margin-xl);
 }
 .ul-highlights-about {
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: end;
+  align-content: end;
+  justify-items: end;
+  align-items: end;
   flex-direction: column;
   gap: 40px;
-  margin-top: var(--pf-margin-m);
+  margin-top: var(--pf-margin-xl);
+  margin-right: 400px;
 }
 .li-highlight-about {
-  width: 1300px;
+  width: 100%;
   height: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.8;
   font-weight: 400;
-  text-align: center;
   gap: 10px;
+  text-align: end;
 }
 .square-hightlight {
   width: 10px;
   color: var(--pf-color6);
 }
 .div-icons-highlights {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-right: 400px;
   gap: 15px;
   margin-top: var(--pf-margin-xs);
 }
 .icon-highlight {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   color: var(--pf-color5);
 }
 .icon-highlight:hover {
@@ -173,36 +189,39 @@
 /*ARTICLE-CONTACT*/
 .article-contact-about {
   width: 100%;
-  height: 150px;
-  margin-top: var(--pf-margin-section);
+  height: auto;
+  flex-direction: column;
+  margin-top: 60px;
   padding: 0 150px;
-  gap: 50px;
+  gap: 80px;
 }
 
-.div-images-contact-about {
-  height: 150px;
-  width: 600px;
-  border: 2.5px solid var(--pf-color2);
-  overflow: hidden;
-  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-  border-radius: var(--pf-br1) var(--pf-br1) var(--pf-br1) var(--pf-br2);
+.div-icons-contact-about {
+  width: 100%;
+  height: 100px;
+  gap: 40px;
 }
 
 .div-links-contact-about {
-  border: 2.5px solid var(--pf-color2);
+  border: 2px solid var(--pf-color2);
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-  width: 100px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   border-radius: var(--pf-br1);
   cursor: pointer;
   opacity: 0.9;
-}
-.div-links-contact-about:last-of-type {
-  border-radius: var(--pf-br1) var(--pf-br1) var(--pf-br2) var(--pf-br1);
 }
 
 .div-links-contact-about:hover {
   opacity: 1;
   animation: vibrar 0.4s ease-in-out infinite;
   box-shadow: 0 5px 35px 0px rgba(196, 91, 110, 0.4);
+}
+
+.a-link-contact-about {
+  color: var(--pf-color2);
+}
+
+.a-link-contact-about > svg {
+  font-size: 30px;
 }

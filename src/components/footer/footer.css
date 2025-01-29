@@ -1,0 +1,13 @@
+#footer {
+  width: 100%;
+  height: 100px;
+}
+
+#footer p {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: var(--ep-color2);
+}

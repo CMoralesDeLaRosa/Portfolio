@@ -7,6 +7,7 @@ import { MdOutlineWork } from 'react-icons/md'
 import { LiaConnectdevelop } from 'react-icons/lia'
 import { GiCactusPot } from 'react-icons/gi'
 import { FaSquarePlus } from 'react-icons/fa6'
+import Footer from '../../components/footer/footer'
 
 const skills = [
   'HTML',
@@ -30,8 +31,16 @@ const highlights = [
   'Passion for gardening and cacti, which has enhanced my patience and attention to detail.'
 ]
 const links = [
-  { icon: <FaLinkedin />, label: 'LinkedIn', url: 'https://www.linkedin.com' },
-  { icon: <FaGithubSquare />, label: 'GitHub', url: 'https://www.github.com' },
+  {
+    icon: <FaLinkedin />,
+    label: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/cristina-morales-de-la-rosa/'
+  },
+  {
+    icon: <FaGithubSquare />,
+    label: 'GitHub',
+    url: 'https://github.com/CMoralesDeLaRosa'
+  },
   { icon: <FaSquarePlus />, label: 'Otro', url: '#' }
 ]
 
@@ -115,17 +124,16 @@ const About = () => {
           </div>
         </article>
         <article className='article-highlights-about flex-container'>
-          <div className='div-icons-highlights flex-container'>
+          <div className='div-icons-highlights '>
             <FaBahai className='icon-highlight' />
             <IoMdBookmarks className='icon-highlight' />
             <MdOutlineWork className='icon-highlight' />
             <LiaConnectdevelop className='icon-highlight' />
             <GiCactusPot className='icon-highlight' />
           </div>
-          <ul className='ul-highlights-about flex-container'>
+          <ul className='ul-highlights-about '>
             {highlights.map((highlight, index) => (
-              <li key={index} className='li-highlight-about flex-container'>
-                <FaSquare className='square-hightlight' />
+              <li key={index} className='li-highlight-about '>
                 {highlight}
                 <FaSquare className='square-hightlight' />
               </li>
@@ -133,14 +141,26 @@ const About = () => {
           </ul>
         </article>
         <article className='article-contact-about flex-container'>
-          <div className='div-images-contact-about'></div>
-          {links.map((link, index) => (
-            <div key={index} className='div-links-contact-about flex-container'>
-              {link.icon}
-            </div>
-          ))}
+          <div className='div-icons-contact-about flex-container'>
+            {links.map((link, index) => (
+              <div
+                key={index}
+                className='div-links-contact-about flex-container'
+              >
+                <a
+                  href={link.url}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='a-link-contact-about'
+                >
+                  {link.icon}
+                </a>
+              </div>
+            ))}
+          </div>
         </article>
       </article>
+      <Footer />
     </section>
   )
 }
