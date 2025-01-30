@@ -41,7 +41,11 @@ const links = [
     label: 'GitHub',
     url: 'https://github.com/CMoralesDeLaRosa'
   },
-  { icon: <FaSquarePlus />, label: 'Otro', url: '#' }
+  {
+    icon: <FaSquarePlus />,
+    label: 'CV',
+    url: 'https://drive.google.com/file/d/1XfgM0yqdGZa5lWN_3qkBzW-6Czq3x7hh/view?usp=sharing'
+  }
 ]
 
 const About = () => {

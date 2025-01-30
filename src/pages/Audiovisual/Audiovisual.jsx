@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './Audiovisual.css'
 
@@ -24,7 +25,7 @@ const audiovisualProjects = [
 ]
 const Audiovisual = () => {
   return (
-    <section id='section-audiovisual'>
+    <section id='section-audiovisual' className='flex-container'>
       <Header />
       <h2>Audiovisual</h2>
       <article className='article-projects flex-container'>
@@ -40,6 +41,7 @@ const Audiovisual = () => {
           </div>
         ))}
       </article>
+      <Footer />
     </section>
   )
 }

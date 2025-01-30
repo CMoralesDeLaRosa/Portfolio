@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './WebDesign.css'
 
@@ -25,7 +26,7 @@ const webDesignProjects = [
 
 const WebDesign = () => {
   return (
-    <section id='section-webDesign'>
+    <section id='section-webDesign' className='flex-container'>
       <Header />
       <h2>Web Design</h2>
       <article className='article-projects flex-container'>
@@ -41,6 +42,7 @@ const WebDesign = () => {
           </div>
         ))}
       </article>
+      <Footer />
     </section>
   )
 }

@@ -1,10 +1,11 @@
 /*Web design*/
 #section-webDesign {
   width: 100%;
-  height: 100svh;
-  padding: var(--pf-padding-xl) 150px;
+  height: auto;
+  flex-direction: column;
+  padding: var(--pf-padding-xl) var(--pf-padding-section) 0
+    var(--pf-padding-section);
   background-color: var(--pf-fifth-bg);
-  gap: 60px;
 }
 #section-webDesign > h2 {
   text-transform: uppercase;
