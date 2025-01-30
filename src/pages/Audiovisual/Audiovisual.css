@@ -1,7 +1,7 @@
 /*Audiovisual*/
 #section-audiovisual {
   width: 100%;
-  height: auto;
+  height: 1100px;
   flex-direction: column;
   padding: var(--pf-padding-xl) var(--pf-padding-section) 0
     var(--pf-padding-section);
