@@ -143,4 +143,22 @@ a {
       transform: translateX(2px);
     }
   }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+  }
 }
