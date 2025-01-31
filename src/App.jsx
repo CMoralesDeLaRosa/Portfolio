@@ -5,6 +5,7 @@ import WebDesign from './pages/webDesign/webDesign'
 import GraphicDesign from './pages/graphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
 import About from './pages/about/about'
+import { webDesignRoutes } from './utils/routes'
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <Route path='audiovisual' element={<Audiovisual />} />
       <Route path='graphic-design' element={<GraphicDesign />} />
       <Route path='about' element={<About />} />
+
+      {webDesignRoutes.map((route, index) => (
+        <Route key={index} path={route.path} element={<route.component />} />
+      ))}
     </Routes>
   )
 }
