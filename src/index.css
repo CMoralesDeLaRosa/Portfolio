@@ -155,7 +155,7 @@ a {
 
   h3 {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 2px;
     font-weight: 400;
     width: 100%;
@@ -164,8 +164,13 @@ a {
 
   p {
     font-size: 17px;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.5px;
     line-height: 1.8;
     font-weight: 400;
+  }
+
+  .square-green {
+    width: 7px;
+    color: var(--pf-color4);
   }
 }

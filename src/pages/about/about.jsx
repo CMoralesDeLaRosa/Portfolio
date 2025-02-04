@@ -58,7 +58,7 @@ const About = () => {
           <ul className='ul-skills-about flex-container'>
             {skills.map((skill, index) => (
               <li key={index} className='li-skill-about flex-container'>
-                {skill} <FaSquare className='square-skill' />
+                {skill} <FaSquare className='square-green' />
               </li>
             ))}
           </ul>
