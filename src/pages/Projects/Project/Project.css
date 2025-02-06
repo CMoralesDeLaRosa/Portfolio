@@ -88,3 +88,15 @@
   width: 100%;
   object-fit: contain;
 }
+
+/*Article Challenge*/
+.div-project-challenge-img {
+  width: 1120px;
+  height: 650px;
+  border-radius: var(--pf-br1);
+  margin-top: -50px;
+}
+.div-project-challenge-img > img {
+  width: 100%;
+  border-radius: var(--pf-br1);
+}

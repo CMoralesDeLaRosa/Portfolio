@@ -35,6 +35,9 @@ const Project = ({ project }) => {
       <article className='article-project-challenges flex-container'>
         <h3>Challenges</h3>
         <p>{project.challenges}</p>
+        <div className='div-project-challenge-img'>
+          <img src={project.imgChallenge1} />
+        </div>
       </article>
       <article className='article-project-process flex-container'>
         <h3>Project Process</h3>
