@@ -25,8 +25,12 @@ const elPerolItems = {
     'One of the most significant challenges was managing the database information dynamically while ensuring that the web`s visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.',
   imgChallenge1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738867617/Porfolio/El%20Perol/ElPerol-image4.png',
-  process:
-    'En primer lugar, realicé un trabajo de investigación en el que busqué las web de recetas más visitas e identifiqué qué información mostraban, cómo la mostraban y cómo era la interacción del usuario. Son páginas muy claras e intuitivas pero a nivel diseño son muy similares a los blocs. Buscan fundamentalmente la funcionalidad. Ahí fue donde encontré el hueco para darle una vuelta a este tipo de webs. Después, hice una investigación en proyectos y webs con un diseño más innovador enfocados a la gastronomía en general. Restaurantes, webs de productos alimenticios, revistas de comida, entre otros. Quería saber cómo otros diseñadores mostraban la comida, cuál era su propuesta. Y con esos dos enfoques empecé a construir el mio propio. A continuación desarrollé la parte backend: la base de datos de las recetas, qué usuarios quería tener, cómo iban a interactuar, qué acciones podían hacer en función del tipo de usuario. De esta forma creé el esqueleto de proyecto. Tendría 3 tipos de usuarios: usuario no registrado, usuario registrado en una cuenta básico y usuario registrado en una cuenta profesional. Cada uno tiene acceso a una información y a un grado de personalización diferente. Le di mucha importancia a las funciones de admin y las tareas de validación de contenido. Me centré en un diseño claro.Por último comencé a darle forma a nivel visual con la parte frontend. Utilicé React, porque consideré que me daba bastante flexibilidad para el tipo de proyecto que estaba realizando y para el estilo CSS. Al ser un proyecto individual, en esta última fase tuve espacio para algunos cambios y sobre todo para añadir alguna idea extra.'
+  process1:
+    'First, I conducted research where I explored the most visited recipe websites, identifying what information they displayed, how they presented it, and what the user interaction and experience were like. My conclusion was that these websites are very clear and intuitive, but in terms of design, they are quite similar to basic blogs, offering a user experience that feels underdeveloped. They primarily focus on functionality. This is where I find the opportunity to provide a different approach that would set El Perol apart from other recipe websites. Later, I expanded my research to include projects and websites with more innovative designs focused on gastronomy in general—restaurants, food product websites, food magazines, and others. I wanted to understand how other designers presented food and what their unique proposals were. With these two approaches in mind, I began to build my concept.',
+  process2:
+    'Next, I developed the backend: the recipe database, the types of users I wanted to have, how they would interact, and what actions they could perform based on their user type. This way, I created the project’s framework. There would be three types of users: unregistered users, registered users with a basic account, and registered users with a professional account. Each type would have access to specific information and varying levels of customization. I placed significant emphasis on the admin functions and the content validation tasks. The user flows had to be clear and ensure a functional connection between the different database models. ',
+  process3:
+    'With the backend developed and the main design and user experience ideas in place, I began shaping the project visually through the frontend. I used React, as I felt it offered the flexibility I needed for this type of project, along with the styling flexibility CSS provides. Since it was an individual project, this final phase gave me the space to make some adjustments and, most importantly, to incorporate additional ideas.'
 }
 const elPerolDetails = [
   { icon: <FaSquare className='square-green' />, text: elPerolItems.type },
@@ -85,7 +89,9 @@ const ElPerol = () => {
       </article>
       <article className='article-el-perol-process flex-container'>
         <h3>Project Process</h3>
-        <p>{elPerolItems.process}</p>
+        <p>{elPerolItems.process1}</p>
+        <p>{elPerolItems.process2}</p>
+        <p>{elPerolItems.process3}</p>
       </article>
     </section>
   )
