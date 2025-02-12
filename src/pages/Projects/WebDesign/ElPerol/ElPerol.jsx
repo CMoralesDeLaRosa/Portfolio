@@ -29,6 +29,8 @@ const elPerolItems = {
     'First, I conducted research where I explored the most visited recipe websites, identifying what information they displayed, how they presented it, and what the user interaction and experience were like. My conclusion was that these websites are very clear and intuitive, but in terms of design, they are quite similar to basic blogs, offering a user experience that feels underdeveloped. They primarily focus on functionality. This is where I find the opportunity to provide a different approach that would set El Perol apart from other recipe websites. Later, I expanded my research to include projects and websites with more innovative designs focused on gastronomy in general—restaurants, food product websites, food magazines, and others. I wanted to understand how other designers presented food and what their unique proposals were. With these two approaches in mind, I began to build my concept.',
   process2:
     'Next, I developed the backend: the recipe database, the types of users I wanted to have, how they would interact, and what actions they could perform based on their user type. This way, I created the project’s framework. There would be three types of users: unregistered users, registered users with a basic account, and registered users with a professional account. Each type would have access to specific information and varying levels of customization. I placed significant emphasis on the admin functions and the content validation tasks. The user flows had to be clear and ensure a functional connection between the different database models. ',
+  imgProcess1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739393373/Porfolio/El%20Perol/ElPerol-image5.png',
   process3:
     'With the backend developed and the main design and user experience ideas in place, I began shaping the project visually through the frontend. I used React, as I felt it offered the flexibility I needed for this type of project, along with the styling flexibility CSS provides. Since it was an individual project, this final phase gave me the space to make some adjustments and, most importantly, to incorporate additional ideas.'
 }
@@ -91,6 +93,9 @@ const ElPerol = () => {
         <h3>Project Process</h3>
         <p>{elPerolItems.process1}</p>
         <p>{elPerolItems.process2}</p>
+        <div className='div-el-perol-process-img2'>
+          <img src={elPerolItems.imgProcess1} alt='Register part' />
+        </div>
         <p>{elPerolItems.process3}</p>
       </article>
     </section>

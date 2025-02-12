@@ -143,3 +143,18 @@
   width: 100%;
   object-fit: contain;
 }
+
+/*Article-procces-el-perol*/
+.div-el-perol-process-img2 {
+  width: 1050px;
+  height: auto;
+  border-radius: var(--pf-br1);
+  overflow: hidden;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  margin-left: 320px;
+  margin-top: var(--pf-margin-xl);
+}
+.div-el-perol-process-img2 > img {
+  width: 100%;
+  object-fit: contain;
+}
