@@ -7,6 +7,7 @@ import { TbExchange } from 'react-icons/tb'
 import { BsPersonArmsUp } from 'react-icons/bs'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { AiFillThunderbolt } from 'react-icons/ai'
+import Footer from '../../../../components/footer/footer'
 
 const elPerolItems = {
   name: 'El Perol',
@@ -22,7 +23,7 @@ const elPerolItems = {
   imgFocus2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738697207/Porfolio/El%20Perol/ElPerol-image3.png',
   challenges:
-    'One of the most significant challenges was managing the database information dynamically while ensuring that the web`s visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.',
+    "One of the most significant challenges was managing the database information dynamically while ensuring that the web's visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.",
   imgChallenge1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738867617/Porfolio/El%20Perol/ElPerol-image4.png',
   process1:
@@ -34,7 +35,21 @@ const elPerolItems = {
   imgProcess2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739393373/Porfolio/El%20Perol/ElPerol-image5.png',
   process3:
-    'With the backend developed and the main design and user experience ideas in place, I began shaping the project visually through the frontend. I used React, as I felt it offered the flexibility I needed for this type of project, along with the styling flexibility CSS provides. Since it was an individual project, this final phase gave me the space to make some adjustments and, most importantly, to incorporate additional ideas.'
+    'With the backend developed and the main design and user experience ideas in place, I began shaping the project visually through the frontend. I used React, as I felt it offered the flexibility I needed for this type of project, along with the styling flexibility CSS provides. Since it was an individual project, this final phase gave me the space to make some adjustments and, most importantly, to incorporate additional ideas.',
+  adminRole:
+    "The role of administrator has been fundamental in the development of the project. Recipe posts must be validated before being published by the administrator to maintain the quality of the content. Restaurant accounts also go through the same verification process to prevent fake accounts and ensure the website's credibility. Additionally, the administrator role has functions that allow them to delete accounts and recipes. Therefore, a section has been created to host all these administrative functions, with the same design as the rest of the website, providing a user-friendly and simple experience.",
+  imgAdmin1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819188/Porfolio/El%20Perol/El-perol-admin1.png',
+  imgAdmin2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819188/Porfolio/El%20Perol/El-perol-admin2.png',
+  imgAdmin3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819189/Porfolio/El%20Perol/El-perol-admin4.png',
+  learning:
+    'For me, the biggest lesson from this project has been managing to contribute something new to such a well-defined type of website, and ensuring that these innovations are based on real improvements. At first, it was a big challenge to come up with an idea that would add value and be useful to this type of website, but thanks to the research work, I was able to clearly identify the available improvements. Therefore, I consider the preliminary research work to be essential.',
+  mistakes:
+    "Regarding the mistakes, I believe I should have spent more time defining the workflows within the website. Initially, I had a general idea in place, and as the project progressed, I made some modifications that led to changes in both the backend and frontend simultaneously, resulting in slower progress. It is crucial to have all workflows defined and finalized before starting development, even if it's an individual project.",
+  imgLearning:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png'
 }
 const elPerolDetails = [
   { icon: <FaSquare className='square-green' />, text: elPerolItems.type },
@@ -103,6 +118,25 @@ const ElPerol = () => {
         </div>
         <p>{elPerolItems.process3}</p>
       </article>
+      <article className='article-el-perol-admin flex-container'>
+        <h3>Admin role</h3>
+        <p>{elPerolItems.adminRole}</p>
+        <div className='div-el-perol-admin-images flex-container'>
+          <img src={elPerolItems.imgAdmin1} alt='Admin users validation' />
+          <img src={elPerolItems.imgAdmin2} alt='Admin recipes validation' />
+          <img
+            src={elPerolItems.imgAdmin3}
+            alt='Recipes not validated in user profile'
+          />
+        </div>
+      </article>
+      <article className='article-el-perol-learning flex-container'>
+        <h3>Learning and mistakes</h3>
+        <img src={elPerolItems.imgLearning} />
+        <p>{elPerolItems.learning}</p>
+        <p>{elPerolItems.mistakes}</p>
+      </article>
+      <Footer />
     </section>
   )
 }
