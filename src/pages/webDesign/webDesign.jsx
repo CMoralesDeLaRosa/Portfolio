@@ -12,10 +12,10 @@ const webDesignProjects = [
     path: '/web-design/el-perol'
   },
   {
-    title: 'Pokemon`s Cards ',
+    title: 'Pokemon Cards ',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1737830097/Porfolio/Pokemon-cards-webDesign-project.png',
     colaboration: 'Bootcamp Rock the Code',
-    path: '/web-design/pokemons-cards'
+    path: '/web-design/pokemon-cards'
   },
   {
     title: 'Retro Games',
