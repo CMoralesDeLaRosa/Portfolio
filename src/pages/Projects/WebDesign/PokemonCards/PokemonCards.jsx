@@ -1,6 +1,8 @@
 import Header from '../../../../components/header/header'
 import './PokemonCards.css'
 import { FaSquare } from 'react-icons/fa6'
+import { MdDesignServices } from 'react-icons/md'
+import { FaPlus } from 'react-icons/fa'
 
 const pokemonCardsItems = {
   name: 'Pokemon Cards',
@@ -78,9 +80,9 @@ const PokemonCards = () => {
       <article className='article-pokemon-cards-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-pokemon-cards'>
-          {/* <IoBulb className='big-icon-scheme-el-perol' />
+          <MdDesignServices className='big-icon-scheme-el-perol' />
           <FaPlus className='small-icon-scheme-el-perol' />
-          <TbExchange className='big-icon-scheme-el-perol' />
+          {/*<TbExchange className='big-icon-scheme-el-perol' />
           <FaPlus className='small-icon-scheme-el-perol' />
           <BsPersonArmsUp className='big-icon-scheme-el-perol' />
           <FaLongArrowAltRight className='small-icon-scheme-el-perol' />
