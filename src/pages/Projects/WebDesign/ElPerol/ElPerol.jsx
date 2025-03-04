@@ -81,13 +81,13 @@ const ElPerol = () => {
       <article className='article-el-perol-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-el-perol'>
-          <IoBulb className='big-icon-scheme-el-perol' />
-          <FaPlus className='small-icon-scheme-el-perol' />
-          <TbExchange className='big-icon-scheme-el-perol' />
-          <FaPlus className='small-icon-scheme-el-perol' />
-          <BsPersonArmsUp className='big-icon-scheme-el-perol' />
-          <FaLongArrowAltRight className='small-icon-scheme-el-perol' />
-          <AiFillThunderbolt className='big-icon-scheme-el-perol' />
+          <IoBulb className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <TbExchange className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <BsPersonArmsUp className='big-icon-scheme-web-design' />
+          <FaLongArrowAltRight className='small-icon-scheme-web-design' />
+          <AiFillThunderbolt className='big-icon-scheme-web-design' />
         </div>
         <p>{elPerolItems.focus}</p>
         <div className='div-images-focus-el-perol flex-container'>

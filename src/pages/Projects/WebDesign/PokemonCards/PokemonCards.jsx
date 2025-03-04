@@ -3,6 +3,10 @@ import './PokemonCards.css'
 import { FaSquare } from 'react-icons/fa6'
 import { MdDesignServices } from 'react-icons/md'
 import { FaPlus } from 'react-icons/fa'
+import { GiConsoleController } from 'react-icons/gi'
+import { BiSolidData } from 'react-icons/bi'
+import { FaLongArrowAltRight } from 'react-icons/fa'
+import { MdOutlineCatchingPokemon } from 'react-icons/md'
 
 const pokemonCardsItems = {
   name: 'Pokemon Cards',
@@ -14,9 +18,7 @@ const pokemonCardsItems = {
   focus:
     'The main objective of this project was to develop a website that interacted with the Pokémon API through requests. The challenge was to retrieve various data and build a cohesive application while utilizing several React hooks. It was crucial to avoid unnecessary re-renders and to organize the code in a modular way, making the project scalable.',
   imgFocus1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738695178/Porfolio/El%20Perol/Elperol-image2.png',
-  imgFocus2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738697207/Porfolio/El%20Perol/ElPerol-image3.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741079918/Porfolio/Pokemon%20Cards/Pokemon-cards-image-1.png',
   challenges:
     'One of the biggest challenges was how to represent such an iconic image as Pokémon in a simple yet original way, avoiding an obvious or repetitive project. My goal was to revisit the classic Pokémon aesthetic without directly replicating what had already been done. To achieve this, I decided not to make a literal copy, but to draw inspiration from the visual style of the Game Boy consoles, using a more modern color palette and more defined details, creating a reinterpretation of that retro aesthetic.',
   imgChallenge1:
@@ -80,22 +82,20 @@ const PokemonCards = () => {
       <article className='article-pokemon-cards-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-pokemon-cards'>
-          <MdDesignServices className='big-icon-scheme-el-perol' />
-          <FaPlus className='small-icon-scheme-el-perol' />
-          {/*<TbExchange className='big-icon-scheme-el-perol' />
-          <FaPlus className='small-icon-scheme-el-perol' />
-          <BsPersonArmsUp className='big-icon-scheme-el-perol' />
-          <FaLongArrowAltRight className='small-icon-scheme-el-perol' />
-          <AiFillThunderbolt className='big-icon-scheme-el-perol' /> */}
+          <MdDesignServices className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <GiConsoleController className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <BiSolidData className='big-icon-scheme-web-design' />
+          <FaLongArrowAltRight className='small-icon-scheme-web-design' />
+          <MdOutlineCatchingPokemon className='big-icon-scheme-web-design' />
         </div>
         <p>{pokemonCardsItems.focus}</p>
         <div className='div-images-focus-pokemon-cards flex-container'>
-          <div>
-            <img src={pokemonCardsItems.imgFocus1} alt='Web site El Perol' />
-          </div>
-          <div>
-            <img src={pokemonCardsItems.imgFocus2} alt='Web site El Perol' />
-          </div>
+          <img
+            src={pokemonCardsItems.imgFocus1}
+            alt='Web site Pokemon Cards - Mobile version'
+          />
         </div>
       </article>
     </section>

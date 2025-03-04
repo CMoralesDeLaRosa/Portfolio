@@ -90,14 +90,14 @@
   margin-top: var(--pf-margin-s);
   margin-left: 300px;
 }
-.big-icon-scheme-el-perol {
+.big-icon-scheme-web-design {
   height: 60px;
   width: 60px;
 }
-.big-icon-scheme-el-perol:last-of-type {
+.big-icon-scheme-web-design:last-of-type {
   color: var(--pf-color4);
 }
-.big-icon-scheme-el-perol:last-of-type:hover {
+.big-icon-scheme-web-design:last-of-type:hover {
   color: var(--pf-color5);
 }
 .article-el-perol-focus > p,
