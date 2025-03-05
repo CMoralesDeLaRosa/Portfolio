@@ -136,3 +136,48 @@
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
+
+/*Article-procces-retro-games*/
+.div-retro-games-process-img {
+  width: 800px;
+  margin: var(--pf-margin-xl) auto;
+  gap: 40px;
+}
+.div-retro-games-process-img > img {
+  width: 230px;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+
+/*Article-mistakes-retro-games*/
+
+.div-retro-games-mistakes-img {
+  width: 1000px;
+  margin: var(--pf-margin-xl) auto;
+}
+
+.div-retro-games-mistakes-img > img {
+  width: 100%;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+/*Article-retro-games-link*/
+.article-retro-games-link {
+  height: 100px;
+  gap: 10px;
+}
+.article-retro-games-link > a {
+  color: var(--pf-color6);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.article-retro-games-link > a:hover {
+  color: var(--pf-color5);
+}
+.logo-link-retro-games {
+  color: var(--pf-color6);
+  height: 40px;
+  width: 40px;
+}

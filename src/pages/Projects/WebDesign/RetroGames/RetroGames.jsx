@@ -4,6 +4,8 @@ import { FaSquare, FaGamepad, FaGears } from 'react-icons/fa6'
 import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
 import { MdFluorescent } from 'react-icons/md'
 import { TbMoodCrazyHappyFilled } from 'react-icons/tb'
+import Footer from '../../../../components/footer/footer'
+import { BiSolidParty } from 'react-icons/bi'
 
 const retroGamesItems = {
   name: 'Retro Games',
@@ -27,29 +29,26 @@ const retroGamesItems = {
   imgChallenge3:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741081733/Porfolio/Pokemon%20Cards/Pokemon-cards-image-4.png',
   process1:
-    'Los juegos elegidos fueron el Bingo y el Tres en Raya. El primer proceso fue definir cómo iban a desarrollar ambos juegos teniendo en cuenta la funcionalidad que debían tener, en especial el Tres en Raya ya que juegas contra otro jugador. Finalmente para ambos me decanté por exponer un conjunto de variables posible y que el juego las utilizara de manera aleatoria. De esa manera da la sensación de jugar contra un contrincante aunque no sea del todo así.',
-  imgProcess1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741084357/Porfolio/Pokemon%20Cards/Pokemon-cards-image-5.png',
-  imgProcess2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741084351/Porfolio/Pokemon%20Cards/Pokemon-cards-image-6.png',
-  imgProcess3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741084351/Porfolio/Pokemon%20Cards/Pokemon-cards-image-7.png',
+    'The chosen games were Bingo and Tic-Tac-Toe. The first step was to define how both games would be developed, considering the required functionality, especially for Tic-Tac-Toe, as it involves playing against another player. Ultimately, I decided to define a set of possible variables for both games and have the game use them randomly. This creates the illusion of playing against an opponent, even though that is not entirely the case.',
   process2:
-    'El siguiente paso fue definir los componentes y dividir las funcionalidades de cada uno. Ya que cada juego debía dar una respuesta ante la acción del jugador, debía tener componentes en una escucha constante pero evitar que los que no eran necesarios no se re-renderizaran constantemente.',
-  imgProcess4:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741083595/Porfolio/Pokemon%20Cards/Pokemon-cards-scheme.png',
+    "The next step was to define the components and divide their functionalities. Since each game had to respond to the player's actions, I needed components to constantly listen for events while ensuring that unnecessary ones did not re-render continuously.",
   process3:
-    'Una vez, la parte funcional del proyecto estaba definidida me centré en el diseño. Decidí insipirarme en un diseño neón, haciendo referencia a los recreativos que solían estar inundados de carteles neón y las propias máquinas también tenían ese tipo de luz y colores.',
-  extraRoots:
-    'As an extra touch, I wanted to pay special attention to the user experience. Although it was an informational site with no complex interactions, I thought it was important for the user to enjoy some simple interactivity. I implemented a small game on the homepage: when the user clicks on the Pokéball, Pokémon randomly appear across the screen. Additionally, hover effects on the cards change the shadows of the containers, and clicking on each Pokémon allows the user to rotate its image. These small details make the site more enjoyable and spark user curiosity to discover more.',
-  gameVideo:
-    'https://res.cloudinary.com/dmztjnlrp/video/upload/v1741088371/Porfolio/Pokemon%20Cards/Pokemon-cards-game-video.mov',
-
+    'Once the functional part of the project was defined, I focused on the design. I decided to take inspiration from a neon aesthetic, referencing arcade halls that were often filled with neon signs, and the machines themselves also featured that type of lighting and colors.',
+  imgProcess1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741176001/Porfolio/Retro%20Games/Retro-Games-image-5.png',
+  imgProcess2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741176001/Porfolio/Retro%20Games/Retro-Games-image-6.png',
+  imgProcess3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741176010/Porfolio/Retro%20Games/Retro-Games-image-7.png',
+  imgProcess4:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741176001/Porfolio/Retro%20Games/Retro-Games-image-8.png',
   learning:
-    'A valuable lesson I learned from this project was how to reinterpret such a popular and recurring image like Pokémon without falling into clichés or repetitive styles. It was a challenge to add my personal touch to such a well-known theme, but I succeeded in giving the project a unique flavor. Additionally, this process allowed me to deepen my understanding of React, especially in terms of componentization and managing re-renders.',
+    'An important lesson learned while developing this project was becoming aware of the real importance of components in terms of their functionality. Through this practical example, I realized that components not only make the code scalable and clear but are also essential for avoiding unnecessary re-renders. To achieve this, it is crucial to have a clear structure from the beginning of the project.',
   mistakes:
-    'Regarding mistakes, one of the biggest obstacles I faced was handling re-renders at the start of the project. I didn’t pay enough attention to how to organize the components, which forced me to make numerous adjustments throughout the development to avoid unnecessary re-renders. My initial lack of experience in efficiently managing components led to a flawed project approach, which I had to correct during the development process.',
-  link: 'https://react-basics-beryl-one.vercel.app'
+    'Regarding the mistakes made, the main issue was handling time in the games. My initial component and functionality structure worked well until time came into play. It was an element I hadn’t considered at the beginning of the project, and when I introduced it, all components updated every second since they all depended on time. I eventually managed to fix it, but if I had considered it from the start, the process would have been much simpler.',
+  imgMistakes1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741175333/Porfolio/Retro%20Games/Retro-games-image-4.png',
+  link: 'https://react-retro-games-3ebx.vercel.app/'
 }
 const retroGamesDetails = [
   { icon: <FaSquare className='square-green' />, text: retroGamesItems.type },
@@ -121,6 +120,38 @@ const RetroGames = () => {
           </div>
         </div>
       </article>
+      <article className='article-retro-games-process flex-container'>
+        <h3>Project Process</h3>
+        <p>{retroGamesItems.process1}</p>
+
+        <p>{retroGamesItems.process2}</p>
+        <p>{retroGamesItems.process3}</p>
+        <div className='div-retro-games-process-img flex-container'>
+          {[
+            retroGamesItems.imgProcess1,
+            retroGamesItems.imgProcess2,
+            retroGamesItems.imgProcess3,
+            retroGamesItems.imgProcess4
+          ].map((imgSrc, index) => (
+            <img key={index} src={imgSrc} alt='Neon detail' />
+          ))}
+        </div>
+      </article>
+      <article className='article-retro-games-learning flex-container'>
+        <h3>Learning and mistakes</h3>
+        <p>{retroGamesItems.learning}</p>
+        <p>{retroGamesItems.mistakes}</p>
+        <div className='div-retro-games-mistakes-img'>
+          <img src={retroGamesItems.imgMistakes1} alt='Bingo Lose message' />
+        </div>
+      </article>
+      <article className='article-retro-games-link flex-container'>
+        <a href={retroGamesItems.link} target='_blank'>
+          Curious to see it in action?
+        </a>
+        <BiSolidParty className='logo-link-retro-games' />
+      </article>
+      <Footer />
     </section>
   )
 }
