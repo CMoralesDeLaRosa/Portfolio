@@ -144,7 +144,7 @@ const PokemonCards = () => {
         <p>{pokemonCardsItems.process3}</p>
       </article>
       <article className='article-pokemon-cards-game flex-container'>
-        <h3>Admin role</h3>
+        <h3>Extra game</h3>
         <p>{pokemonCardsItems.extraGame}</p>
         <div className='div-pokemon-cards-game-video flex-container'>
           <video loop muted autoPlay width='100%'>
