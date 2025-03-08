@@ -25,7 +25,7 @@ const elPerolItems = {
   challenges:
     "One of the most significant challenges was managing the database information dynamically while ensuring that the web's visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.",
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741457309/Porfolio/El%20Perol/ElPerol-image4.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741457522/Porfolio/El%20Perol/ElPerol-image4.png',
   process1:
     'First, I conducted research where I explored the most visited recipe websites, identifying what information they displayed, how they presented it, and what the user interaction and experience were like. My conclusion was that these websites are very clear and intuitive, but in terms of design, they are quite similar to basic blogs, offering a user experience that feels underdeveloped. They primarily focus on functionality. This is where I find the opportunity to provide a different approach that would set El Perol apart from other recipe websites. Later, I expanded my research to include projects and websites with more innovative designs focused on gastronomy in general—restaurants, food product websites, food magazines, and others. I wanted to understand how other designers presented food and what their unique proposals were. With these two approaches in mind, I began to build my concept.',
   imgProcess1:
