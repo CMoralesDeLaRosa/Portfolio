@@ -6,6 +6,7 @@ import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
 import { TbExchange } from 'react-icons/tb'
 import { BsPersonArmsUp } from 'react-icons/bs'
 import { AiFillThunderbolt } from 'react-icons/ai'
+import { AiOutlineGift } from 'react-icons/ai'
 import Footer from '../../../../components/footer/footer'
 
 const elPerolItems = {
@@ -48,7 +49,8 @@ const elPerolItems = {
   mistakes:
     "Regarding the mistakes, I believe I should have spent more time defining the workflows within the website. Initially, I had a general idea in place, and as the project progressed, I made some modifications that led to changes in both the backend and frontend simultaneously, resulting in slower progress. It is crucial to have all workflows defined and finalized before starting development, even if it's an individual project.",
   imgLearning:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png'
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png',
+  link: 'https://el-perol-finisher-react-idps.vercel.app'
 }
 const elPerolDetails = [
   { icon: <FaSquare className='square-green' />, text: elPerolItems.type },
@@ -134,6 +136,12 @@ const ElPerol = () => {
         <img src={elPerolItems.imgLearning} />
         <p>{elPerolItems.learning}</p>
         <p>{elPerolItems.mistakes}</p>
+      </article>
+      <article className='article-el-perol-link flex-container'>
+        <a href={elPerolItems.link} target='_blank'>
+          Ready to explore the project?
+        </a>
+        <AiOutlineGift className='logo-link-el-perol' />
       </article>
       <Footer />
     </section>

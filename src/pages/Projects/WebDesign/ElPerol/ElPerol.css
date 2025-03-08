@@ -195,3 +195,24 @@
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 350px;
 }
+
+/*Article-el-perol-link*/
+.article-el-perol-link {
+  height: 100px;
+  gap: 10px;
+}
+.article-el-perol-link > a {
+  color: var(--pf-color6);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.article-el-perol-link > a:hover {
+  color: var(--pf-color5);
+}
+.logo-link-el-perol {
+  color: var(--pf-color6);
+  height: 40px;
+  width: 40px;
+}
