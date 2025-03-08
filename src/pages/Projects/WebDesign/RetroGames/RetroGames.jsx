@@ -23,11 +23,7 @@ const retroGamesItems = {
   challenges:
     'One of the major challenges was avoiding unnecessary re-renders. Each game consisted of different components, some of which needed to be updated as the game progressed to ensure a constant refresh. However, others did not need to be re-rendered since their content remained unchanged. For this reason, it was essential to properly define the components and their respective functions.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741081206/Porfolio/Pokemon%20Cards/Pokemon-cards-image-2.png',
-  imgChallenge2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741081674/Porfolio/Pokemon%20Cards/Pokemon-cards-image-3.png',
-  imgChallenge3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741081733/Porfolio/Pokemon%20Cards/Pokemon-cards-image-4.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741455600/Porfolio/Retro%20Games/Retro-games-scheme.png',
   process1:
     'The chosen games were Bingo and Tic-Tac-Toe. The first step was to define how both games would be developed, considering the required functionality, especially for Tic-Tac-Toe, as it involves playing against another player. Ultimately, I decided to define a set of possible variables for both games and have the game use them randomly. This creates the illusion of playing against an opponent, even though that is not entirely the case.',
   process2:
@@ -106,16 +102,6 @@ const RetroGames = () => {
             <img
               src={retroGamesItems.imgChallenge1}
               alt='Website color palette'
-            />
-          </div>
-          <div className='flex-container'>
-            <img
-              src={retroGamesItems.imgChallenge2}
-              alt='Main page - Selection hover'
-            />
-            <img
-              src={retroGamesItems.imgChallenge3}
-              alt='About part of the website'
             />
           </div>
         </div>
