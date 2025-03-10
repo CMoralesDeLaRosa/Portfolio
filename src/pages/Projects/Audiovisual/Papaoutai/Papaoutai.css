@@ -1,0 +1,14 @@
+/*Papaoutai*/
+#section-papaoutai-project {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: var(--pf-padding-xl) var(--pf-padding-section) 0
+    var(--pf-padding-section);
+  background-color: var(--pf-fifth-bg);
+}
+.square-green-last {
+  width: 7px;
+  color: var(--pf-color4);
+  margin-top: 7px;
+}

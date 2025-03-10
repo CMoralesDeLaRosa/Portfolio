@@ -1,3 +1,4 @@
+import Papaoutai from '../pages/Projects/Audiovisual/Papaoutai/Papaoutai'
 import ElPerol from '../pages/Projects/WebDesign/ElPerol/ElPerol'
 import PokemonCards from '../pages/Projects/WebDesign/PokemonCards/PokemonCards'
 import RetroGames from '../pages/Projects/WebDesign/RetroGames/RetroGames'
@@ -20,14 +21,14 @@ export const webDesignRoutes = [
 export const audiovisualRoutes = [
   {
     path: 'audiovisual/papaoutai',
-    component: ElPerol
+    component: Papaoutai
   },
   {
     path: 'audiovisual/roots',
     component: PokemonCards
   },
   {
-    path: 'audiovisual/jornadas-españa-rd',
+    path: 'audiovisual/jornadas-espana-rd',
     component: RetroGames
   }
 ]
