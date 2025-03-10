@@ -73,7 +73,7 @@ const PokemonCards = () => {
           <img src={pokemonCardsItems.imgMain} alt={pokemonCardsItems.name} />
         </div>
         <h2>{pokemonCardsItems.name}</h2>
-        <ul className='ul-el-perol-main flex-container'>
+        <ul className='ul-pokemon-cards-main flex-container'>
           {pokemonCardsDetails.map((item, index) => (
             <li key={index} className='flex-container'>
               {item.icon}
