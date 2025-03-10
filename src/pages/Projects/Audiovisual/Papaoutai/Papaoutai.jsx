@@ -9,7 +9,7 @@ const papaoutaiItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741636119/Porfolio/Papaoutai/Papaoutai-main-image.png',
   type: 'Videodance project',
   tools: 'Adobe Illustrator - Davinci Resolve',
-  colaboration: 'Freelance - Creand¡Oh!',
+  colaboration: 'Freelance - Creand¡Oh! - Fernando Corredoira',
   focus:
     'The main objective of this project was to develop an interactive web application focused on traditional Spanish cuisine recipes. User experience was key, so functionalities were integrated to allow dynamic and personalized interaction with the content. In addition, the platform aimed to stand out from other recipe websites by implementing an innovative and appealing design, aimed at capturing and maintaining the interest of the target audience. The combination of usability, aesthetics, and functionality was essential to provide a unique and engaging experience.',
   imgFocus1:
@@ -73,6 +73,25 @@ const Papaoutai = () => {
           ))}
           <FaSquare className='square-green-last' />
         </ul>
+      </article>
+      <article className='article-papaoutai-focus'>
+        <h3>Project Focus</h3>
+        <div className='div-scheme-papaoutai'>
+          {/* <MdDesignServices className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <GiConsoleController className='big-icon-scheme-web-design' />
+          <FaPlus className='small-icon-scheme-web-design' />
+          <BiSolidData className='big-icon-scheme-web-design' />
+          <FaLongArrowAltRight className='small-icon-scheme-web-design' />
+          <MdOutlineCatchingPokemon className='big-icon-scheme-web-design' /> */}
+        </div>
+        <p>{papaoutaiItems.focus}</p>
+        <div className='div-images-focus-papaoutai flex-container'>
+          <img
+            src={papaoutaiItems.imgFocus1}
+            alt='Web site Pokemon Cards - Mobile version'
+          />
+        </div>
       </article>
       <Footer />
     </section>
