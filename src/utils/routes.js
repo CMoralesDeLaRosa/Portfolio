@@ -16,3 +16,18 @@ export const webDesignRoutes = [
     component: RetroGames
   }
 ]
+
+export const audiovisualRoutes = [
+  {
+    path: 'audiovisual/papaoutai',
+    component: ElPerol
+  },
+  {
+    path: 'audiovisual/roots',
+    component: PokemonCards
+  },
+  {
+    path: 'audiovisual/jornadas-españa-rd',
+    component: RetroGames
+  }
+]
