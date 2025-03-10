@@ -1,3 +1,4 @@
+import Footer from '../../../../components/footer/footer'
 import Header from '../../../../components/header/header'
 import './Papaoutai.css'
 import { FaSquare } from 'react-icons/fa6'
@@ -5,8 +6,8 @@ import { FaSquare } from 'react-icons/fa6'
 const papaoutaiItems = {
   name: 'Papaoutai',
   imgMain:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738352580/Porfolio/El%20Perol/El-perol-main-image.png',
-  type: 'Web site - Backend and Frontend',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741636119/Porfolio/Papaoutai/Papaoutai-main-image.png',
+  type: 'Videodance project',
   tools: 'Adobe Illustrator - Davinci Resolve',
   colaboration: 'Freelance - Creand¡Oh!',
   focus:
@@ -58,6 +59,22 @@ const Papaoutai = () => {
   return (
     <section id='section-papaoutai-project' className='flex-container'>
       <Header />
+      <article className='article-papaoutai-main flex-container'>
+        <div className='div-papaoutai-main-image'>
+          <img src={papaoutaiItems.imgMain} alt={papaoutaiItems.name} />
+        </div>
+        <h2>{papaoutaiItems.name}</h2>
+        <ul className='ul-papaoutai-main flex-container'>
+          {papaoutaiDetails.map((item, index) => (
+            <li key={index} className='flex-container'>
+              {item.icon}
+              {item.text}
+            </li>
+          ))}
+          <FaSquare className='square-green-last' />
+        </ul>
+      </article>
+      <Footer />
     </section>
   )
 }
