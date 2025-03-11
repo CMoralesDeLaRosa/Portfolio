@@ -90,6 +90,20 @@
   margin-top: var(--pf-margin-s);
   margin-left: 300px;
 }
+.big-icon-scheme-audiovisual {
+  height: 60px;
+  width: 60px;
+}
+.big-icon-scheme-audiovisual-camera {
+  height: 50px;
+  width: 50px;
+}
+.big-icon-scheme-audiovisual:last-of-type {
+  color: var(--pf-color4);
+}
+.big-icon-scheme-audiovisual:last-of-type:hover {
+  color: var(--pf-color5);
+}
 .article-papaoutai-focus > p,
 .article-papaoutai-challenges > p,
 .article-papaoutai-process > p,
@@ -100,12 +114,14 @@
   margin-left: 300px;
 }
 .div-images-focus-papaoutai {
-  width: 100%;
-  height: 600px;
-  gap: 60px;
-  margin-top: var(--pf-margin-s);
+  width: 800px;
+  height: auto;
+  gap: 30px;
+  margin: var(--pf-margin-s) auto;
 }
 .div-images-focus-papaoutai > img {
-  height: 100%;
+  width: 320px;
   object-fit: cover;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
 }

@@ -2,6 +2,11 @@ import Footer from '../../../../components/footer/footer'
 import Header from '../../../../components/header/header'
 import './Papaoutai.css'
 import { FaSquare } from 'react-icons/fa6'
+import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
+import { GiCrystalGrowth } from 'react-icons/gi'
+import { GiCrystalize } from 'react-icons/gi'
+import { PiSneakerMoveFill } from 'react-icons/pi'
+import { BsCameraReelsFill } from 'react-icons/bs'
 
 const papaoutaiItems = {
   name: 'Papaoutai',
@@ -12,14 +17,17 @@ const papaoutaiItems = {
   colaboration: 'Freelance - Creand¡Oh! - Fernando Corredoira',
   focus1:
     'The main concept is the representation of the emotions experienced by a person in the absence of a father or mother in their life. These emotions range from deep anger to love and admiration. This personal conflict is expressed through the movement of dance, complemented by audiovisual tools.',
+  imgFocus1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image1.png',
+  imgFocus2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image2.png',
+  imgFocus3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image3.png',
   focus2:
     'The setting recreates a somewhat aseptic environment, resembling a pavilion, yet with subtle references to playfulness and childhood. The lighting design and styling add a sense of humanity, creating a contrast between the beauty and delicacy of love and the harsh reality of anger and resentment. The choreography, reinforced by camera movements and various framing techniques, takes us through the different emotional stages that the person experiences.',
   focus3:
     'The song accompanying this piece is Papaoutai by Stromae, which tells the story of a child demanding answers from his father about why he doesn’t spend time with him. The artist questions the difference between the role of a progenitor and that of a father, as well as the impact of certain men’s and women’s actions on the lives of their children. This videodance piece specifically explores the emotional rollercoaster that the child undergoes, along with the doubts and personal crises they face. References to the original work are made through the final color grading and certain movements within the choreography.',
-  imgFocus1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738695178/Porfolio/El%20Perol/Elperol-image2.png',
-  imgFocus2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738697207/Porfolio/El%20Perol/ElPerol-image3.png',
+
   challenges:
     'The main challenge of this project was to represent an abstract concept— the feeling of loss towards a father or mother—through a videodance piece. It was essential to ensure that both the audiovisual language and the language of dance conveyed the same concept while also complementing and reinforcing each other.',
   imgChallenge1:
@@ -81,21 +89,22 @@ const Papaoutai = () => {
       <article className='article-papaoutai-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-papaoutai'>
-          {/* <MdDesignServices className='big-icon-scheme-web-design' />
-          <FaPlus className='small-icon-scheme-web-design' />
-          <GiConsoleController className='big-icon-scheme-web-design' />
-          <FaPlus className='small-icon-scheme-web-design' />
-          <BiSolidData className='big-icon-scheme-web-design' />
-          <FaLongArrowAltRight className='small-icon-scheme-web-design' />
-          <MdOutlineCatchingPokemon className='big-icon-scheme-web-design' /> */}
+          <GiCrystalize className='big-icon-scheme-audiovisual' />
+          <FaPlus className='small-icon-scheme-audiovisual' />
+          <PiSneakerMoveFill className='big-icon-scheme-audiovisual' />
+          <FaPlus className='small-icon-scheme-audiovisual' />
+          <BsCameraReelsFill className='big-icon-scheme-audiovisual-camera' />
+          <FaLongArrowAltRight className='small-icon-scheme-audiovisual' />
+          <GiCrystalGrowth className='big-icon-scheme-audiovisual' />
         </div>
-        <p>{papaoutaiItems.focus}</p>
+        <p>{papaoutaiItems.focus1}</p>
         <div className='div-images-focus-papaoutai flex-container'>
-          <img
-            src={papaoutaiItems.imgFocus1}
-            alt='Web site Pokemon Cards - Mobile version'
-          />
+          <img src={papaoutaiItems.imgFocus1} alt='Frame of Papaoutai video' />
+          <img src={papaoutaiItems.imgFocus2} alt='Frame of Papaoutai video' />
+          <img src={papaoutaiItems.imgFocus3} alt='Frame of Papaoutai video' />
         </div>
+        <p>{papaoutaiItems.focus2}</p>
+        <p>{papaoutaiItems.focus3}</p>
       </article>
       <Footer />
     </section>
