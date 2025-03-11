@@ -27,11 +27,10 @@ const papaoutaiItems = {
     'The setting recreates a somewhat aseptic environment, resembling a pavilion, yet with subtle references to playfulness and childhood. The lighting design and styling add a sense of humanity, creating a contrast between the beauty and delicacy of love and the harsh reality of anger and resentment. The choreography, reinforced by camera movements and various framing techniques, takes us through the different emotional stages that the person experiences.',
   focus3:
     'The song accompanying this piece is Papaoutai by Stromae, which tells the story of a child demanding answers from his father about why he doesn’t spend time with him. The artist questions the difference between the role of a progenitor and that of a father, as well as the impact of certain men’s and women’s actions on the lives of their children. This videodance piece specifically explores the emotional rollercoaster that the child undergoes, along with the doubts and personal crises they face. References to the original work are made through the final color grading and certain movements within the choreography.',
-
   challenges:
-    'The main challenge of this project was to represent an abstract concept— the feeling of loss towards a father or mother—through a videodance piece. It was essential to ensure that both the audiovisual language and the language of dance conveyed the same concept while also complementing and reinforcing each other.',
+    'The main challenge of this project was to represent an abstract concept, the feeling of loss towards a father or mother, through a videodance piece. It was essential to ensure that both the audiovisual language and the language of dance conveyed the same concept while also complementing and reinforcing each other.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738867617/Porfolio/El%20Perol/ElPerol-image4.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741723080/Porfolio/Papaoutai/Papaoutai-image4.png',
   references1:
     'First, I selected several references to develop the project. I chose two choreographers who direct their own choreographic videos: Andrew Winghart and Keone Madrid. They address social themes and use audiovisual creation to emphasize the meaning of their dance. Additionally, their approach to camera work, lighting, and art direction is very similar to the overall concept of this project.',
   references2:
@@ -105,6 +104,13 @@ const Papaoutai = () => {
         </div>
         <p>{papaoutaiItems.focus2}</p>
         <p>{papaoutaiItems.focus3}</p>
+      </article>
+      <article className='article-papaoutai-challenges flex-container'>
+        <h3>Challenges</h3>
+        <p>{papaoutaiItems.challenges}</p>
+        <div className='div-papaoutai-challenges-img'>
+          <img src={papaoutaiItems.imgChallenge1} />
+        </div>
       </article>
       <Footer />
     </section>

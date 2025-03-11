@@ -125,3 +125,16 @@
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
+
+/*Article-challenges-papaoutai*/
+.div-papaoutai-challenges-img {
+  width: 1050px;
+  height: 600px;
+  margin: var(--pf-margin-m) auto;
+}
+.div-papaoutai-challenges-img > img {
+  width: 100%;
+  object-fit: contain;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
