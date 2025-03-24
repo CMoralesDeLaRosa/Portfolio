@@ -39,16 +39,12 @@ const papaoutaiItems = {
     "Regarding the camera work, they use fixed lenses and, in some cases, wide-angle lenses to capture the full group of dancers when their number is large. The focal lengths are short, as they integrate the available architectural elements into the composition of the image, avoiding background blurring. Every framing choice and camera movement is designed not only to emphasize the choreography but also to seamlessly connect the background with the dancer’s movement, using the geometry of the location and the body's directional lines.",
   references3:
     'The lighting adds a sense of humanity to the piece, often utilizing overhead or backlighting to create dreamlike atmospheres, resembling theatrical proposals. In videos with natural daylight lighting, soft lights are used, along with elements that cast distinct shadows, creating patterns that add texture to the image. As for costume and makeup, pastel tones are predominant, complementing the surroundings. The locations are real places rather than studio sets or excessively artificial environments, making the scenes feel more relatable and reinforcing the themes explored.',
-  location:
-    'The recording took place in the pavilion located in the Espartales Sports Complex in Alcalá de Henares. The lighting was entirely natural, as the space has large openings that allow ample light, aligning with the desired visual aesthetic. The use of artificial lighting was not considered, as the size of the location would have required high-powered lights to significantly alter the lighting quality.',
-  imgAdmin1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819188/Porfolio/El%20Perol/El-perol-admin1.png',
-  imgAdmin2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819188/Porfolio/El%20Perol/El-perol-admin2.png',
-  imgAdmin3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739819189/Porfolio/El%20Perol/El-perol-admin4.png',
   camera:
     'Except for some movements and positions defined in the shot list, there are no overly strict camera plans. Instead, the camera zone, movement direction, and main axes will be defined. It is important to maintain a clear reference to the center of the choreographic positions. With these camera movements, wide, medium, and close-up shots will be captured, along with the indications outlined in the shot list.',
+  imgCamera1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846043/Porfolio/Papaoutai/Camera-Scheme-Papaoutai.png',
+  imgCamera2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846332/Porfolio/Papaoutai/Papaoutai-image7.png',
   colorGrading:
     'The idea was to reference the look of the original music video, creating a visual nod to the piece. A primary color correction was performed by adjusting highlights, shadows, and midtones to achieve the widest possible range. Contrast and saturation were fine-tuned, and the overall color balance was adjusted. In the secondary correction, the most intense green tones were neutralized. Finally, the look was refined using a still from the original music video and adapting it to match the tones and intensities present in our footage.',
   learning:
@@ -122,6 +118,14 @@ const Papaoutai = () => {
           <img src={papaoutaiItems.imgReferences1} />
         </div>
         <p>{papaoutaiItems.references3}</p>
+      </article>
+      <article className='article-papaoutai-camera flex-container'>
+        <h3>Camera</h3>
+        <p>{papaoutaiItems.camera}</p>
+        <div className='div-papaoutai-camera-img flex-container'>
+          <img src={papaoutaiItems.imgCamera1} />
+          <img src={papaoutaiItems.imgCamera2} />
+        </div>
       </article>
       <Footer />
     </section>
