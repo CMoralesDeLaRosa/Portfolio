@@ -16,7 +16,7 @@ const papaoutaiItems = {
   tools: 'Adobe Illustrator - Davinci Resolve',
   colaboration: 'Freelance - Creand¡Oh! - Fernando Corredoira',
   focus1:
-    'The main concept is the representation of the emotions experienced by a person in the absence of a father or mother in their life. These emotions range from deep anger to love and admiration. This personal conflict is expressed through the movement of dance, complemented by audiovisual tools.',
+    'The main concept of this project is the representation of the emotions experienced by a person in the absence of a father or mother in their life. These emotions range from deep anger to love and admiration. This personal conflict is expressed through the movement of dance, complemented by audiovisual tools.',
   imgFocus1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image1.png',
   imgFocus2:
@@ -33,6 +33,8 @@ const papaoutaiItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741723080/Porfolio/Papaoutai/Papaoutai-image4.png',
   references1:
     'First, I selected several references to develop the project. I chose two choreographers who direct their own choreographic videos: Andrew Winghart and Keone Madrid. They address social themes and use audiovisual creation to emphasize the meaning of their dance. Additionally, their approach to camera work, lighting, and art direction is very similar to the overall concept of this project.',
+  imgReferences1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742845534/Porfolio/Papaoutai/Papaoutai-image6.png',
   references2:
     "Regarding the camera work, they use fixed lenses and, in some cases, wide-angle lenses to capture the full group of dancers when their number is large. The focal lengths are short, as they integrate the available architectural elements into the composition of the image, avoiding background blurring. Every framing choice and camera movement is designed not only to emphasize the choreography but also to seamlessly connect the background with the dancer’s movement, using the geometry of the location and the body's directional lines.",
   references3:
@@ -111,6 +113,15 @@ const Papaoutai = () => {
         <div className='div-papaoutai-challenges-img'>
           <img src={papaoutaiItems.imgChallenge1} />
         </div>
+      </article>
+      <article className='article-papaoutai-references flex-container'>
+        <h3>References</h3>
+        <p>{papaoutaiItems.references1}</p>
+        <p>{papaoutaiItems.references2}</p>
+        <div className='div-papaoutai-references-img'>
+          <img src={papaoutaiItems.imgReferences1} />
+        </div>
+        <p>{papaoutaiItems.references3}</p>
       </article>
       <Footer />
     </section>

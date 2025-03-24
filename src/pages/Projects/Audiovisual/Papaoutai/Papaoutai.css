@@ -54,7 +54,7 @@
 .article-papaoutai-challenges,
 .article-papaoutai-process,
 .article-papaoutai-learning,
-.article-papaoutai-game {
+.article-papaoutai-references {
   width: 100%;
   height: auto;
   display: flex;
@@ -66,11 +66,12 @@
   gap: 30px;
   padding: var(--pf-padding-xl) 0 var(--pf-padding-xl) 0;
 }
+
 .article-papaoutai-focus > h3,
 .article-papaoutai-challenges > h3,
 .article-papaoutai-process > h3,
 .article-papaoutai-learning > h3,
-.article-papaoutai-game > h3 {
+.article-papaoutai-references > h3 {
   width: 100%;
   text-align: start;
   margin-left: 300px;
@@ -108,7 +109,7 @@
 .article-papaoutai-challenges > p,
 .article-papaoutai-process > p,
 .article-papaoutai-learning > p,
-.article-papaoutai-game > p {
+.article-papaoutai-references > p {
   width: 1100px;
   text-align: justify;
   margin-left: 300px;
@@ -131,10 +132,23 @@
   width: 1050px;
   height: 600px;
   margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-section);
 }
 .div-papaoutai-challenges-img > img {
   width: 100%;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
+}
+
+/*Article-references-papaoutai*/
+.div-papaoutai-references-img {
+  width: 1100px;
+  height: auto;
+  margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-l);
+}
+.div-papaoutai-references-img > img {
+  width: 100%;
+  object-fit: contain;
 }
