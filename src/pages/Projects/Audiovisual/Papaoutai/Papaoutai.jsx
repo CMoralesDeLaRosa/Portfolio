@@ -7,6 +7,7 @@ import { GiCrystalGrowth } from 'react-icons/gi'
 import { GiCrystalize } from 'react-icons/gi'
 import { PiSneakerMoveFill } from 'react-icons/pi'
 import { BsCameraReelsFill } from 'react-icons/bs'
+import { BsStars } from 'react-icons/bs'
 
 const papaoutaiItems = {
   name: 'Papaoutai',
@@ -55,12 +56,15 @@ const papaoutaiItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931164/Porfolio/Papaoutai/Papoutai-color-grading.png',
   learning:
     'The limitations in terms of space, budget, and equipment pushed me to put extra effort into the pre-production phase to achieve the level of quality I aimed for. This experience gave me a deeper understanding of the importance of pre-shooting tasks and how essential communication between different departments is.',
-  mistakes:
-    'Regarding mistakes, I did not take into account certain colors present at the filming location. Since it was a sports complex, there were some highly vibrant elements that made the color grading process more challenging. I had to isolate these elements to reduce their saturation and intensity without affecting the rest of the image. I believe that in a longer project, this issue could have significantly delayed the editing process. This could have been avoided by conducting test shots beforehand to determine whether the location was suitable.',
   imgLearning1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papoutai-image10.png',
   imgLearning2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papaoutai-image11.png',
+  mistakes:
+    'Regarding mistakes, I did not take into account certain colors present at the filming location. Since it was a sports complex, there were some highly vibrant elements that made the color grading process more challenging. I had to isolate these elements to reduce their saturation and intensity without affecting the rest of the image. I believe that in a longer project, this issue could have significantly delayed the editing process. This could have been avoided by conducting test shots beforehand to determine whether the location was suitable.',
+
+  imgMistakes:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742932468/Porfolio/Papaoutai/Papaoutai-image12.png',
   link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
 }
 const papaoutaiDetails = [
@@ -154,7 +158,19 @@ const Papaoutai = () => {
           <img src={papaoutaiItems.imgLearning2} />
         </div>
       </article>
-
+      <article className='article-papaoutai-mistakes flex-container'>
+        <h3>Mistakes</h3>
+        <p>{papaoutaiItems.mistakes}</p>
+        <div className='div-papaoutai-mistakes-img flex-container'>
+          <img src={papaoutaiItems.imgMistakes} />
+        </div>
+      </article>
+      <article className='article-el-perol-link flex-container'>
+        <a href={papaoutaiItems.link} target='_blank'>
+          Want to check it out?
+        </a>
+        <BsStars className='logo-link-el-perol' />
+      </article>
       <Footer />
     </section>
   )
