@@ -119,7 +119,10 @@ const Papaoutai = () => {
         <h3>Challenges</h3>
         <p>{papaoutaiItems.challenges}</p>
         <div className='div-papaoutai-challenges-img'>
-          <img src={papaoutaiItems.imgChallenge1} />
+          <img
+            src={papaoutaiItems.imgChallenge1}
+            alt='Frame of Papaoutai video'
+          />
         </div>
       </article>
       <article className='article-papaoutai-references flex-container'>
@@ -127,7 +130,10 @@ const Papaoutai = () => {
         <p>{papaoutaiItems.references1}</p>
         <p>{papaoutaiItems.references2}</p>
         <div className='div-papaoutai-references-img'>
-          <img src={papaoutaiItems.imgReferences1} />
+          <img
+            src={papaoutaiItems.imgReferences1}
+            alt='Videodance References'
+          />
         </div>
         <p>{papaoutaiItems.references3}</p>
       </article>
@@ -135,34 +141,43 @@ const Papaoutai = () => {
         <h3>Camera</h3>
         <p>{papaoutaiItems.camera}</p>
         <div className='div-papaoutai-camera-img flex-container'>
-          <img src={papaoutaiItems.imgCamera1} />
-          <img src={papaoutaiItems.imgCamera2} />
+          <img src={papaoutaiItems.imgCamera1} alt='Schemes of camera' />
+          <img src={papaoutaiItems.imgCamera2} alt='Frame of the video' />
         </div>
       </article>
       <article className='article-papaoutai-color-grading flex-container'>
         <h3>Color Grading</h3>
         <p>{papaoutaiItems.colorGrading}</p>
         <div className='div-papaoutai-color-grading-img1 flex-container'>
-          <img src={papaoutaiItems.imgColorGrading1} />
-          <img src={papaoutaiItems.imgColorGrading2} />
+          <img
+            src={papaoutaiItems.imgColorGrading1}
+            alt='Frame of the original video'
+          />
+          <img
+            src={papaoutaiItems.imgColorGrading2}
+            alt='Frame of the original video'
+          />
         </div>
         <div className='div-papaoutai-color-grading-img2 flex-container'>
-          <img src={papaoutaiItems.imgColorGrading3} />
+          <img
+            src={papaoutaiItems.imgColorGrading3}
+            alt='Examples of color grading'
+          />
         </div>
       </article>
       <article className='article-papaoutai-learning flex-container'>
         <h3>Learning</h3>
         <p>{papaoutaiItems.learning}</p>
         <div className='div-papaoutai-learning-img flex-container'>
-          <img src={papaoutaiItems.imgLearning1} />
-          <img src={papaoutaiItems.imgLearning2} />
+          <img src={papaoutaiItems.imgLearning1} alt='Image of making off' />
+          <img src={papaoutaiItems.imgLearning2} alt='Image of making off' />
         </div>
       </article>
       <article className='article-papaoutai-mistakes flex-container'>
         <h3>Mistakes</h3>
         <p>{papaoutaiItems.mistakes}</p>
         <div className='div-papaoutai-mistakes-img flex-container'>
-          <img src={papaoutaiItems.imgMistakes} />
+          <img src={papaoutaiItems.imgMistakes} alt='Frame of the video' />
         </div>
       </article>
       <article className='article-el-perol-link flex-container'>
