@@ -57,8 +57,10 @@ const papaoutaiItems = {
     'The limitations in terms of space, budget, and equipment pushed me to put extra effort into the pre-production phase to achieve the level of quality I aimed for. This experience gave me a deeper understanding of the importance of pre-shooting tasks and how essential communication between different departments is.',
   mistakes:
     'Regarding mistakes, I did not take into account certain colors present at the filming location. Since it was a sports complex, there were some highly vibrant elements that made the color grading process more challenging. I had to isolate these elements to reduce their saturation and intensity without affecting the rest of the image. I believe that in a longer project, this issue could have significantly delayed the editing process. This could have been avoided by conducting test shots beforehand to determine whether the location was suitable.',
-  imgLearning:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png',
+  imgLearning1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papoutai-image10.png',
+  imgLearning2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papaoutai-image11.png',
   link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
 }
 const papaoutaiDetails = [
@@ -144,6 +146,15 @@ const Papaoutai = () => {
           <img src={papaoutaiItems.imgColorGrading3} />
         </div>
       </article>
+      <article className='article-papaoutai-learning flex-container'>
+        <h3>Learning</h3>
+        <p>{papaoutaiItems.learning}</p>
+        <div className='div-papaoutai-learning-img flex-container'>
+          <img src={papaoutaiItems.imgLearning1} />
+          <img src={papaoutaiItems.imgLearning2} />
+        </div>
+      </article>
+
       <Footer />
     </section>
   )
