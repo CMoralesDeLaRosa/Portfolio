@@ -34,7 +34,7 @@ const papaoutaiItems = {
   references1:
     'First, I selected several references to develop the project. I chose two choreographers who direct their own choreographic videos: Andrew Winghart and Keone Madrid. They address social themes and use audiovisual creation to emphasize the meaning of their dance. Additionally, their approach to camera work, lighting, and art direction is very similar to the overall concept of this project.',
   imgReferences1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742845534/Porfolio/Papaoutai/Papaoutai-image6.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930540/Porfolio/Papaoutai/Papaoutai-image6.png',
   references2:
     "Regarding the camera work, they use fixed lenses and, in some cases, wide-angle lenses to capture the full group of dancers when their number is large. The focal lengths are short, as they integrate the available architectural elements into the composition of the image, avoiding background blurring. Every framing choice and camera movement is designed not only to emphasize the choreography but also to seamlessly connect the background with the dancer’s movement, using the geometry of the location and the body's directional lines.",
   references3:
@@ -47,6 +47,12 @@ const papaoutaiItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846332/Porfolio/Papaoutai/Papaoutai-image7.png',
   colorGrading:
     'The idea was to reference the look of the original music video, creating a visual nod to the piece. A primary color correction was performed by adjusting highlights, shadows, and midtones to achieve the widest possible range. Contrast and saturation were fine-tuned, and the overall color balance was adjusted. In the secondary correction, the most intense green tones were neutralized. Finally, the look was refined using a still from the original music video and adapting it to match the tones and intensities present in our footage.',
+  imgColorGrading1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930048/Porfolio/Papaoutai/Papaoutai-image8.png',
+  imgColorGrading2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930119/Porfolio/Papaoutai/Papaoutai-image9.png',
+  imgColorGrading3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931164/Porfolio/Papaoutai/Papoutai-color-grading.png',
   learning:
     'The limitations in terms of space, budget, and equipment pushed me to put extra effort into the pre-production phase to achieve the level of quality I aimed for. This experience gave me a deeper understanding of the importance of pre-shooting tasks and how essential communication between different departments is.',
   mistakes:
@@ -125,6 +131,17 @@ const Papaoutai = () => {
         <div className='div-papaoutai-camera-img flex-container'>
           <img src={papaoutaiItems.imgCamera1} />
           <img src={papaoutaiItems.imgCamera2} />
+        </div>
+      </article>
+      <article className='article-papaoutai-color-grading flex-container'>
+        <h3>Color Grading</h3>
+        <p>{papaoutaiItems.colorGrading}</p>
+        <div className='div-papaoutai-color-grading-img1 flex-container'>
+          <img src={papaoutaiItems.imgColorGrading1} />
+          <img src={papaoutaiItems.imgColorGrading2} />
+        </div>
+        <div className='div-papaoutai-color-grading-img2 flex-container'>
+          <img src={papaoutaiItems.imgColorGrading3} />
         </div>
       </article>
       <Footer />
