@@ -1,0 +1,50 @@
+/*Roots*/
+#section-roots-project {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: var(--pf-padding-xl) var(--pf-padding-section) 0
+    var(--pf-padding-section);
+  background-color: var(--pf-fifth-bg);
+}
+.square-green-last {
+  width: 7px;
+  color: var(--pf-color4);
+  margin-top: 7px;
+}
+
+/*Article-main*/
+.article-roots-main {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: 20px;
+  margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
+}
+.div-roots-main-image {
+  width: 1200px;
+  height: 300px;
+  border-radius: var(--pf-br2) var(--pf-br2) var(--pf-br1) var(--pf-br1);
+  overflow: hidden;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  margin-bottom: var(--pf-margin-xl);
+}
+.div-roots-main-image > img {
+  height: 101%;
+  object-fit: contain;
+}
+.ul-roots-main {
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  margin-top: var(--pf-margin-s);
+}
+.ul-roots-main > li {
+  font-weight: 400;
+  font-size: 17px;
+  width: auto;
+  gap: 20px;
+  text-align: center;
+  margin-top: 8px;
+  letter-spacing: 1.5px;
+}
