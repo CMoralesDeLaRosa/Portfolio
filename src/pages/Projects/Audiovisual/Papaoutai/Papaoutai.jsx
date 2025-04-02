@@ -43,7 +43,7 @@ const papaoutaiItems = {
   camera:
     'Except for some movements and positions defined in the shot list, there are no overly strict camera plans. Instead, the camera zone, movement direction, and main axes will be defined. It is important to maintain a clear reference to the center of the choreographic positions. With these camera movements, wide, medium, and close-up shots will be captured, along with the indications outlined in the shot list.',
   imgCamera1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846043/Porfolio/Papaoutai/Camera-Scheme-Papaoutai.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743615449/Porfolio/Papaoutai/Papaoutai-camera-scheme.png',
   imgCamera2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846332/Porfolio/Papaoutai/Papaoutai-image7.png',
   colorGrading:
