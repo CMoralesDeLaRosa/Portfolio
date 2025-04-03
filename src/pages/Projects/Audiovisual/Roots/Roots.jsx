@@ -3,31 +3,31 @@ import Header from '../../../../components/header/header'
 import './Roots.css'
 import { FaSquare } from 'react-icons/fa6'
 import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
-import { GiCrystalGrowth } from 'react-icons/gi'
-import { GiCrystalize } from 'react-icons/gi'
-import { PiSneakerMoveFill } from 'react-icons/pi'
+import { AiOutlineBranches } from 'react-icons/ai'
+import { PiClockCounterClockwiseBold } from 'react-icons/pi'
+import { GiBeanstalk } from 'react-icons/gi'
 import { BsCameraReelsFill } from 'react-icons/bs'
 import { BsStars } from 'react-icons/bs'
 
-const papaoutaiItems = {
+const rootsItems = {
   name: 'Roots',
   imgMain:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741636119/Porfolio/Papaoutai/Papaoutai-main-image.png',
-  type: 'Documentary',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743701013/Porfolio/Roots/Roots-main-image.png',
+  type: 'Hip Hop Documentary',
   tools: 'Adobe Illustrator',
-  colaboration: 'Freelance -  - Fernando Corredoira',
+  colaboration: 'Freelance - Diffraction Productions',
   focus1:
-    'The main concept of this project is the representation of the emotions experienced by a person in the absence of a father or mother in their life. These emotions range from deep anger to love and admiration. This personal conflict is expressed through the movement of dance, complemented by audiovisual tools.',
-  imgFocus1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image1.png',
-  imgFocus2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image2.png',
-  imgFocus3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741721712/Porfolio/Papaoutai/Papaoutai-image3.png',
+    'Roots: Córdoba Hip-Hop Documentary is a film that aims to give visibility to the urban cultural movement in Córdoba, from its beginnings to the present day, exploring its influences, branches, and some of its most representative artists.',
   focus2:
-    'The setting recreates a somewhat aseptic environment, resembling a pavilion, yet with subtle references to playfulness and childhood. The lighting design and styling add a sense of humanity, creating a contrast between the beauty and delicacy of love and the harsh reality of anger and resentment. The choreography, reinforced by camera movements and various framing techniques, takes us through the different emotional stages that the person experiences.',
+    'With an audiovisual format and created by young artists from different fields, the documentary will showcase not only the work and careers of local artists but also various areas and spaces in the city related to artistic and cultural exchange.',
   focus3:
-    'The song accompanying this piece is Papaoutai by Stromae, which tells the story of a child demanding answers from his father about why he doesn’t spend time with him. The artist questions the difference between the role of a progenitor and that of a father, as well as the impact of certain men’s and women’s actions on the lives of their children. This videodance piece specifically explores the emotional rollercoaster that the child undergoes, along with the doubts and personal crises they face. References to the original work are made through the final color grading and certain movements within the choreography.',
+    ' Each participant will share their experiences, career path, and opinions about their professional journey, as well as their perspective on the current state of this movement. This will open up a discussion among the documentary’s contributors. In other words, it will not be a one-way narrative but rather an open conversation, allowing interviewees to debate different topics among themselves, fostering an environment of exchange and creation.',
+  imgFocus1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743701744/Porfolio/Roots/Roots-image1.png',
+  imgFocus2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743701728/Porfolio/Roots/Roots-image3.png',
+  imgFocus3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743702075/Porfolio/Roots/Roots-image4.png',
   challenges:
     'The main challenge of this project was to represent an abstract concept, the feeling of loss towards a father or mother, through a videodance piece. It was essential to ensure that both the audiovisual language and the language of dance conveyed the same concept while also complementing and reinforcing each other.',
   imgChallenge1:
@@ -68,11 +68,11 @@ const papaoutaiItems = {
   link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
 }
 const papaoutaiDetails = [
-  { icon: <FaSquare className='square-green' />, text: papaoutaiItems.type },
-  { icon: <FaSquare className='square-green' />, text: papaoutaiItems.tools },
+  { icon: <FaSquare className='square-green' />, text: rootsItems.type },
+  { icon: <FaSquare className='square-green' />, text: rootsItems.tools },
   {
     icon: <FaSquare className='square-green' />,
-    text: papaoutaiItems.colaboration
+    text: rootsItems.colaboration
   }
 ]
 
@@ -82,9 +82,9 @@ const Roots = () => {
       <Header />
       <article className='article-roots-main flex-container'>
         <div className='div-roots-main-image'>
-          <img src={papaoutaiItems.imgMain} alt={papaoutaiItems.name} />
+          <img src={rootsItems.imgMain} alt={rootsItems.name} />
         </div>
-        <h2>{papaoutaiItems.name}</h2>
+        <h2>{rootsItems.name}</h2>
         <ul className='ul-roots-main flex-container'>
           {papaoutaiDetails.map((item, index) => (
             <li key={index} className='flex-container'>
@@ -98,90 +98,84 @@ const Roots = () => {
       <article className='article-papaoutai-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-papaoutai'>
-          <GiCrystalize className='big-icon-scheme-audiovisual' />
+          <AiOutlineBranches className='big-icon-scheme-audiovisual' />
           <FaPlus className='small-icon-scheme-audiovisual' />
-          <PiSneakerMoveFill className='big-icon-scheme-audiovisual' />
+          <PiClockCounterClockwiseBold className='big-icon-scheme-audiovisual' />
           <FaPlus className='small-icon-scheme-audiovisual' />
           <BsCameraReelsFill className='big-icon-scheme-audiovisual-camera' />
           <FaLongArrowAltRight className='small-icon-scheme-audiovisual' />
-          <GiCrystalGrowth className='big-icon-scheme-audiovisual' />
+          <GiBeanstalk className='big-icon-scheme-audiovisual' />
         </div>
-        <p>{papaoutaiItems.focus1}</p>
+        <p>{rootsItems.focus1}</p>
+        <p>{rootsItems.focus2}</p>
         <div className='div-images-focus-papaoutai flex-container'>
-          <img src={papaoutaiItems.imgFocus1} alt='Frame of Papaoutai video' />
-          <img src={papaoutaiItems.imgFocus2} alt='Frame of Papaoutai video' />
-          <img src={papaoutaiItems.imgFocus3} alt='Frame of Papaoutai video' />
+          <img src={rootsItems.imgFocus1} alt='Interview to María Llorente' />
+          <img src={rootsItems.imgFocus2} alt='Interview to Bucaneroestilo' />
+          <img src={rootsItems.imgFocus3} alt='Interview to Bucaneroestilo' />
         </div>
-        <p>{papaoutaiItems.focus2}</p>
-        <p>{papaoutaiItems.focus3}</p>
+        <p>{rootsItems.focus3}</p>
       </article>
       <article className='article-papaoutai-challenges flex-container'>
         <h3>Challenges</h3>
-        <p>{papaoutaiItems.challenges}</p>
+        <p>{rootsItems.challenges}</p>
         <div className='div-papaoutai-challenges-img'>
-          <img
-            src={papaoutaiItems.imgChallenge1}
-            alt='Frame of Papaoutai video'
-          />
+          <img src={rootsItems.imgChallenge1} alt='Frame of Papaoutai video' />
         </div>
       </article>
       <article className='article-papaoutai-references flex-container'>
         <h3>References</h3>
-        <p>{papaoutaiItems.references1}</p>
-        <p>{papaoutaiItems.references2}</p>
+        <p>{rootsItems.references1}</p>
+        <p>{rootsItems.references2}</p>
         <div className='div-papaoutai-references-img'>
-          <img
-            src={papaoutaiItems.imgReferences1}
-            alt='Videodance References'
-          />
+          <img src={rootsItems.imgReferences1} alt='Videodance References' />
         </div>
-        <p>{papaoutaiItems.references3}</p>
+        <p>{rootsItems.references3}</p>
       </article>
       <article className='article-papaoutai-camera flex-container'>
         <h3>Camera</h3>
-        <p>{papaoutaiItems.camera}</p>
+        <p>{rootsItems.camera}</p>
         <div className='div-papaoutai-camera-img flex-container'>
-          <img src={papaoutaiItems.imgCamera1} alt='Schemes of camera' />
-          <img src={papaoutaiItems.imgCamera2} alt='Frame of the video' />
+          <img src={rootsItems.imgCamera1} alt='Schemes of camera' />
+          <img src={rootsItems.imgCamera2} alt='Frame of the video' />
         </div>
       </article>
       <article className='article-papaoutai-color-grading flex-container'>
         <h3>Color Grading</h3>
-        <p>{papaoutaiItems.colorGrading}</p>
+        <p>{rootsItems.colorGrading}</p>
         <div className='div-papaoutai-color-grading-img1 flex-container'>
           <img
-            src={papaoutaiItems.imgColorGrading1}
+            src={rootsItems.imgColorGrading1}
             alt='Frame of the original video'
           />
           <img
-            src={papaoutaiItems.imgColorGrading2}
+            src={rootsItems.imgColorGrading2}
             alt='Frame of the original video'
           />
         </div>
         <div className='div-papaoutai-color-grading-img2 flex-container'>
           <img
-            src={papaoutaiItems.imgColorGrading3}
+            src={rootsItems.imgColorGrading3}
             alt='Examples of color grading'
           />
         </div>
       </article>
       <article className='article-papaoutai-learning flex-container'>
         <h3>Learning</h3>
-        <p>{papaoutaiItems.learning}</p>
+        <p>{rootsItems.learning}</p>
         <div className='div-papaoutai-learning-img flex-container'>
-          <img src={papaoutaiItems.imgLearning1} alt='Image of making off' />
-          <img src={papaoutaiItems.imgLearning2} alt='Image of making off' />
+          <img src={rootsItems.imgLearning1} alt='Image of making off' />
+          <img src={rootsItems.imgLearning2} alt='Image of making off' />
         </div>
       </article>
       <article className='article-papaoutai-mistakes flex-container'>
         <h3>Mistakes</h3>
-        <p>{papaoutaiItems.mistakes}</p>
+        <p>{rootsItems.mistakes}</p>
         <div className='div-papaoutai-mistakes-img flex-container'>
-          <img src={papaoutaiItems.imgMistakes} alt='Frame of the video' />
+          <img src={rootsItems.imgMistakes} alt='Frame of the video' />
         </div>
       </article>
       <article className='article-el-perol-link flex-container'>
-        <a href={papaoutaiItems.link} target='_blank'>
+        <a href={rootsItems.link} target='_blank'>
           Want to check it out?
         </a>
         <BsStars className='logo-link-el-perol' />
