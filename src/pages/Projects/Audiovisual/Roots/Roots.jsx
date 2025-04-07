@@ -29,17 +29,12 @@ const rootsItems = {
   imgFocus3:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743702075/Porfolio/Roots/Roots-image4.png',
   challenges:
-    'The main challenge of this project was to represent an abstract concept, the feeling of loss towards a father or mother, through a videodance piece. It was essential to ensure that both the audiovisual language and the language of dance conveyed the same concept while also complementing and reinforcing each other.',
+    'The main challenge of this project was to achieve a comprehensive view of the urban cultural movement in the city of Córdoba in an audiovisual format and with a short duration, meaning in a single episode. To achieve this, it was essential to select artistic agents who represented different disciplines and showcased various approaches to this artistic movement.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741723080/Porfolio/Papaoutai/Papaoutai-image4.png',
-  references1:
-    'First, I selected several references to develop the project. I chose two choreographers who direct their own choreographic videos: Andrew Winghart and Keone Madrid. They address social themes and use audiovisual creation to emphasize the meaning of their dance. Additionally, their approach to camera work, lighting, and art direction is very similar to the overall concept of this project.',
-  imgReferences1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930540/Porfolio/Papaoutai/Papaoutai-image6.png',
-  references2:
-    "Regarding the camera work, they use fixed lenses and, in some cases, wide-angle lenses to capture the full group of dancers when their number is large. The focal lengths are short, as they integrate the available architectural elements into the composition of the image, avoiding background blurring. Every framing choice and camera movement is designed not only to emphasize the choreography but also to seamlessly connect the background with the dancer’s movement, using the geometry of the location and the body's directional lines.",
-  references3:
-    'The lighting adds a sense of humanity to the piece, often utilizing overhead or backlighting to create dreamlike atmospheres, resembling theatrical proposals. In videos with natural daylight lighting, soft lights are used, along with elements that cast distinct shadows, creating patterns that add texture to the image. As for costume and makeup, pastel tones are predominant, complementing the surroundings. The locations are real places rather than studio sets or excessively artificial environments, making the scenes feel more relatable and reinforcing the themes explored.',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744047855/Porfolio/Roots/Roots-image6.png',
+  imgChallenge2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744047393/Porfolio/Roots/Roots-image5.png',
+
   camera:
     'Except for some movements and positions defined in the shot list, there are no overly strict camera plans. Instead, the camera zone, movement direction, and main axes will be defined. It is important to maintain a clear reference to the center of the choreographic positions. With these camera movements, wide, medium, and close-up shots will be captured, along with the indications outlined in the shot list.',
   imgCamera1:
@@ -62,7 +57,6 @@ const rootsItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papaoutai-image11.png',
   mistakes:
     'Regarding mistakes, I did not take into account certain colors present at the filming location. Since it was a sports complex, there were some highly vibrant elements that made the color grading process more challenging. I had to isolate these elements to reduce their saturation and intensity without affecting the rest of the image. I believe that in a longer project, this issue could have significantly delayed the editing process. This could have been avoided by conducting test shots beforehand to determine whether the location was suitable.',
-
   imgMistakes:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742932468/Porfolio/Papaoutai/Papaoutai-image12.png',
   link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
@@ -95,9 +89,9 @@ const Roots = () => {
           <FaSquare className='square-green-last' />
         </ul>
       </article>
-      <article className='article-papaoutai-focus'>
+      <article className='article-roots-focus'>
         <h3>Project Focus</h3>
-        <div className='div-scheme-papaoutai'>
+        <div className='div-scheme-roots'>
           <AiOutlineBranches className='big-icon-scheme-audiovisual' />
           <FaPlus className='small-icon-scheme-audiovisual' />
           <PiClockCounterClockwiseBold className='big-icon-scheme-audiovisual' />
@@ -108,28 +102,20 @@ const Roots = () => {
         </div>
         <p>{rootsItems.focus1}</p>
         <p>{rootsItems.focus2}</p>
-        <div className='div-images-focus-papaoutai flex-container'>
+        <div className='div-images-focus-roots flex-container'>
           <img src={rootsItems.imgFocus1} alt='Interview to María Llorente' />
           <img src={rootsItems.imgFocus2} alt='Interview to Bucaneroestilo' />
           <img src={rootsItems.imgFocus3} alt='Interview to Bucaneroestilo' />
         </div>
         <p>{rootsItems.focus3}</p>
       </article>
-      <article className='article-papaoutai-challenges flex-container'>
+      <article className='article-roots-challenges flex-container'>
         <h3>Challenges</h3>
         <p>{rootsItems.challenges}</p>
-        <div className='div-papaoutai-challenges-img'>
-          <img src={rootsItems.imgChallenge1} alt='Frame of Papaoutai video' />
+        <div className='div-roots-challenges-img flex-container'>
+          <img src={rootsItems.imgChallenge1} alt='Frame of interview' />
+          <img src={rootsItems.imgChallenge2} alt='Frame of interview' />
         </div>
-      </article>
-      <article className='article-papaoutai-references flex-container'>
-        <h3>References</h3>
-        <p>{rootsItems.references1}</p>
-        <p>{rootsItems.references2}</p>
-        <div className='div-papaoutai-references-img'>
-          <img src={rootsItems.imgReferences1} alt='Videodance References' />
-        </div>
-        <p>{rootsItems.references3}</p>
       </article>
       <article className='article-papaoutai-camera flex-container'>
         <h3>Camera</h3>
