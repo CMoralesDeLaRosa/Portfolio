@@ -51,9 +51,10 @@
 /*Article-focus-roots*/
 .article-roots-focus,
 .article-roots-challenges,
-.article-roots-process,
 .article-roots-learning,
-.article-roots-mistakes {
+.article-roots-mistakes,
+.article-roots-structure,
+.article-roots-locations {
   width: 100%;
   height: auto;
   display: flex;
@@ -68,9 +69,10 @@
 
 .article-roots-focus > h3,
 .article-roots-challenges > h3,
-.article-roots-process > h3,
+.article-roots-structure > h3,
 .article-roots-learning > h3,
-.article-roots-mistakes > h3 {
+.article-roots-mistakes > h3,
+.article-roots-locations > h3 {
   width: 100%;
   text-align: start;
   margin-left: 300px;
@@ -106,9 +108,10 @@
 }
 .article-roots-focus > p,
 .article-roots-challenges > p,
-.article-roots-process > p,
+.article-roots-structure > p,
 .article-roots-learning > p,
-.article-roots-mistakes > p {
+.article-roots-mistakes > p,
+.article-roots-locations > p {
   width: 1100px;
   text-align: justify;
   margin-left: 300px;
@@ -137,6 +140,48 @@
 }
 .div-roots-challenges-img > img {
   height: 500px;
+  object-fit: contain;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+
+/*Article-structure-roots*/
+.div-roots-structure-img {
+  width: 1050px;
+  height: auto;
+  margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-l);
+  gap: 50px;
+}
+.div-roots-structure-img > img {
+  height: 350px;
+  object-fit: contain;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+
+/*Article-locations-roots*/
+.div-roots-locations-img {
+  width: 1100px;
+  margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-s);
+}
+.div-roots-locations-img > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: var(--pf-br1);
+}
+
+/*Article-learning-roots*/
+.div-roots-learning-img {
+  width: 1050px;
+  height: auto;
+  margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-l);
+  gap: 30px;
+}
+.div-roots-learning-img > img {
+  height: 190px;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);

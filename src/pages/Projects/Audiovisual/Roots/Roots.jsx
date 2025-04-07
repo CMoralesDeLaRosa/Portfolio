@@ -31,32 +31,40 @@ const rootsItems = {
   challenges:
     'The main challenge of this project was to achieve a comprehensive view of the urban cultural movement in the city of Córdoba in an audiovisual format and with a short duration, meaning in a single episode. To achieve this, it was essential to select artistic agents who represented different disciplines and showcased various approaches to this artistic movement.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744047855/Porfolio/Roots/Roots-image6.png',
-  imgChallenge2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744047393/Porfolio/Roots/Roots-image5.png',
-
-  camera:
-    'Except for some movements and positions defined in the shot list, there are no overly strict camera plans. Instead, the camera zone, movement direction, and main axes will be defined. It is important to maintain a clear reference to the center of the choreographic positions. With these camera movements, wide, medium, and close-up shots will be captured, along with the indications outlined in the shot list.',
-  imgCamera1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743615449/Porfolio/Papaoutai/Papaoutai-camera-scheme.png',
-  imgCamera2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846332/Porfolio/Papaoutai/Papaoutai-image7.png',
-  colorGrading:
-    'The idea was to reference the look of the original music video, creating a visual nod to the piece. A primary color correction was performed by adjusting highlights, shadows, and midtones to achieve the widest possible range. Contrast and saturation were fine-tuned, and the overall color balance was adjusted. In the secondary correction, the most intense green tones were neutralized. Finally, the look was refined using a still from the original music video and adapting it to match the tones and intensities present in our footage.',
-  imgColorGrading1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930048/Porfolio/Papaoutai/Papaoutai-image8.png',
-  imgColorGrading2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930119/Porfolio/Papaoutai/Papaoutai-image9.png',
-  imgColorGrading3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931164/Porfolio/Papaoutai/Papoutai-color-grading.png',
+  structure1:
+    'The documentary is divided into 4 main sections: introduction to the current urban art scene in Córdoba, Gata Cattana, a panel discussion, and conclusions.',
+  structure2:
+    'In the first section, various artists present how the current scene in Córdoba is and how they approach it from their respective disciplines. Each interviewee shares their personal experience and explains their contribution to the urban artistic movement in the city, as well as their perspective on its development.',
+  structure3:
+    ' The second section focuses on Gata Cattana, a prominent artist in the city. The collaboration of her mother, Ana María Llorente, director of the Gata Cattana Music-Cultural Association, is included. She talks about her daughter’s career and how she preserves her legacy through the association. Additionally, due to Gata Cattana’s connection to the development of urban art in the city, various participants had both professional and personal ties to her, and they explain what she was like and where her work originated from.',
+  structure4:
+    'Next, a panel discussion takes place, where artists from different disciplines are invited to debate topics related to urban art in Córdoba.',
+  structure5: `The documentary concludes with brief reflections from each interviewee, where they share what they believe should be done to help the artistic movement continue growing and becoming richer. Throughout the documentary, small excerpts of each artist's work are included.`,
+  imgStructure1:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744050457/Porfolio/Roots/Roots-image7.png',
+  imgStructure2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744050207/Porfolio/Roots/Roots-image8.png',
+  imgStructure3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744050692/Porfolio/Roots/Roots-image9.png',
+  imgStructure4:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744050692/Porfolio/Roots/Roots-image10.png',
+  locations1:
+    'In this project, the chosen locations for filming the interviews play a crucial role. Although urban art originated in the United States, it has the unique characteristic of blending naturally with the nearby cultures. In this case, the different artists maintain their Andalusian roots in their work, and in fact, one of their goals is to preserve the essence of Córdoba.',
+  locations2:
+    'Through the locations, the Andalusian aesthetic is evoked in contrast with more modern styles, creating a rich and opportunity-filled artistic language.',
+  imgLocations:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744052136/Porfolio/Roots/Roots-locations.png',
   learning:
-    'The limitations in terms of space, budget, and equipment pushed me to put extra effort into the pre-production phase to achieve the level of quality I aimed for. This experience gave me a deeper understanding of the importance of pre-shooting tasks and how essential communication between different departments is.',
+    'Regarding the learnings, the most important one for me was learning how to organize an audiovisual project across all its departments. There were only 2 days to complete the project, so a very precise schedule was needed for each interview, contact, and preparation with the interviewees, space management and booking, team transportation and accommodation, etc. In summary, this was the first project I carried out that was this comprehensive, and I learned that prior preparation is key to a good outcome. Additionally, it served as training to solve unforeseen circumstances and last-minute changes.',
   imgLearning1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papoutai-image10.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744054001/Porfolio/Roots/Roots-image13.png',
   imgLearning2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papaoutai-image11.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744054001/Porfolio/Roots/Roots-image12.png',
+  imgLearning3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744054001/Porfolio/Roots/Roots-image11.png',
   mistakes:
-    'Regarding mistakes, I did not take into account certain colors present at the filming location. Since it was a sports complex, there were some highly vibrant elements that made the color grading process more challenging. I had to isolate these elements to reduce their saturation and intensity without affecting the rest of the image. I believe that in a longer project, this issue could have significantly delayed the editing process. This could have been avoided by conducting test shots beforehand to determine whether the location was suitable.',
+    'Due to the tight recording time, the time available for setting up cameras and sound was very limited. This resulted in some shots where the sound or image quality was insufficient, and it was not possible to re-record, as this issue was detected during the post-production phase. I believe it is important to be realistic about the time needed for certain processes, and at times, it is better to complete a more specific project with higher quality rather than trying to cover more and end up with lower quality.',
   imgMistakes:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742932468/Porfolio/Papaoutai/Papaoutai-image12.png',
   link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
@@ -113,54 +121,67 @@ const Roots = () => {
         <h3>Challenges</h3>
         <p>{rootsItems.challenges}</p>
         <div className='div-roots-challenges-img flex-container'>
-          <img src={rootsItems.imgChallenge1} alt='Frame of interview' />
-          <img src={rootsItems.imgChallenge2} alt='Frame of interview' />
-        </div>
-      </article>
-      <article className='article-papaoutai-camera flex-container'>
-        <h3>Camera</h3>
-        <p>{rootsItems.camera}</p>
-        <div className='div-papaoutai-camera-img flex-container'>
-          <img src={rootsItems.imgCamera1} alt='Schemes of camera' />
-          <img src={rootsItems.imgCamera2} alt='Frame of the video' />
-        </div>
-      </article>
-      <article className='article-papaoutai-color-grading flex-container'>
-        <h3>Color Grading</h3>
-        <p>{rootsItems.colorGrading}</p>
-        <div className='div-papaoutai-color-grading-img1 flex-container'>
           <img
-            src={rootsItems.imgColorGrading1}
-            alt='Frame of the original video'
-          />
-          <img
-            src={rootsItems.imgColorGrading2}
-            alt='Frame of the original video'
-          />
-        </div>
-        <div className='div-papaoutai-color-grading-img2 flex-container'>
-          <img
-            src={rootsItems.imgColorGrading3}
-            alt='Examples of color grading'
+            src={rootsItems.imgChallenge1}
+            alt='Frame of Juancho interview'
           />
         </div>
       </article>
-      <article className='article-papaoutai-learning flex-container'>
+      <article className='article-roots-structure flex-container'>
+        <h3>Structure</h3>
+        <p>{rootsItems.structure1}</p>
+        <p>{rootsItems.structure2}</p>
+        <div className='div-roots-structure-img flex-container'>
+          <img
+            src={rootsItems.imgStructure1}
+            alt='Frame of Lidya Rioboo interview '
+          />
+          <img
+            src={rootsItems.imgStructure2}
+            alt='Frame of Clasiko & Klayt interview'
+          />
+        </div>
+        <p>{rootsItems.structure3}</p>
+        <p>{rootsItems.structure4}</p>
+        <div className='div-roots-structure-img flex-container'>
+          <img
+            src={rootsItems.imgStructure3}
+            alt='Frame of Bucaneroestilo y La Sakrah interview'
+          />
+          <img
+            src={rootsItems.imgStructure4}
+            alt='Frame of Ana María Llorente interview'
+          />
+        </div>
+      </article>
+      <article className='article-roots-locations flex-container'>
+        <h3>Locations</h3>
+        <p>{rootsItems.locations1}</p>
+        <div className='div-roots-locations-img'>
+          <img src={rootsItems.imgLocations} alt='Frames of locations' />
+        </div>
+        <p>{rootsItems.locations2}</p>
+      </article>
+      <article className='article-roots-learning flex-container'>
         <h3>Learning</h3>
         <p>{rootsItems.learning}</p>
-        <div className='div-papaoutai-learning-img flex-container'>
-          <img src={rootsItems.imgLearning1} alt='Image of making off' />
-          <img src={rootsItems.imgLearning2} alt='Image of making off' />
+        <div className='div-roots-learning-img flex-container'>
+          <img src={rootsItems.imgLearning1} alt='Frame Alberto Miró dancing' />
+          <img
+            src={rootsItems.imgLearning2}
+            alt='Frame Gema Guerrero dancing'
+          />
+          <img src={rootsItems.imgLearning3} alt='Frame Alberto Miró dancing' />
         </div>
       </article>
-      <article className='article-papaoutai-mistakes flex-container'>
+      <article className='article-roots-mistakes flex-container'>
         <h3>Mistakes</h3>
         <p>{rootsItems.mistakes}</p>
         <div className='div-papaoutai-mistakes-img flex-container'>
           <img src={rootsItems.imgMistakes} alt='Frame of the video' />
         </div>
       </article>
-      <article className='article-el-perol-link flex-container'>
+      <article className='article-roots-link flex-container'>
         <a href={rootsItems.link} target='_blank'>
           Want to check it out?
         </a>
