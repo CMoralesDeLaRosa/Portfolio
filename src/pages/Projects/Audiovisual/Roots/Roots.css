@@ -202,3 +202,24 @@
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
+
+/*Article-roots-link*/
+.article-roots-link {
+  height: 100px;
+  gap: 10px;
+}
+.article-roots-link > a {
+  color: var(--pf-color6);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.article-roots-link > a:hover {
+  color: var(--pf-color5);
+}
+.logo-link-roots {
+  color: var(--pf-color6);
+  height: 40px;
+  width: 40px;
+}
