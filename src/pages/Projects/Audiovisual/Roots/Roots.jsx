@@ -66,8 +66,8 @@ const rootsItems = {
   mistakes:
     'Due to the tight recording time, the time available for setting up cameras and sound was very limited. This resulted in some shots where the sound or image quality was insufficient, and it was not possible to re-record, as this issue was detected during the post-production phase. I believe it is important to be realistic about the time needed for certain processes, and at times, it is better to complete a more specific project with higher quality rather than trying to cover more and end up with lower quality.',
   imgMistakes:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742932468/Porfolio/Papaoutai/Papaoutai-image12.png',
-  link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744132279/Porfolio/Roots/Roots-image14.jpg',
+  link: 'https://drive.google.com/file/d/1vrhZ1iqjPmCqRwH7OQVXkaL_q5NouxBL/view?usp=sharing'
 }
 const papaoutaiDetails = [
   { icon: <FaSquare className='square-green' />, text: rootsItems.type },
@@ -177,13 +177,13 @@ const Roots = () => {
       <article className='article-roots-mistakes flex-container'>
         <h3>Mistakes</h3>
         <p>{rootsItems.mistakes}</p>
-        <div className='div-papaoutai-mistakes-img flex-container'>
+        <div className='div-roots-mistakes-img flex-container'>
           <img src={rootsItems.imgMistakes} alt='Frame of the video' />
         </div>
       </article>
       <article className='article-roots-link flex-container'>
         <a href={rootsItems.link} target='_blank'>
-          Want to check it out?
+          Take a look at the project here!
         </a>
         <BsStars className='logo-link-el-perol' />
       </article>

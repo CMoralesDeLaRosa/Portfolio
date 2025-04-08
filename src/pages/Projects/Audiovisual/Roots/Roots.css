@@ -178,10 +178,26 @@
   height: auto;
   margin: var(--pf-margin-m) auto;
   margin-bottom: var(--pf-margin-l);
-  gap: 30px;
+  gap: 50px;
 }
 .div-roots-learning-img > img {
   height: 190px;
+  object-fit: contain;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+
+/*Article-mistakes-roots*/
+.div-roots-mistakes-img {
+  flex-direction: column;
+  width: 1050px;
+  height: auto;
+  margin: var(--pf-margin-m) auto;
+  margin-bottom: var(--pf-margin-l);
+  gap: 50px;
+}
+.div-roots-mistakes-img > img {
+  height: 500px;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
