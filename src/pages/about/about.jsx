@@ -1,5 +1,5 @@
 import Header from '../../components/header/header'
-import './About.css'
+import './about.css'
 import { FaSquare, FaGithubSquare, FaLinkedin, FaBahai } from 'react-icons/fa'
 import { BsPersonArmsUp } from 'react-icons/bs'
 import { IoMdBookmarks } from 'react-icons/io'
