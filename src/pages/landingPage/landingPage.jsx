@@ -1,4 +1,4 @@
-import './LandingPage.css'
+import './landingPage.css'
 import { useNavigate } from 'react-router-dom' // Importar useNavigate
 import { TiDeviceLaptop, TiVideoOutline } from 'react-icons/ti'
 import { PiPencilFill } from 'react-icons/pi'
