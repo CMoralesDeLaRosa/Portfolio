@@ -4,9 +4,9 @@ import LandingPage from './pages/landingPage/landingPage'
 import WebDesign from './pages/webDesign/webDesign'
 import GraphicDesign from './pages/graphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
-import About from './pages/about/about'
 import { audiovisualRoutes, webDesignRoutes } from './utils/routes'
 import React from 'react'
+import About from './pages/About/about'
 
 function App() {
   return (
