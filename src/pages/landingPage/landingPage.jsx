@@ -12,7 +12,7 @@ const options = [
   },
   {
     title: 'Audiovisual',
-    icon: <TiVideoOutline className='icon-landing-page' />,
+    icon: <TiVideoOutline className='icon-landing-page audiovisual' />,
     path: '/audiovisual'
   },
   {
@@ -22,7 +22,7 @@ const options = [
   },
   {
     title: 'About',
-    icon: <BsPersonArmsUp className='icon-landing-page' />,
+    icon: <BsPersonArmsUp className='icon-landing-page about' />,
     path: '/about'
   }
 ]
