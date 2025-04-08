@@ -1,4 +1,4 @@
-import './Header.css'
+import './header.css'
 import { NavLink } from 'react-router-dom'
 
 const headerItems = ['Web Design', 'Audiovisual', 'Graphic Design', 'About']
