@@ -211,7 +211,6 @@
   margin: var(--pf-margin-m) auto;
   gap: 50px;
 }
-
 .div-papaoutai-learning-img > img {
   width: 500px;
   object-fit: contain;
