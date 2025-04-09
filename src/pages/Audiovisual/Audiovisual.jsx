@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './Audiovisual.css'
+import Footer from '../../components/Footer/footer'
 
 const audiovisualProjects = [
   {
@@ -31,9 +31,8 @@ const Audiovisual = () => {
     navigate(path)
   }
   return (
-    <section id='section-audiovisual' className='flex-container'>
+    <section id='section-audiovisual'>
       <Header />
-      <h2>Audiovisual</h2>
       <article className='article-projects flex-container'>
         {audiovisualProjects.map((project, index) => (
           <div

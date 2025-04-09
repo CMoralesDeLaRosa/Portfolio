@@ -383,6 +383,7 @@
     width: 220px;
     flex-direction: column;
     padding-bottom: var(--pf-padding-section);
+    gap: 50px;
   }
   .div-option-landing-page:first-of-type {
     border-radius: var(--pf-br2) var(--pf-br1) var(--pf-br1) var(--pf-br1);

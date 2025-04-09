@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './webDesign.css'
+import Footer from '../../components/Footer/footer'
 
 const webDesignProjects = [
   {
@@ -32,9 +32,8 @@ const WebDesign = () => {
   }
 
   return (
-    <section id='section-webDesign' className='flex-container'>
+    <section id='section-webDesign'>
       <Header />
-      <h2>Web Design</h2>
       <article className='article-projects flex-container'>
         {webDesignProjects.map((project, index) => (
           <div

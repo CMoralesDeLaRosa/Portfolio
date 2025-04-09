@@ -2,7 +2,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <footer id='footer' className='flex-container'>
+    <footer id='footer'>
       <p>Copyright @ 2025 Cristina Morales de la Rosa</p>
     </footer>
   )

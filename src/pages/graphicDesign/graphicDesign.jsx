@@ -1,4 +1,4 @@
-import Footer from '../../components/footer/footer'
+import Footer from '../../components/Footer/footer'
 import Header from '../../components/header/header'
 import './graphicDesign.css'
 
@@ -26,9 +26,8 @@ const graphicDesignProjects = [
 
 const GraphicDesign = () => {
   return (
-    <section id='section-graphicDesign' className='flex-container'>
+    <section id='section-graphicDesign'>
       <Header />
-      <h2>Graphic Design</h2>
       <article className='article-projects flex-container'>
         {graphicDesignProjects.map((project, index) => (
           <div

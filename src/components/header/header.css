@@ -8,8 +8,8 @@
   border: 2.3px solid rgb(31, 29, 29, 0.7);
   border-radius: var(--pf-br1);
   box-shadow: 0 5px 25px 0px rgba(135, 87, 124, 0.5);
+  margin-top: var(--pf-margin-xl);
 }
-
 nav {
   width: auto;
   height: auto;
@@ -33,11 +33,9 @@ nav {
   cursor: pointer;
   font-size: 15px;
 }
-
 .li-header > a:hover {
   animation: vibrar 0.5s ease-in-out infinite;
 }
-
 .li-header > a.active {
   color: var(--pf-forth-text);
   font-weight: 600;
@@ -45,7 +43,6 @@ nav {
 }
 
 /*ANIMACIÓN*/
-
 @keyframes vibrar {
   0% {
     transform: translateX(0);
@@ -61,5 +58,20 @@ nav {
   }
   100% {
     transform: translateX(1px);
+  }
+}
+
+/*Media Queries*/
+@media (max-width: 1550px) {
+  #header {
+    width: 1150px;
+    height: 80px;
+    border: 2px solid rgb(31, 29, 29, 0.7);
+  }
+  .li-header > a {
+    font-size: 14px;
+  }
+  .li-header > a.active {
+    font-size: 14px;
   }
 }
