@@ -18,3 +18,10 @@
     height: 100svh;
   }
 }
+@media (max-width: 1300px) {
+  #section-webDesign {
+    height: auto;
+    padding: var(--pf-padding-xl) var(--pf-padding-section) var(--pf-padding-xl)
+      var(--pf-padding-section);
+  }
+}
