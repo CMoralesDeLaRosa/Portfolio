@@ -41,6 +41,12 @@ nav {
   font-weight: 600;
   font-size: 16px;
 }
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-icon {
+  display: none;
+}
 
 /*ANIMACIÓN*/
 @keyframes vibrar {
@@ -92,7 +98,6 @@ nav {
     letter-spacing: 1.5px;
   }
 }
-
 @media (max-width: 850px) {
   #header {
     width: 620px;
@@ -116,11 +121,11 @@ nav {
 }
 @media (max-width: 650px) {
   #header {
-    width: 150px;
-    height: 200px;
+    width: 0;
+    height: 0;
   }
   .ul-header {
-    flex-direction: column;
+    display: none;
   }
   .li-header > a {
     font-size: 12px;
@@ -128,13 +133,78 @@ nav {
   .li-header > a.active {
     font-size: 12px;
   }
-  .ul-header {
-    gap: 10px;
-  }
   .li-header {
     position: relative;
     width: 140px;
     height: 30px;
     letter-spacing: 1.5px;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    font-size: 40px;
+    padding: 10px;
+    color: var(--ep-color2);
+    transition: transform 0.5s ease;
+    width: 100%;
+
+    margin: auto;
+  }
+  .mobile-menu-icon:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  .mobile-menu-icon:active {
+    transform: scale(0.95);
+  }
+  .mobile-menu ul {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+  }
+  .mobile-menu a {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--ep-second-text);
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .mobile-menu a:hover {
+    font-weight: 600;
+  }
+  .mobile-menu.visible {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+    opacity: 1;
+    position: absolute;
+    right: 65px;
+    top: 100px;
+    width: 160px;
+    height: 170px;
+    z-index: 20;
+    background-color: var(--ep-fifth-bg);
+    border-radius: var(--ep-br);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .mobile-menu:not(.visible) {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 65px;
+    top: 100px;
+    width: 160px;
+    height: 170px;
+    z-index: 10;
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+    background-color: var(--ep-fifth-bg);
+    border-radius: var(--ep-br);
+    transition: transform 0.3s ease, opacity 0.3s ease;
   }
 }
