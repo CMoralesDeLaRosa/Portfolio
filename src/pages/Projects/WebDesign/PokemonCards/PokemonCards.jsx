@@ -5,7 +5,7 @@ import { MdDesignServices, MdOutlineCatchingPokemon } from 'react-icons/md'
 import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
 import { GiConsoleController } from 'react-icons/gi'
 import { BiSolidData } from 'react-icons/bi'
-import Footer from '../../../../components/footer/footer'
+import Footer from '../../../../components/Footer/Footer'
 import { IoLogoSnapchat } from 'react-icons/io5'
 
 const pokemonCardsItems = {

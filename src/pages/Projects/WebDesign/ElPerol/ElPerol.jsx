@@ -7,7 +7,7 @@ import { TbExchange } from 'react-icons/tb'
 import { BsPersonArmsUp } from 'react-icons/bs'
 import { AiFillThunderbolt } from 'react-icons/ai'
 import { AiOutlineGift } from 'react-icons/ai'
-import Footer from '../../../../components/footer/footer'
+import Footer from '../../../../components/Footer/Footer'
 
 const elPerolItems = {
   name: 'El Perol',

@@ -7,7 +7,7 @@ import { MdOutlineWork } from 'react-icons/md'
 import { LiaConnectdevelop } from 'react-icons/lia'
 import { GiCactusPot } from 'react-icons/gi'
 import { FaSquarePlus } from 'react-icons/fa6'
-import Footer from '../../components/footer/footer'
+import Footer from '../../components/Footer/Footer'
 
 const skills = [
   'HTML',

@@ -1,8 +1,8 @@
-import './footer.css'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer id='footer'>
+    <footer id='Footer'>
       <p>Copyright @ 2025 Cristina Morales de la Rosa</p>
     </footer>
   )

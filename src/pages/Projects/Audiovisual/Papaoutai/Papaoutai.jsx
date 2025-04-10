@@ -1,4 +1,4 @@
-import Footer from '../../../../components/footer/footer'
+import Footer from '../../../../components/Footer/Footer'
 import Header from '../../../../components/header/header'
 import './Papaoutai.css'
 import { FaSquare } from 'react-icons/fa6'

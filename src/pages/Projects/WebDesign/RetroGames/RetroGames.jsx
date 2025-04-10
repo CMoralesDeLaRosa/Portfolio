@@ -4,7 +4,7 @@ import { FaSquare, FaGamepad, FaGears } from 'react-icons/fa6'
 import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
 import { MdFluorescent } from 'react-icons/md'
 import { TbMoodCrazyHappyFilled } from 'react-icons/tb'
-import Footer from '../../../../components/footer/footer'
+import Footer from '../../../../components/Footer/Footer'
 import { BiSolidParty } from 'react-icons/bi'
 
 const retroGamesItems = {
