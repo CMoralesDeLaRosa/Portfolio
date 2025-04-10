@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import Header from '../../components/header/header'
 import './Audiovisual.css'
-import Footer from '../../components/Footer/footer'
+import Footer from '../../components/Footer/Footer'
 
 const audiovisualProjects = [
   {

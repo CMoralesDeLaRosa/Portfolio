@@ -1,4 +1,4 @@
-import Footer from '../../components/Footer/footer'
+import Footer from '../../components/Footer/Footer'
 import Header from '../../components/header/header'
 import './graphicDesign.css'
 
