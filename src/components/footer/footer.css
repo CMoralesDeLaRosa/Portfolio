@@ -1,4 +1,4 @@
-#footer {
+#Footer {
   width: 100%;
   height: 100px;
   display: flex;
@@ -8,7 +8,7 @@
   align-content: end;
 }
 
-#footer p {
+#Footer p {
   width: 100%;
   font-size: 14px;
   text-align: center;
@@ -19,21 +19,21 @@
 
 /*Media Queries*/
 @media (max-width: 1550px) {
-  #footer {
+  #Footer {
     width: 100%;
     height: 100px;
   }
 }
 @media (max-width: 850px) {
-  #footer p {
+  #Footer p {
     font-size: 13px;
   }
 }
 @media (max-width: 650px) {
-  #footer {
+  #Footer {
     width: 300px;
   }
-  #footer p {
+  #Footer p {
     font-size: 11px;
   }
 }

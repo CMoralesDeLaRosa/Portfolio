@@ -144,13 +144,11 @@ nav {
     position: absolute;
     cursor: pointer;
     top: 20px;
+    left: 30px;
     font-size: 40px;
     padding: 10px;
     color: var(--ep-color2);
     transition: transform 0.5s ease;
-    width: 100%;
-
-    margin: auto;
   }
   .mobile-menu-icon:hover {
     cursor: pointer;
@@ -168,12 +166,14 @@ nav {
     cursor: pointer;
     text-transform: uppercase;
     color: var(--ep-second-text);
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-align: center;
+    width: 110px;
   }
   .mobile-menu a:hover {
     font-weight: 600;
+    width: 110px;
   }
   .mobile-menu.visible {
     display: flex;
@@ -181,30 +181,32 @@ nav {
     transform: translateY(0);
     opacity: 1;
     position: absolute;
-    right: 65px;
+    left: 35px;
     top: 100px;
-    width: 160px;
-    height: 170px;
+    width: 150px;
+    height: 210px;
     z-index: 20;
-    background-color: var(--ep-fifth-bg);
-    border-radius: var(--ep-br);
+    background-color: rgba(223, 217, 213, 0.9);
+    border-radius: var(--pf-br1);
     transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 5px 25px 0px rgba(135, 87, 124, 0.5);
   }
 
   .mobile-menu:not(.visible) {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 65px;
+    left: 35px;
     top: 100px;
-    width: 160px;
-    height: 170px;
+    width: 150px;
+    height: 210px;
     z-index: 10;
     transform: translateY(-20px);
     opacity: 0;
     pointer-events: none;
-    background-color: var(--ep-fifth-bg);
-    border-radius: var(--ep-br);
+    background-color: rgba(223, 217, 213, 0.9);
+    border-radius: var(--pf-br1);
     transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 5px 25px 0px rgba(135, 87, 124, 0.5);
   }
 }

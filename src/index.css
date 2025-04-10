@@ -39,7 +39,7 @@ a {
   /*BRANDING-COLORS*/
   --pf-color1: #ffffff;
   --pf-color2: rgb(31, 29, 29);
-  --pf-color3: #cac2bc;
+  --pf-color3: rgb(202, 194, 188);
   --pf-color4: #6b9a73;
   --pf-color5: rgb(135, 138, 203);
   --pf-color6: rgb(196, 91, 110);
@@ -248,7 +248,7 @@ a {
   }
   @media (max-width: 650px) {
     .article-projects {
-      margin-top: 100px;
+      margin-top: 50px;
       flex-direction: column;
       gap: 80px;
       margin-bottom: 30px;

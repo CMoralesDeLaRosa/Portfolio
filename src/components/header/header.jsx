@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './header.css'
 import { NavLink } from 'react-router-dom'
-import { HiMenu } from 'react-icons/hi'
+import { CiMenuFries } from 'react-icons/ci'
 
 const headerItems = ['Web Design', 'Audiovisual', 'Graphic Design', 'About']
 
@@ -31,7 +31,7 @@ const Header = () => {
         className='mobile-menu-icon flex-container'
         onClick={handleMobileMenuToggle}
       >
-        <HiMenu />
+        <CiMenuFries />
       </div>
       <div className={`mobile-menu ${isMobileMenuVisible ? 'visible' : ''}`}>
         <ul className='flex-container'>
