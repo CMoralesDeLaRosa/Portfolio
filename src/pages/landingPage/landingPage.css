@@ -306,12 +306,12 @@
 @media (max-width: 600px) {
   #section-landing-page {
     padding: 0;
-    height: 1350px;
+    height: 1450px;
   }
   .article-presentation-landing-page {
     height: 700px;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
   }
   .article-presentation-landing-page > h1 {
     width: 220px;
@@ -319,10 +319,10 @@
     line-height: 45px;
     text-align: center;
     letter-spacing: 2px;
-    margin-bottom: var(--pf-margin-s);
+    margin-bottom: var(--pf-margin-l);
   }
   .article-presentation-landing-page > p {
-    width: 220px;
+    width: 250px;
     font-size: 15px;
     line-height: 1.8;
   }
