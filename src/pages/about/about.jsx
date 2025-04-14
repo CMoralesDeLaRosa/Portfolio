@@ -1,4 +1,3 @@
-import Header from '../../components/Header/header'
 import './about.css'
 import { FaSquare, FaGithubSquare, FaLinkedin, FaBahai } from 'react-icons/fa'
 import { IoMdBookmarks } from 'react-icons/io'
@@ -6,6 +5,8 @@ import { MdOutlineWork } from 'react-icons/md'
 import { LiaConnectdevelop } from 'react-icons/lia'
 import { GiCactusPot } from 'react-icons/gi'
 import { FaSquarePlus } from 'react-icons/fa6'
+import Header from '../../components/header/header'
+import Footer from '../../components/footer/footer'
 
 const skills = [
   'HTML',
@@ -161,6 +162,7 @@ const About = () => {
           </div>
         </article>
       </article>
+      <Footer />
     </section>
   )
 }
