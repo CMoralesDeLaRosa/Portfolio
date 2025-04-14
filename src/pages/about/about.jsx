@@ -1,13 +1,11 @@
-import Header from '../../components/header/header'
+import Header from '../../components/Header/header'
 import './about.css'
 import { FaSquare, FaGithubSquare, FaLinkedin, FaBahai } from 'react-icons/fa'
-import { BsPersonArmsUp } from 'react-icons/bs'
 import { IoMdBookmarks } from 'react-icons/io'
 import { MdOutlineWork } from 'react-icons/md'
 import { LiaConnectdevelop } from 'react-icons/lia'
 import { GiCactusPot } from 'react-icons/gi'
 import { FaSquarePlus } from 'react-icons/fa6'
-import Footer from '../../components/footer/footer'
 
 const skills = [
   'HTML',
@@ -64,7 +62,6 @@ const About = () => {
           </ul>
         </article>
         <article className='article-summary-about '>
-          <BsPersonArmsUp className='icon-person-about' />
           <div className='div-container-summary flex-container '>
             <div className='div-paragraphs-summary-about'>
               <p>
@@ -164,7 +161,6 @@ const About = () => {
           </div>
         </article>
       </article>
-      <Footer />
     </section>
   )
 }
