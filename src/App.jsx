@@ -6,7 +6,7 @@ import GraphicDesign from './pages/graphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
 import { audiovisualRoutes, webDesignRoutes } from './utils/routes'
 import React from 'react'
-import About from './pages/About/about'
+import About from './pages/about/about'
 
 function App() {
   return (
