@@ -146,7 +146,7 @@ nav {
     display: block;
     position: absolute;
     cursor: pointer;
-    top: 20px;
+    top: 30px;
     left: 30px;
     font-size: 40px;
     padding: 10px;
@@ -155,8 +155,10 @@ nav {
   }
   .mobile-menu-icon:hover {
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
   }
+
   .mobile-menu-icon:active {
     transform: scale(0.95);
   }
@@ -185,7 +187,7 @@ nav {
     opacity: 1;
     position: absolute;
     left: 35px;
-    top: 100px;
+    top: 110px;
     width: 150px;
     height: 210px;
     z-index: 20;
@@ -200,7 +202,7 @@ nav {
     flex-direction: column;
     position: absolute;
     left: 35px;
-    top: 100px;
+    top: 110px;
     width: 150px;
     height: 210px;
     z-index: 10;
