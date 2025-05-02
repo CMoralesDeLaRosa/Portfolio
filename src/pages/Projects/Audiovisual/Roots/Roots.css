@@ -303,3 +303,36 @@
     width: 950px;
   }
 }
+@media (max-width: 1300px) {
+  .div-roots-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-roots-main-image > img {
+    width: 115%;
+    object-position: -40px -10px;
+  }
+  .ul-roots-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-roots-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-roots-focus,
+  .article-roots-challenges,
+  .article-roots-learning,
+  .article-roots-mistakes,
+  .article-roots-structure,
+  .article-roots-locations {
+    width: 750px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+}

@@ -225,3 +225,35 @@
     width: 930px;
   }
 }
+@media (max-width: 1300px) {
+  .div-retro-games-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-retro-games-main-image > img {
+    object-position: -20px 0;
+    width: 110%;
+  }
+  .ul-retro-games-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-retro-games-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-retro-games-focus,
+  .article-retro-games-challenges,
+  .article-retro-games-process,
+  .article-retro-games-learning,
+  .article-retro-games-game {
+    width: 750px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+}

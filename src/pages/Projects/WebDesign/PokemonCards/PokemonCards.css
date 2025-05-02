@@ -245,3 +245,35 @@
     height: 400px;
   }
 }
+@media (max-width: 1300px) {
+  .div-pokemon-cards-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-pokemon-cards-main-image > img {
+    width: 110%;
+    object-position: -25px 0;
+  }
+  .ul-pokemon-cards-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-pokemon-cards-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-pokemon-cards-focus,
+  .article-pokemon-cards-challenges,
+  .article-pokemon-cards-process,
+  .article-pokemon-cards-learning,
+  .article-pokemon-cards-game {
+    width: 750px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+}

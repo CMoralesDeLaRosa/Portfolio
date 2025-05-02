@@ -65,7 +65,7 @@
   align-items: center;
   align-content: center;
   gap: 30px;
-  padding: var(--pf-padding-xl) var(--pf-padding-l);
+  padding: 0;
 }
 .article-el-perol-focus > h3,
 .article-el-perol-challenges > h3,
@@ -297,5 +297,44 @@
   }
   .article-el-perol-learning > img {
     width: 900px;
+  }
+}
+@media (max-width: 1300px) {
+  .div-el-perol-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-el-perol-main-image > img {
+    object-position: 0 -100px;
+  }
+  .ul-el-perol-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-el-perol-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-el-perol-focus,
+  .article-el-perol-challenges,
+  .article-el-perol-process,
+  .article-el-perol-admin,
+  .article-el-perol-learning {
+    width: 750px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+  .article-el-perol-focus > p,
+  .article-el-perol-challenges > p,
+  .article-el-perol-process > p,
+  .article-el-perol-admin > p,
+  .article-el-perol-learning > p {
+    width: 750px;
+    line-height: 2.2;
   }
 }

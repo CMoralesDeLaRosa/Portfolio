@@ -340,3 +340,38 @@
     height: auto;
   }
 }
+@media (max-width: 1300px) {
+  .div-papaoutai-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-papaoutai-main-image > img {
+    width: 110%;
+    object-position: -30px 0;
+  }
+  .ul-papaoutai-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-papaoutai-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-papaoutai-focus,
+  .article-papaoutai-challenges,
+  .article-papaoutai-process,
+  .article-papaoutai-learning,
+  .article-papaoutai-references,
+  .article-papaoutai-camera,
+  .article-papaoutai-color-grading,
+  .article-papaoutai-mistakes {
+    width: 750px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+}
