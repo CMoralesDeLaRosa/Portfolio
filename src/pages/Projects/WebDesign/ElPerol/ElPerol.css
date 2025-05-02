@@ -56,16 +56,16 @@
 .article-el-perol-process,
 .article-el-perol-admin,
 .article-el-perol-learning {
-  width: 100%;
+  width: 1200px;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-items: start;
-  justify-content: start;
-  align-items: start;
-  align-content: start;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: 30px;
-  padding: var(--pf-padding-xl) 0 var(--pf-padding-xl) 0;
+  padding: var(--pf-padding-xl) var(--pf-padding-l);
 }
 .article-el-perol-focus > h3,
 .article-el-perol-challenges > h3,
@@ -74,7 +74,6 @@
 .article-el-perol-learning > h3 {
   width: 100%;
   text-align: start;
-  margin-left: 300px;
   font-weight: 400;
 }
 .div-scheme-el-perol {
@@ -88,7 +87,6 @@
   gap: 10px;
   color: var(--pf-color6);
   margin-top: var(--pf-margin-s);
-  margin-left: 300px;
 }
 .big-icon-scheme-web-design {
   height: 60px;
@@ -107,7 +105,6 @@
 .article-el-perol-learning > p {
   width: 1100px;
   text-align: justify;
-  margin-left: 300px;
 }
 .div-images-focus-el-perol {
   width: 100%;
@@ -143,7 +140,6 @@
 .div-el-perol-challenges-img {
   width: 1100px;
   height: 600px;
-  margin-left: 290px;
 }
 .div-el-perol-challenges-img > img {
   width: 100%;
@@ -152,12 +148,12 @@
 
 /*Article-procces-el-perol*/
 .div-el-perol-process-img2 {
-  width: 1030px;
+  width: 1000px;
   height: 530px;
   border-radius: var(--pf-br1);
   overflow: hidden;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-  margin: var(--pf-margin-xl) 0 var(--pf-margin-xl) 340px;
+  margin: var(--pf-margin-xl) 0 var(--pf-margin-xl) 0;
 }
 .div-el-perol-process-img2 > img {
   width: 100%;
@@ -168,7 +164,6 @@
   height: 450px;
   border-radius: var(--pf-br1);
   overflow: hidden;
-  margin-left: 340px;
   margin-top: var(--pf-margin-xl);
 }
 .div-el-perol-process-img1 > img {
@@ -181,7 +176,6 @@
   height: 550px;
   flex-wrap: wrap;
   gap: 30px;
-  margin-left: 250px;
 }
 .div-el-perol-admin-images > img {
   width: 350px;
@@ -193,7 +187,7 @@
   width: 1000px;
   border-radius: var(--pf-br1);
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-  margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 350px;
+  margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 0;
 }
 
 /*Article-el-perol-link*/
@@ -215,4 +209,93 @@
   color: var(--pf-color6);
   height: 40px;
   width: 40px;
+}
+
+/*MediaQueries*/
+@media (max-width: 1550px) {
+  .div-el-perol-main-image {
+    width: 1000px;
+    height: 220px;
+  }
+  .div-el-perol-main-image > img {
+    object-position: 0 -150px;
+  }
+  .ul-el-perol-main {
+    gap: 15px;
+  }
+  .ul-el-perol-main > li {
+    font-size: 15px;
+    gap: 15px;
+    letter-spacing: 1.2px;
+  }
+  .article-el-perol-focus,
+  .article-el-perol-challenges,
+  .article-el-perol-process,
+  .article-el-perol-admin,
+  .article-el-perol-learning {
+    width: 1000px;
+    padding: var(--pf-padding-xl) var(--pf-padding-m);
+  }
+  .big-icon-scheme-web-design {
+    height: 55px;
+    width: 55px;
+  }
+  .article-el-perol-focus > p,
+  .article-el-perol-challenges > p,
+  .article-el-perol-process > p,
+  .article-el-perol-admin > p,
+  .article-el-perol-learning > p {
+    width: 950px;
+    text-align: justify;
+  }
+  .article-el-perol-focus > h3,
+  .article-el-perol-challenges > h3,
+  .article-el-perol-process > h3,
+  .article-el-perol-admin > h3,
+  .article-el-perol-learning > h3 {
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+  }
+  .div-images-focus-el-perol {
+    width: 1000px;
+    height: auto;
+    gap: 60px;
+    margin-top: var(--pf-margin-s);
+  }
+  .div-images-focus-el-perol > div:first-child {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+    border-radius: var(--pf-br1);
+  }
+  .div-images-focus-el-perol > div:first-child > img {
+    height: 110%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .div-images-focus-el-perol > div:last-of-type {
+    width: 270px;
+    height: 500px;
+  }
+  .div-el-perol-challenges-img {
+    width: 950px;
+    height: auto;
+  }
+  .div-el-perol-process-img2 {
+    width: 900px;
+    height: auto;
+  }
+  .div-el-perol-admin-images {
+    width: 1000px;
+    height: auto;
+    margin-top: var(--pf-margin-l);
+  }
+  .div-el-perol-admin-images > img {
+    width: 259px;
+  }
+  .article-el-perol-learning > img {
+    width: 900px;
+  }
 }

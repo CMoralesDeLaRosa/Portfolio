@@ -160,14 +160,12 @@ a {
     width: 100%;
     text-align: center;
   }
-
   p {
     font-size: 18px;
     letter-spacing: 0.3px;
     line-height: 2;
     font-weight: 400;
   }
-
   .square-green {
     width: 7px;
     color: var(--pf-color4);
@@ -195,6 +193,12 @@ a {
     }
     .div-project > img {
       height: 260px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
     }
   }
   @media (max-width: 1300px) {

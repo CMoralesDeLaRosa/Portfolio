@@ -55,18 +55,17 @@
 .article-roots-mistakes,
 .article-roots-structure,
 .article-roots-locations {
-  width: 100%;
+  width: 1200px;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-items: start;
-  justify-content: start;
-  align-items: start;
-  align-content: start;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: 30px;
-  padding: var(--pf-padding-xl) 0 var(--pf-padding-xl) 0;
+  padding: var(--pf-padding-xl) var(--pf-padding-l);
 }
-
 .article-roots-focus > h3,
 .article-roots-challenges > h3,
 .article-roots-structure > h3,
@@ -75,10 +74,8 @@
 .article-roots-locations > h3 {
   width: 100%;
   text-align: start;
-  margin-left: 300px;
   font-weight: 400;
 }
-
 .div-scheme-roots {
   width: 100%;
   height: auto;
@@ -90,7 +87,6 @@
   gap: 10px;
   color: var(--pf-color6);
   margin-top: var(--pf-margin-s);
-  margin-left: 300px;
 }
 .big-icon-scheme-audiovisual {
   height: 60px;
@@ -114,7 +110,6 @@
 .article-roots-locations > p {
   width: 1100px;
   text-align: justify;
-  margin-left: 300px;
 }
 .div-images-focus-roots {
   width: 800px;
@@ -222,4 +217,89 @@
   color: var(--pf-color6);
   height: 40px;
   width: 40px;
+}
+
+/*MediaQueries*/
+@media (max-width: 1550px) {
+  .div-roots-main-image {
+    width: 1000px;
+    height: 220px;
+  }
+  .div-roots-main-image > img {
+    width: 100%;
+    height: auto;
+    object-position: 0 -20px;
+  }
+  .ul-roots-main {
+    gap: 15px;
+  }
+  .ul-roots-main > li {
+    font-size: 15px;
+    gap: 15px;
+    letter-spacing: 1.2px;
+  }
+  .article-roots-focus,
+  .article-roots-challenges,
+  .article-roots-learning,
+  .article-roots-mistakes,
+  .article-roots-structure,
+  .article-roots-locations {
+    width: 1000px;
+    padding: var(--pf-padding-xl) var(--pf-padding-m);
+  }
+  .big-icon-scheme-web-design {
+    height: 55px;
+    width: 55px;
+  }
+  .article-roots-focus > p,
+  .article-roots-challenges > p,
+  .article-roots-structure > p,
+  .article-roots-learning > p,
+  .article-roots-mistakes > p,
+  .article-roots-locations > p {
+    width: 950px;
+    text-align: justify;
+  }
+  .article-roots-focus > h3,
+  .article-roots-challenges > h3,
+  .article-roots-structure > h3,
+  .article-roots-learning > h3,
+  .article-roots-mistakes > h3,
+  .article-roots-locations > h3 {
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+  }
+  .div-images-focus-roots > img {
+    width: 280px;
+  }
+  .div-roots-challenges-img {
+    width: 950px;
+    margin-bottom: 0;
+  }
+  .div-roots-challenges-img > img {
+    height: 500px;
+  }
+  .div-roots-structure-img {
+    width: 950px;
+  }
+  .div-roots-structure-img > img {
+    height: 280px;
+  }
+  .div-roots-locations-img {
+    width: 930px;
+  }
+  .div-roots-learning-img {
+    width: 950px;
+    height: auto;
+    margin-bottom: 0;
+    gap: 20px;
+  }
+  .div-roots-learning-img > img {
+    height: auto;
+    width: 290px;
+  }
+  .div-roots-mistakes-img {
+    width: 950px;
+  }
 }
