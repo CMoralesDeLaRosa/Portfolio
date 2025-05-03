@@ -25,6 +25,10 @@
   }
 }
 @media (max-width: 850px) {
+  #Footer {
+    height: 100px;
+    justify-content: center;
+  }
   #Footer p {
     font-size: 13px;
   }
