@@ -284,8 +284,17 @@
     width: 100%;
     line-height: 2.2;
   }
+  .article-pokemon-cards-focus > h3,
+  .article-pokemon-cards-challenges > h3,
+  .article-pokemon-cards-process > h3,
+  .article-pokemon-cards-learning > h3,
+  .article-pokemon-cards-game > h3 {
+    text-align: center;
+  }
   .div-scheme-pokemon-cards {
     margin-top: 0;
+    justify-content: center;
+    justify-items: center;
   }
   .big-icon-scheme-web-design {
     height: 45px !important;

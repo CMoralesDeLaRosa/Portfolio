@@ -264,8 +264,17 @@
     width: 100%;
     line-height: 2.2;
   }
+  .article-retro-games-focus > h3,
+  .article-retro-games-challenges > h3,
+  .article-retro-games-process > h3,
+  .article-retro-games-learning > h3,
+  .article-retro-games-game > h3 {
+    text-align: center;
+  }
   .div-scheme-retro-games {
     margin-top: 0;
+    justify-content: center;
+    justify-items: center;
   }
   .big-icon-scheme-web-design {
     height: 45px !important;

@@ -337,8 +337,17 @@
     width: 100%;
     line-height: 2.2;
   }
+  .article-el-perol-focus > h3,
+  .article-el-perol-challenges > h3,
+  .article-el-perol-process > h3,
+  .article-el-perol-admin > h3,
+  .article-el-perol-learning > h3 {
+    text-align: center;
+  }
   .div-scheme-el-perol {
     margin-top: 0;
+    justify-content: center;
+    justify-items: center;
   }
   .big-icon-scheme-web-design {
     height: 45px !important;
