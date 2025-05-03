@@ -253,7 +253,7 @@
   }
   .div-pokemon-cards-main-image > img {
     width: 110%;
-    object-position: -25px 0;
+    object-position: -40px 0;
   }
   .ul-pokemon-cards-main {
     gap: 15px;
@@ -273,7 +273,43 @@
   .article-pokemon-cards-process,
   .article-pokemon-cards-learning,
   .article-pokemon-cards-game {
-    width: 750px;
+    width: 800px;
     padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+  .article-pokemon-cards-focus > p,
+  .article-pokemon-cards-challenges > p,
+  .article-pokemon-cards-process > p,
+  .article-pokemon-cards-learning > p,
+  .article-pokemon-cards-game > p {
+    width: 100%;
+    line-height: 2.2;
+  }
+  .div-scheme-pokemon-cards {
+    margin-top: 0;
+  }
+  .big-icon-scheme-web-design {
+    height: 45px !important;
+    width: 45px !important;
+  }
+  .div-images-focus-pokemon-cards {
+    width: 100%;
+  }
+  .div-pokemon-cards-challenges-img > div:first-of-type {
+    width: 400px;
+  }
+  .div-pokemon-cards-challenges-img > div:last-of-type {
+    width: 330px;
+  }
+  .div-pokemon-cards-process-img1 {
+    width: 100%;
+  }
+  .div-pokemon-cards-process-img1 > img {
+    width: 210px;
+  }
+  .div-pokemon-cards-process-img2 {
+    width: 100%;
+  }
+  .div-pokemon-cards-game-video {
+    width: 100%;
   }
 }
