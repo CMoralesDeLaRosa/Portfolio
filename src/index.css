@@ -97,7 +97,6 @@ a {
     border-radius: var(--pf-br1) var(--pf-br1);
     transition: transform 0.3s ease, filter 0.3s ease;
   }
-
   .div-project:hover {
     transform: scale(1.02);
     filter: brightness(0.9);

@@ -116,7 +116,7 @@
 .article-papaoutai-camera > p,
 .article-papaoutai-color-grading > p,
 .article-papaoutai-mistakes > p {
-  width: 1100px;
+  width: 100%;
   text-align: justify;
 }
 .div-images-focus-papaoutai {
@@ -373,5 +373,9 @@
   .article-papaoutai-mistakes {
     width: 750px;
     padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+  .big-icon-scheme-audiovisual {
+    height: 40px !important;
+    width: 40px !important;
   }
 }
