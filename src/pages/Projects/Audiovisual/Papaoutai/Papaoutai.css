@@ -457,3 +457,117 @@
     width: 100%;
   }
 }
+@media (max-width: 850px) {
+  .div-papaoutai-main-image {
+    width: 550px;
+    height: 150px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-papaoutai-main-image > img {
+    object-position: -20px 0;
+  }
+  .ul-papaoutai-main {
+    gap: 15px;
+    width: 550px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-papaoutai-main > li {
+    font-size: 14px;
+  }
+  .article-papaoutai-focus,
+  .article-papaoutai-challenges,
+  .article-papaoutai-process,
+  .article-papaoutai-learning,
+  .article-papaoutai-references,
+  .article-papaoutai-camera,
+  .article-papaoutai-color-grading,
+  .article-papaoutai-mistakes {
+    width: 550px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-papaoutai-focus > p,
+  .article-papaoutai-challenges > p,
+  .article-papaoutai-process > p,
+  .article-papaoutai-learning > p,
+  .article-papaoutai-references > p,
+  .article-papaoutai-camera > p,
+  .article-papaoutai-color-grading > p,
+  .article-papaoutai-mistakes > p {
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .article-papaoutai-challenges > h3,
+  .article-papaoutai-process > h3,
+  .article-papaoutai-learning > h3,
+  .article-papaoutai-references > h3,
+  .article-papaoutai-camera > h3,
+  .article-papaoutai-color-grading > h3,
+  .article-papaoutai-mistakes > h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .big-icon-scheme-web-design {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .div-images-focus-papaoutai > img {
+    width: 160px;
+  }
+  .div-papaoutai-challenges-img {
+    width: 100%;
+  }
+  .div-papaoutai-references-img {
+    width: 100%;
+  }
+  .div-papaoutai-camera-img {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .div-papaoutai-camera-img > img:first-of-type {
+    width: 600px;
+  }
+  .div-papaoutai-camera-img > img:last-of-type {
+    width: 545px;
+  }
+  .div-papaoutai-color-grading-img1 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .div-papaoutai-color-grading-img2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .div-papaoutai-color-grading-img1 > img {
+    width: 250px;
+    height: auto;
+  }
+  .div-papaoutai-color-grading-img2 > img {
+    width: 103%;
+  }
+  .div-papaoutai-learning-img {
+    width: 100%;
+    gap: 30px;
+  }
+  .div-papaoutai-learning-img > img {
+    width: 260px;
+  }
+  .div-papaoutai-mistakes-img {
+    width: 100%;
+  }
+
+  .article-papaoutai-link {
+    height: 80px;
+  }
+  .article-papaoutai-link > a {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+  }
+  .logo-link-papaoutai {
+    height: 30px;
+    width: 30px;
+  }
+}

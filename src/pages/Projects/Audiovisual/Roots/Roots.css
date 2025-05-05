@@ -401,3 +401,101 @@
     height: auto;
   }
 }
+@media (max-width: 850px) {
+  .div-roots-main-image {
+    width: 550px;
+    height: 150px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-roots-main-image > img {
+    object-position: 0 0;
+  }
+  .ul-roots-main {
+    gap: 15px;
+    width: 550px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-roots-main > li {
+    font-size: 14px;
+  }
+  .article-roots-focus,
+  .article-roots-challenges,
+  .article-roots-learning,
+  .article-roots-mistakes,
+  .article-roots-structure,
+  .article-roots-locations {
+    width: 550px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-roots-focus > p,
+  .article-roots-challenges > p,
+  .article-roots-structure > p,
+  .article-roots-learning > p,
+  .article-roots-mistakes > p,
+  .article-roots-locations > p {
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .article-roots-focus > h3,
+  .article-roots-challenges > h3,
+  .article-roots-structure > h3,
+  .article-roots-learning > h3,
+  .article-roots-mistakes > h3,
+  .article-roots-locations > h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .big-icon-scheme-web-design {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .div-images-focus-roots > img {
+    width: 160px;
+  }
+  .div-roots-challenges-img {
+    width: 100%;
+  }
+  .div-roots-challenges-img > img {
+    width: 100%;
+    height: auto;
+  }
+  .div-roots-structure-img {
+    width: 100%;
+    gap: 30px;
+  }
+  .div-roots-structure-img > img {
+    height: 170px;
+  }
+  .div-roots-locations-img {
+    width: 100%;
+  }
+  .div-roots-learning-img {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    margin: var(--pf-margin-l) 0;
+  }
+  .div-roots-learning-img > img {
+    width: 400px;
+  }
+  .div-roots-mistakes-img {
+    width: 100%;
+  }
+  .div-roots-mistakes-img > img {
+    width: 100%;
+    height: auto;
+  }
+  .article-roots-link {
+    height: 80px;
+  }
+  .article-roots-link > a {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+  }
+  .logo-link-roots {
+    height: 30px;
+    width: 30px;
+  }
+}

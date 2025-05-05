@@ -300,3 +300,82 @@
     width: 100%;
   }
 }
+@media (max-width: 850px) {
+  .div-retro-games-main-image {
+    width: 550px;
+    height: 150px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-retro-games-main-image > img {
+    object-position: -30px 0;
+  }
+  .ul-retro-games-main {
+    gap: 15px;
+    width: 550px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-retro-games-main > li {
+    font-size: 14px;
+  }
+  .article-retro-games-focus,
+  .article-retro-games-challenges,
+  .article-retro-games-process,
+  .article-retro-games-learning,
+  .article-retro-games-game {
+    width: 550px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-retro-games-focus > p,
+  .article-retro-games-challenges > p,
+  .article-retro-games-process > p,
+  .article-retro-games-learning > p,
+  .article-retro-games-game > p {
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .article-retro-games-focus > h3,
+  .article-retro-games-challenges > h3,
+  .article-retro-games-process > h3,
+  .article-retro-games-learning > h3,
+  .article-retro-games-game > h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .big-icon-scheme-web-design {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .div-images-focus-retro-games {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .div-images-focus-retro-games > img {
+    width: 400px;
+  }
+  .div-retro-games-challenges-img {
+    width: 530px;
+  }
+  .div-retro-games-process-img {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .div-retro-games-process-img > img {
+    width: 230px;
+  }
+  .div-retro-games-mistakes-img {
+    width: 100%;
+  }
+  .article-retro-games-link {
+    height: 80px;
+  }
+  .article-retro-games-link > a {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+  }
+  .logo-link-retro-games {
+    height: 30px;
+    width: 30px;
+  }
+}
