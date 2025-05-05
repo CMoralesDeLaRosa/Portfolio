@@ -476,3 +476,94 @@
     width: 30px;
   }
 }
+@media (max-width: 650px) {
+  #section-el-perol-project {
+    padding: 0 var(--pf-padding-section) 0 var(--pf-padding-section);
+  }
+  .article-el-perol-main {
+    gap: 10px;
+    margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
+  }
+  .div-el-perol-main-image {
+    width: 250px;
+    height: 130px;
+    border-radius: 80px 80px var(--pf-br1) var(--pf-br1);
+  }
+  .div-el-perol-main-image > img {
+    object-position: -45px -10px;
+    width: 140%;
+  }
+  .ul-el-perol-main {
+    gap: 5px;
+    width: 280px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-el-perol-main > li {
+    font-size: 11px;
+    gap: 5px;
+  }
+  .article-el-perol-focus,
+  .article-el-perol-challenges,
+  .article-el-perol-process,
+  .article-el-perol-admin,
+  .article-el-perol-learning {
+    width: 250px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-el-perol-focus > h3,
+  .article-el-perol-challenges > h3,
+  .article-el-perol-process > h3,
+  .article-el-perol-admin > h3,
+  .article-el-perol-learning > h3 {
+    font-size: 15px;
+  }
+  .div-scheme-el-perol {
+    gap: 5px;
+  }
+  .big-icon-scheme-web-design {
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .div-images-focus-el-perol {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .div-images-focus-el-perol > div:first-child {
+    width: 250px;
+    height: 350px;
+  }
+  .div-images-focus-el-perol > div:first-child > img {
+    height: 110%;
+    width: 100%;
+  }
+  .div-images-focus-el-perol > div:last-of-type > img {
+    height: auto;
+    width: 120%;
+    object-position: -25px 0;
+  }
+  .div-images-focus-el-perol > div:last-of-type {
+    width: 250px;
+    height: 350px;
+  }
+  .div-el-perol-admin-images > img {
+    width: 250px;
+    height: 350px;
+  }
+  .article-el-perol-learning > img {
+    width: 100%;
+  }
+  .article-el-perol-link {
+    height: 150px;
+    flex-direction: column;
+  }
+  .article-el-perol-link > a {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+  .logo-link-el-perol {
+    height: 40px;
+    width: 40px;
+  }
+}
