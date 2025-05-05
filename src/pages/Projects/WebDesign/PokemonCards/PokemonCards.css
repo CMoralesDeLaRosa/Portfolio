@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   flex-direction: column;
-  padding: var(--pf-padding-xl) var(--pf-padding-section) 0
+  padding: var(--pf-padding-xl) var(--pf-padding-section) var(--pf-padding-m)
     var(--pf-padding-section);
   background-color: var(--pf-fifth-bg);
 }
