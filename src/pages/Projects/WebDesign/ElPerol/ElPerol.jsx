@@ -26,6 +26,8 @@ const elPerolItems = {
     "One of the most significant challenges was managing the database information dynamically while ensuring that the web's visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.",
   imgChallenge1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741457522/Porfolio/El%20Perol/ElPerol-image4.png',
+  imgChallenge2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746554260/Porfolio/El%20Perol/El-Perol-Scheme-Mobile.png',
   process1:
     'First, I conducted research where I explored the most visited recipe websites, identifying what information they displayed, how they presented it, and what the user interaction and experience were like. My conclusion was that these websites are very clear and intuitive, but in terms of design, they are quite similar to basic blogs, offering a user experience that feels underdeveloped. They primarily focus on functionality. This is where I find the opportunity to provide a different approach that would set El Perol apart from other recipe websites. Later, I expanded my research to include projects and websites with more innovative designs focused on gastronomy in general—restaurants, food product websites, food magazines, and others. I wanted to understand how other designers presented food and what their unique proposals were. With these two approaches in mind, I began to build my concept.',
   imgProcess1:
@@ -36,6 +38,8 @@ const elPerolItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741456600/Porfolio/El%20Perol/ElPerol-image5.png',
   process3:
     'With the backend developed and the main design and user experience ideas in place, I began shaping the project visually through the frontend. I used React, as I felt it offered the flexibility I needed for this type of project, along with the styling flexibility CSS provides. Since it was an individual project, this final phase gave me the space to make some adjustments and, most importantly, to incorporate additional ideas.',
+  imgProcess3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746554839/Porfolio/El%20Perol/El-Perol-Scheme-2-Mobile.png',
   adminRole:
     "The role of administrator has been fundamental in the development of the project. Recipe posts must be validated before being published by the administrator to maintain the quality of the content. Restaurant accounts also go through the same verification process to prevent fake accounts and ensure the website's credibility. Additionally, the administrator role has functions that allow them to delete accounts and recipes. Therefore, a section has been created to host all these administrative functions, with the same design as the rest of the website, providing a user-friendly and simple experience.",
   imgAdmin1:
@@ -50,6 +54,8 @@ const elPerolItems = {
     "Regarding the mistakes, I believe I should have spent more time defining the workflows within the website. Initially, I had a general idea in place, and as the project progressed, I made some modifications that led to changes in both the backend and frontend simultaneously, resulting in slower progress. It is crucial to have all workflows defined and finalized before starting development, even if it's an individual project.",
   imgLearning:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png',
+  imgLearning2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746555426/Porfolio/El%20Perol/El-Perol-image10.png',
   link: 'https://el-perol-finisher-react-idps.vercel.app'
 }
 const elPerolDetails = [
@@ -105,13 +111,18 @@ const ElPerol = () => {
         <p>{elPerolItems.challenges}</p>
         <div className='div-el-perol-challenges-img'>
           <img src={elPerolItems.imgChallenge1} />
+          <img
+            className='img-el-perol-challenges-mobile'
+            src={elPerolItems.imgChallenge2}
+          />
         </div>
       </article>
       <article className='article-el-perol-process flex-container'>
         <h3>Project Process</h3>
         <p>{elPerolItems.process1}</p>
         <div className='div-el-perol-process-img1'>
-          <img src={elPerolItems.imgProcess1} alt='Register part' />
+          <img src={elPerolItems.imgProcess1} alt='Scheme of the process' />
+          <img src={elPerolItems.imgProcess3} alt='Scheme of the process' />
         </div>
         <p>{elPerolItems.process2}</p>
         <div className='div-el-perol-process-img2'>
@@ -134,6 +145,7 @@ const ElPerol = () => {
       <article className='article-el-perol-learning flex-container'>
         <h3>Learning and mistakes</h3>
         <img src={elPerolItems.imgLearning} />
+        <img src={elPerolItems.imgLearning2} />
         <p>{elPerolItems.learning}</p>
         <p>{elPerolItems.mistakes}</p>
       </article>

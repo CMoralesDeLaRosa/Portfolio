@@ -141,9 +141,13 @@
   width: 1100px;
   height: 600px;
 }
-.div-el-perol-challenges-img > img {
+.div-el-perol-challenges-img > img:first-of-type {
   width: 100%;
   object-fit: contain;
+}
+
+.img-el-perol-challenges-mobile {
+  display: none;
 }
 
 /*Article-procces-el-perol*/
@@ -166,8 +170,11 @@
   overflow: hidden;
   margin-top: var(--pf-margin-xl);
 }
-.div-el-perol-process-img1 > img {
+.div-el-perol-process-img1 > img:first-of-type {
   width: 100%;
+}
+.div-el-perol-process-img1 > img:last-of-type {
+  display: none;
 }
 
 /*Article-admin-el-perol*/
@@ -183,11 +190,14 @@
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
 }
 /*Article-learning-el-perol*/
-.article-el-perol-learning > img {
+.article-el-perol-learning > img:first-of-type {
   width: 1000px;
   border-radius: var(--pf-br1);
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 0;
+}
+.article-el-perol-learning > img:last-of-type {
+  display: none;
 }
 
 /*Article-el-perol-link*/
@@ -478,7 +488,8 @@
 }
 @media (max-width: 650px) {
   #section-el-perol-project {
-    padding: 0 var(--pf-padding-section) 0 var(--pf-padding-section);
+    padding: 0 var(--pf-padding-section) var(--pf-padding-m)
+      var(--pf-padding-section);
   }
   .article-el-perol-main {
     gap: 10px;
@@ -546,20 +557,58 @@
     width: 250px;
     height: 350px;
   }
+  .div-el-perol-challenges-img > img:first-of-type {
+    display: none;
+  }
+  .div-el-perol-process-img1 {
+    height: 360px;
+    margin: var(--pf-margin-m);
+  }
+  .div-el-perol-process-img1 > img:first-of-type {
+    display: none;
+  }
+  .div-el-perol-process-img1 > img:last-of-type {
+    display: block;
+    width: 100%;
+  }
+  .img-el-perol-challenges-mobile {
+    display: block;
+    width: 100%;
+  }
+  .div-el-perol-process-img2 {
+    background-color: red;
+    width: 250px;
+    height: 300px;
+  }
+  .div-el-perol-process-img2 > img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: -170px 0;
+  }
   .div-el-perol-admin-images > img {
     width: 250px;
     height: 350px;
   }
-  .article-el-perol-learning > img {
+  .article-el-perol-learning > img:first-of-type {
+    display: none;
+  }
+  .article-el-perol-learning > img:last-of-type {
+    display: block;
     width: 100%;
+    border-radius: var(--pf-br1);
+    box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+    margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 0;
   }
   .article-el-perol-link {
     height: 150px;
+    width: 300px;
     flex-direction: column;
   }
   .article-el-perol-link > a {
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1.2px;
+    line-height: 1.5;
     text-align: center;
   }
   .logo-link-el-perol {
