@@ -46,8 +46,10 @@ const LandingPage = () => {
         <p>
           Professional with experience in
           <span className='highlight'> visual and multimedia design</span>, now
-          specialized in UX/UI, with training in
-          <span className='highlight'> Full Stack </span>
+          specialized in{' '}
+          <span className='highlight'>Full Stack development</span>, with
+          training in
+          <span className='highlight'> UX/UI </span>
           development. My goal is to design{' '}
           <span className='highlight'>exceptional user experiences, </span>
           ensuring that the design is both feasible and effective from a{' '}

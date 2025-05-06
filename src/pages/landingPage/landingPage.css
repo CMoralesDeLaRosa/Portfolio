@@ -322,9 +322,9 @@
     margin-bottom: var(--pf-margin-l);
   }
   .article-presentation-landing-page > p {
-    width: 250px;
+    width: 260px;
     font-size: 15px;
-    line-height: 1.8;
+    line-height: 1.9;
   }
   .div-container-loading-box {
     justify-content: center;
