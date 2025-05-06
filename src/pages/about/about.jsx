@@ -43,7 +43,7 @@ const links = [
   {
     icon: <FaSquarePlus />,
     label: 'CV',
-    url: 'https://drive.google.com/file/d/1XfgM0yqdGZa5lWN_3qkBzW-6Czq3x7hh/view?usp=sharing'
+    url: 'https://drive.google.com/file/d/1Kpo3EkhTdGorhdD05E0yTWir7i8W_4XE/view?usp=sharing'
   }
 ]
 
