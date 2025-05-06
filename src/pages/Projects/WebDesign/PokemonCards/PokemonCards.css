@@ -101,9 +101,12 @@
   gap: 60px;
   margin-top: var(--pf-margin-s);
 }
-.div-images-focus-pokemon-cards > img {
+.div-images-focus-pokemon-cards > img:first-of-type {
   width: 100%;
   object-fit: cover;
+}
+.div-images-focus-pokemon-cards > img:last-of-type {
+  display: none;
 }
 
 /*Article-challenges-pokemon-cards*/
@@ -146,8 +149,11 @@
   width: 950px;
   margin: var(--pf-margin-xl) auto;
 }
-.div-pokemon-cards-process-img2 > img {
+.div-pokemon-cards-process-img2 > img:first-of-type {
   width: 100%;
+}
+.div-pokemon-cards-process-img2 > img:last-of-type {
+  display: none;
 }
 
 /*Article-pokemon-cards-extra-game*/
@@ -397,20 +403,22 @@
 }
 @media (max-width: 650px) {
   #section-pokemon-cards-project {
-    padding: 0 var(--pf-padding-section) 0 var(--pf-padding-section);
+    padding: 0 var(--pf-padding-section) var(--pf-padding-m)
+      var(--pf-padding-section);
   }
   .article-pokemon-cards-main {
     gap: 10px;
     margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
+    width: 300px;
   }
   .div-pokemon-cards-main-image {
-    width: 250px;
+    width: 300px;
     height: 130px;
     border-radius: 80px 80px var(--pf-br1) var(--pf-br1);
   }
   .div-pokemon-cards-main-image > img {
-    width: 220%;
-    object-position: -150px 0;
+    width: 230%;
+    object-position: -195px 0;
   }
   .ul-pokemon-cards-main {
     gap: 5px;
@@ -444,6 +452,13 @@
     height: 35px !important;
     width: 35px !important;
   }
+  .div-images-focus-pokemon-cards > img:first-of-type {
+    display: none;
+  }
+  .div-images-focus-pokemon-cards > img:last-of-type {
+    display: block;
+    width: 100%;
+  }
   .div-pokemon-cards-challenges-img {
     width: 100%;
     gap: 30px;
@@ -461,8 +476,21 @@
   .div-pokemon-cards-process-img1 > img {
     width: 200px;
   }
+  .div-pokemon-cards-process-img2 {
+    padding: 0;
+    margin: 0;
+  }
+  .div-pokemon-cards-process-img2 > img:first-of-type {
+    display: none;
+  }
+  .div-pokemon-cards-process-img2 > img:last-of-type {
+    display: block;
+    width: 200px;
+    margin-left: 20px;
+  }
   .article-pokemon-cards-link {
     height: 150px;
+    width: 250px;
     flex-direction: column;
   }
   .article-pokemon-cards-link > a {

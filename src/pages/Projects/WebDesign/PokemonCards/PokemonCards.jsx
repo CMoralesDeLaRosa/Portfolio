@@ -19,6 +19,8 @@ const pokemonCardsItems = {
     'The main objective of this project was to develop a website that interacted with the Pokémon API through requests. The challenge was to retrieve various data and build a cohesive application while utilizing several React hooks. It was crucial to avoid unnecessary re-renders and to organize the code in a modular way, making the project scalable.',
   imgFocus1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741079918/Porfolio/Pokemon%20Cards/Pokemon-cards-image-1.png',
+  imgFocus2:
+    ' https://res.cloudinary.com/dmztjnlrp/image/upload/v1746556357/Porfolio/Pokemon%20Cards/Pokemon-Cards-Image-Mobile.png',
   challenges:
     'One of the biggest challenges was how to represent such an iconic image as Pokémon in a simple yet original way, avoiding an obvious or repetitive project. My goal was to revisit the classic Pokémon aesthetic without directly replicating what had already been done. To achieve this, I decided not to make a literal copy, but to draw inspiration from the visual style of the Game Boy consoles, using a more modern color palette and more defined details, creating a reinterpretation of that retro aesthetic.',
   imgChallenge1:
@@ -39,6 +41,8 @@ const pokemonCardsItems = {
     'Next, I dived into studying the API. I read its documentation thoroughly, learned how to make requests, and explored the available data. Since the API offered an enormous amount of information, I had to carefully organize and select the Pokémon data I wanted to display, as well as narrow down which Pokémon to show, given the extensive variety.',
   imgProcess4:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741083595/Porfolio/Pokemon%20Cards/Pokemon-cards-scheme.png',
+  imgProcess5:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746556661/Porfolio/Pokemon%20Cards/Pokemon-Cards-Scheme-2.png',
   process3:
     'Once the data selection was clear, I developed the project using React and CSS for styling. I conducted in-depth research on components, re-renders, and React hooks. Although the project was relatively simple, my goal was to create clean, scalable, and well-structured code so that I could gain a solid understanding of React’s fundamentals and apply that knowledge to more complex projects in the future.',
   extraGame:
@@ -100,6 +104,10 @@ const PokemonCards = () => {
             src={pokemonCardsItems.imgFocus1}
             alt='Web site Pokemon Cards - Mobile version'
           />
+          <img
+            src={pokemonCardsItems.imgFocus2}
+            alt='Web site Pokemon Cards - Mobile version'
+          />
         </div>
       </article>
       <article className='article-pokemon-cards-challenges flex-container'>
@@ -136,6 +144,10 @@ const PokemonCards = () => {
         <div className='div-pokemon-cards-process-img2'>
           <img
             src={pokemonCardsItems.imgProcess4}
+            alt='Pokemon`s Data Selected'
+          />
+          <img
+            src={pokemonCardsItems.imgProcess5}
             alt='Pokemon`s Data Selected'
           />
         </div>
