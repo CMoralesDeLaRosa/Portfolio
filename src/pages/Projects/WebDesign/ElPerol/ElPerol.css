@@ -485,12 +485,12 @@
     margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
   }
   .div-el-perol-main-image {
-    width: 250px;
+    width: 300px;
     height: 130px;
     border-radius: 80px 80px var(--pf-br1) var(--pf-br1);
   }
   .div-el-perol-main-image > img {
-    object-position: -45px -10px;
+    object-position: -55px -45px;
     width: 140%;
   }
   .ul-el-perol-main {
