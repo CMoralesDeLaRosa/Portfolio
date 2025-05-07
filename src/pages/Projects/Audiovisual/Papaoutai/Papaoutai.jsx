@@ -36,6 +36,8 @@ const papaoutaiItems = {
     'First, I selected several references to develop the project. I chose two choreographers who direct their own choreographic videos: Andrew Winghart and Keone Madrid. They address social themes and use audiovisual creation to emphasize the meaning of their dance. Additionally, their approach to camera work, lighting, and art direction is very similar to the overall concept of this project.',
   imgReferences1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930540/Porfolio/Papaoutai/Papaoutai-image6.png',
+  imgReferences2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746641119/Porfolio/Papaoutai/Papoutai-Image1-Mobile.png',
   references2:
     "Regarding the camera work, they use fixed lenses and, in some cases, wide-angle lenses to capture the full group of dancers when their number is large. The focal lengths are short, as they integrate the available architectural elements into the composition of the image, avoiding background blurring. Every framing choice and camera movement is designed not only to emphasize the choreography but also to seamlessly connect the background with the dancer’s movement, using the geometry of the location and the body's directional lines.",
   references3:
@@ -54,6 +56,9 @@ const papaoutaiItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742930119/Porfolio/Papaoutai/Papaoutai-image9.png',
   imgColorGrading3:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931164/Porfolio/Papaoutai/Papoutai-color-grading.png',
+  imgColorGrading4:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746641559/Porfolio/Papaoutai/Papaoutai-Color-Grading-Mobile.png',
+
   learning:
     'The limitations in terms of space, budget, and equipment pushed me to put extra effort into the pre-production phase to achieve the level of quality I aimed for. This experience gave me a deeper understanding of the importance of pre-shooting tasks and how essential communication between different departments is.',
   imgLearning1:
@@ -134,6 +139,10 @@ const Papaoutai = () => {
             src={papaoutaiItems.imgReferences1}
             alt='Videodance References'
           />
+          <img
+            src={papaoutaiItems.imgReferences2}
+            alt='Videodance References'
+          />
         </div>
         <p>{papaoutaiItems.references3}</p>
       </article>
@@ -161,6 +170,10 @@ const Papaoutai = () => {
         <div className='div-papaoutai-color-grading-img2 flex-container'>
           <img
             src={papaoutaiItems.imgColorGrading3}
+            alt='Examples of color grading'
+          />
+          <img
+            src={papaoutaiItems.imgColorGrading4}
             alt='Examples of color grading'
           />
         </div>
