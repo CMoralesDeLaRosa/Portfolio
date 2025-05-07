@@ -55,6 +55,8 @@ const rootsItems = {
     'Through the locations, the Andalusian aesthetic is evoked in contrast with more modern styles, creating a rich and opportunity-filled artistic language.',
   imgLocations:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1744052136/Porfolio/Roots/Roots-locations.png',
+  imgLocations2:
+    ' https://res.cloudinary.com/dmztjnlrp/image/upload/v1746642253/Porfolio/Roots/Roots-Image-Locations-Mobile.png',
   learning:
     'Regarding the learnings, the most important one for me was learning how to organize an audiovisual project across all its departments. There were only 2 days to complete the project, so a very precise schedule was needed for each interview, contact, and preparation with the interviewees, space management and booking, team transportation and accommodation, etc. In summary, this was the first project I carried out that was this comprehensive, and I learned that prior preparation is key to a good outcome. Additionally, it served as training to solve unforeseen circumstances and last-minute changes.',
   imgLearning1:
@@ -159,6 +161,7 @@ const Roots = () => {
         <p>{rootsItems.locations1}</p>
         <div className='div-roots-locations-img'>
           <img src={rootsItems.imgLocations} alt='Frames of locations' />
+          <img src={rootsItems.imgLocations2} alt='Frames of locations' />
         </div>
         <p>{rootsItems.locations2}</p>
       </article>

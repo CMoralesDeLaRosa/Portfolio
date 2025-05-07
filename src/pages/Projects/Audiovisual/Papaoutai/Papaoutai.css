@@ -727,6 +727,7 @@
 
   .article-papaoutai-link {
     height: 150px;
+    width: 300px;
     flex-direction: column;
   }
   .article-papaoutai-link > a {
