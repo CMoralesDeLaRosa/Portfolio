@@ -24,6 +24,8 @@ const retroGamesItems = {
     'One of the major challenges was avoiding unnecessary re-renders. Each game consisted of different components, some of which needed to be updated as the game progressed to ensure a constant refresh. However, others did not need to be re-rendered since their content remained unchanged. For this reason, it was essential to properly define the components and their respective functions.',
   imgChallenge1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741455600/Porfolio/Retro%20Games/Retro-games-scheme.png',
+  imgChallenge2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746639796/Porfolio/Retro%20Games/Retro-Games-Scheme-Mobile.png',
   process1:
     'The chosen games were Bingo and Tic-Tac-Toe. The first step was to define how both games would be developed, considering the required functionality, especially for Tic-Tac-Toe, as it involves playing against another player. Ultimately, I decided to define a set of possible variables for both games and have the game use them randomly. This creates the illusion of playing against an opponent, even though that is not entirely the case.',
   process2:
@@ -44,6 +46,8 @@ const retroGamesItems = {
     'Regarding the mistakes made, the main issue was handling time in the games. My initial component and functionality structure worked well until time came into play. It was an element I hadn’t considered at the beginning of the project, and when I introduced it, all components updated every second since they all depended on time. I eventually managed to fix it, but if I had considered it from the start, the process would have been much simpler.',
   imgMistakes1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741175333/Porfolio/Retro%20Games/Retro-games-image-4.png',
+  imgMistakes2:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746640276/Porfolio/Retro%20Games/Retro-Games-Image-Mobile.png',
   link: 'https://react-retro-games-3ebx.vercel.app/'
 }
 const retroGamesDetails = [
@@ -103,6 +107,10 @@ const RetroGames = () => {
               src={retroGamesItems.imgChallenge1}
               alt='Website color palette'
             />
+            <img
+              src={retroGamesItems.imgChallenge2}
+              alt='Website color palette'
+            />
           </div>
         </div>
       </article>
@@ -129,6 +137,7 @@ const RetroGames = () => {
         <p>{retroGamesItems.mistakes}</p>
         <div className='div-retro-games-mistakes-img'>
           <img src={retroGamesItems.imgMistakes1} alt='Bingo Lose message' />
+          <img src={retroGamesItems.imgMistakes2} alt='Bingo Lose message' />
         </div>
       </article>
       <article className='article-retro-games-link flex-container'>
