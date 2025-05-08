@@ -8,6 +8,7 @@ import { BsPersonArmsUp } from 'react-icons/bs'
 import { AiFillThunderbolt } from 'react-icons/ai'
 import { AiOutlineGift } from 'react-icons/ai'
 import Footer from '../../../../components/footer/footer'
+import { useEffect } from 'react'
 
 const elPerolItems = {
   name: 'El Perol',
@@ -67,6 +68,10 @@ const elPerolDetails = [
   }
 ]
 const ElPerol = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-el-perol-project' className='flex-container'>
       <Header />

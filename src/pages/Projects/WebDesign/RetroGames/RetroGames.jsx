@@ -6,6 +6,7 @@ import { MdFluorescent } from 'react-icons/md'
 import { TbMoodCrazyHappyFilled } from 'react-icons/tb'
 import Footer from '../../../../components/footer/footer'
 import { BiSolidParty } from 'react-icons/bi'
+import { useEffect } from 'react'
 
 const retroGamesItems = {
   name: 'Retro Games',
@@ -63,6 +64,10 @@ const retroGamesDetails = [
 ]
 
 const RetroGames = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-retro-games-project' className='flex-container'>
       <Header />

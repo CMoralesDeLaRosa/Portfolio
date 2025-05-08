@@ -442,12 +442,12 @@
   }
   .div-images-focus-retro-games > img {
     width: 250px;
+    height: 350px;
   }
   .div-retro-games-challenges-img {
     padding: 0;
     margin: 0;
   }
-
   .div-retro-games-challenges-img > div:first-of-type > img {
     display: none;
   }

@@ -7,6 +7,7 @@ import { GiConsoleController } from 'react-icons/gi'
 import { BiSolidData } from 'react-icons/bi'
 import Footer from '../../../../components/footer/footer'
 import { IoLogoSnapchat } from 'react-icons/io5'
+import { useEffect } from 'react'
 
 const pokemonCardsItems = {
   name: 'Pokemon Cards',
@@ -69,6 +70,10 @@ const pokemonCardsDetails = [
 ]
 
 const PokemonCards = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-pokemon-cards-project' className='flex-container'>
       <Header />

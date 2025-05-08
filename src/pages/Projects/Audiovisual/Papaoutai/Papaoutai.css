@@ -329,8 +329,8 @@
     width: 450px;
     height: auto;
   }
-  .div-papaoutai-color-grading-img2 > img {
-    width: 1000px;
+  .div-papaoutai-color-grading-img2 > img:first-of-type {
+    width: 980px;
     object-fit: contain;
   }
   .div-papaoutai-learning-img {
@@ -339,10 +339,10 @@
     margin: var(--pf-margin-s) auto;
   }
   .div-papaoutai-learning-img > img {
-    width: 420px;
+    width: 450px;
   }
   .div-papaoutai-mistakes-img {
-    width: 920px;
+    width: 950px;
     height: auto;
   }
 }
@@ -450,7 +450,7 @@
     width: 350px;
     height: auto;
   }
-  .div-papaoutai-color-grading-img2 > img {
+  .div-papaoutai-color-grading-img2 > img:first-of-type {
     width: 103%;
   }
   .div-papaoutai-learning-img {
@@ -638,9 +638,11 @@
   }
 
   .div-images-focus-papaoutai > img {
-    width: 120px;
+    width: 250px;
+    height: 350px;
   }
-  .div-images-focus-papaoutai > img:last-of-type {
+  .div-images-focus-papaoutai > img:last-of-type,
+  .div-images-focus-papaoutai > img:first-of-type {
     display: none;
   }
   .div-papaoutai-challenges-img {
@@ -656,7 +658,7 @@
     object-position: -190px 0;
   }
   .div-papaoutai-references-img {
-    width: 100%;
+    width: 280px;
     margin: 0;
     margin-bottom: var(--pf-margin-s);
   }

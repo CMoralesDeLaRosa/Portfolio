@@ -8,6 +8,7 @@ import { PiClockCounterClockwiseBold } from 'react-icons/pi'
 import { GiBeanstalk } from 'react-icons/gi'
 import { BsCameraReelsFill } from 'react-icons/bs'
 import { BsStars } from 'react-icons/bs'
+import { useEffect } from 'react'
 
 const rootsItems = {
   name: 'Roots',
@@ -81,6 +82,10 @@ const papaoutaiDetails = [
 ]
 
 const Roots = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-roots-project' className='flex-container'>
       <Header />

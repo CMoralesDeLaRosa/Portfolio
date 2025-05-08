@@ -8,6 +8,7 @@ import { GiCrystalize } from 'react-icons/gi'
 import { PiSneakerMoveFill } from 'react-icons/pi'
 import { BsCameraReelsFill } from 'react-icons/bs'
 import { BsStars } from 'react-icons/bs'
+import { useEffect } from 'react'
 
 const papaoutaiItems = {
   name: 'Papaoutai',
@@ -82,6 +83,10 @@ const papaoutaiDetails = [
 ]
 
 const Papaoutai = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-papaoutai-project' className='flex-container'>
       <Header />

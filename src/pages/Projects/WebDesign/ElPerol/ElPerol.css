@@ -305,8 +305,8 @@
   .div-el-perol-admin-images > img {
     width: 259px;
   }
-  .article-el-perol-learning > img {
-    width: 900px;
+  .article-el-perol-learning > img:first-of-type {
+    width: 950px;
   }
 }
 @media (max-width: 1300px) {
@@ -402,7 +402,7 @@
   .div-el-perol-admin-images > img {
     width: 225px;
   }
-  .article-el-perol-learning > img {
+  .article-el-perol-learning > img:first-of-type {
     width: 100%;
   }
 }
@@ -578,13 +578,13 @@
   .div-el-perol-process-img2 {
     background-color: red;
     width: 250px;
-    height: 300px;
+    height: 350px;
   }
   .div-el-perol-process-img2 > img {
     height: 100%;
     width: auto;
     object-fit: cover;
-    object-position: -170px 0;
+    object-position: -227px 0;
   }
   .div-el-perol-admin-images > img {
     width: 250px;
