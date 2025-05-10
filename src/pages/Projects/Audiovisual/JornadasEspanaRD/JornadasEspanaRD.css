@@ -34,8 +34,9 @@
   object-fit: contain;
 }
 .ul-semanas-espana-main {
-  width: 1500px;
-  height: auto;
+  width: 1200px;
+  height: 100px;
+  flex-wrap: wrap;
   gap: 20px;
   margin-top: var(--pf-margin-s);
 }
@@ -49,7 +50,7 @@
   letter-spacing: 1.5px;
 }
 
-/*Article-focus-papaoutai*/
+/*Article-focus-semanas-espana*/
 .article-semanas-espana-focus,
 .article-semanas-espana-challenges,
 .article-semanas-espana-process,
@@ -134,106 +135,74 @@
   border-radius: var(--pf-br1);
 }
 
-/*Article-challenges-papaoutai*/
-.div-papaoutai-challenges-img {
+/*Article-challenges-semanas-espana*/
+.div-semanas-espana-challenges-img {
   width: 1050px;
   height: 600px;
   margin: var(--pf-margin-m) auto;
   margin-bottom: var(--pf-margin-section);
 }
-.div-papaoutai-challenges-img > img {
+.div-semanas-espana-challenges-img > img {
   width: 100%;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
 
-/*Article-references-papaoutai*/
-.div-papaoutai-references-img {
-  width: 1100px;
-  height: auto;
-  margin: var(--pf-margin-m) auto;
-  margin-bottom: var(--pf-margin-l);
-}
-.div-papaoutai-references-img > img:first-of-type {
-  width: 100%;
-  object-fit: contain;
-}
-.div-papaoutai-references-img > img:last-of-type {
-  display: none;
-}
-
-/*Article-Papaoutai-Camera*/
-.div-papaoutai-camera-img {
+/*Article-events-semanas-espana*/
+.div-semanas-espana-events-img {
   width: 800px;
   height: auto;
-  margin: var(--pf-margin-m) auto;
-  margin-bottom: var(--pf-margin-l);
   gap: 30px;
-}
-.div-papaoutai-camera-img > img:first-of-type {
-  height: 230px;
-  object-fit: contain;
-}
-.div-papaoutai-camera-img > img:last-of-type {
-  height: 220px;
-  object-fit: contain;
-  box-shadow: 0 5px 35px 0px #87577c80;
-  border-radius: var(--pf-br1);
-}
-
-/*Article-Papaoutai-Color-Grading*/
-.div-papaoutai-color-grading-img1 {
-  width: 800px;
-  height: auto;
   margin: var(--pf-margin-m) auto;
-  gap: 30px;
 }
-.div-papaoutai-color-grading-img2 {
-  height: auto;
-  margin: var(--pf-margin-m) auto;
-  margin-bottom: var(--pf-margin-l);
-}
-.div-papaoutai-color-grading-img1 > img {
-  height: 280px;
-  object-fit: contain;
+.div-semanas-espana-events-img > img {
+  width: 350px;
+  object-fit: cover;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
-}
-.div-papaoutai-color-grading-img2 > img:first-of-type {
-  width: 1100px;
-  object-fit: contain;
-}
-.div-papaoutai-color-grading-img2 > img:last-of-type {
-  display: none;
 }
 
 /*Article-Papaoutai-Learning*/
-.div-papaoutai-learning-img {
-  width: 1100px;
-  height: auto;
+.div-semanas-espana-learning-img {
+  width: 1050px;
+  height: 600px;
   margin: var(--pf-margin-m) auto;
-  gap: 50px;
+  margin-bottom: var(--pf-margin-section);
 }
-.div-papaoutai-learning-img > img {
-  width: 500px;
+.div-semanas-espana-learning-img > img {
+  width: 100%;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
 
 /*Article-Papaoutai-Mistakes*/
-.div-papaoutai-mistakes-img {
+.div-semanas-espana-mistakes-img {
   width: 1100px;
   height: auto;
   margin: var(--pf-margin-m) auto;
   gap: 50px;
 }
-.div-papaoutai-mistakes-img > img {
+.div-semanas-espana-mistakes-img > img {
   width: 100%;
   object-fit: contain;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
+}
+.article-semanas-espana-link {
+  height: 150px;
+  width: 300px;
+  flex-direction: column;
+}
+.article-semanas-espana-link > a {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.logo-link-semanas-espana {
+  height: 40px;
+  width: 40px;
 }
 
 /*MediaQueries*/

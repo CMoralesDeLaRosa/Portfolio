@@ -35,26 +35,28 @@ const jornadasEspanaRDItems = {
   challenges:
     'The main challenge of this project was carrying it out remotely. I handled the video editing from Spain, which made thorough planning and close collaboration between the filming and editing teams essential. Additionally, the delivery timeline was very tight, requiring an agile and highly efficient workflow.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741723080/Porfolio/Papaoutai/Papaoutai-image4.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746876863/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image6.png',
   events:
     'The video series includes a short promotional teaser, a general overview video of the entire celebration, a dedicated piece on the Hispanidad Regatta, and another on the Dalí Exhibition. All the videos share a consistent visual aesthetic and camera movement style to ensure unity across the series. A musical line by the same artist was also selected to provide continuity throughout the pieces.',
   imgEvents1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743615449/Porfolio/Papaoutai/Papaoutai-camera-scheme.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746877548/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image7.png',
   imgEvents2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742846332/Porfolio/Papaoutai/Papaoutai-image7.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746877560/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image8.png',
+  imgEvents3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746877579/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image9.png',
   events2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743615449/Porfolio/Papaoutai/Papaoutai-camera-scheme.png',
   learning:
     'Due to the tight delivery timeline, the pre-production phase was minimal, requiring daily coordination, planning, filming, and editing. This made the project significantly more complex than it might appear at first glance, given the short duration of the videos. However, this situation allowed me to develop the ability to work efficiently under pressure and to solve unforeseen issues quickly. It also taught me the importance of adapting when original plans cannot be executed, by promptly finding high-quality alternatives.',
-  imgLearning1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papoutai-image10.png',
-  imgLearning2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742931682/Porfolio/Papaoutai/Papaoutai-image11.png',
+  imgLearning:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746877941/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image10.png',
   mistakes:
     'Regarding areas for improvement, the limited delivery timeframe affected certain aspects of video quality—particularly the audio. While efforts were made to achieve the best possible sound for both interviews and voice-overs, the time constraints prevented further refinement. For future projects, I have learned that there are methods to obtain higher audio quality while also reducing post-production time.',
   imgMistakes:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1742932468/Porfolio/Papaoutai/Papaoutai-image12.png',
-  link: 'https://www.youtube.com/watch?v=918lYUKCCzA'
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746877946/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-image-11.png',
+  link1: 'https://www.youtube.com/watch?v=NFMLWeovSlY&t=10s',
+  link2: 'https://www.youtube.com/watch?v=KLdc03EqLPU&t=8s',
+  link3: 'https://www.youtube.com/watch?v=pGAkIQI7yAc'
 }
 const jornadasEspanaRDDetails = [
   {
@@ -129,94 +131,63 @@ const JornadasEspanaRD = () => {
           <img src={jornadasEspanaRDItems.imgFocus5} alt='Frame of interview' />
         </div>
       </article>
-      <article className='article-papaoutai-challenges flex-container'>
+      <article className='article-semanas-espana-challenges flex-container'>
         <h3>Challenges</h3>
         <p>{jornadasEspanaRDItems.challenges}</p>
-        <div className='div-papaoutai-challenges-img'>
+        <div className='div-semanas-espana-challenges-img'>
           <img
             src={jornadasEspanaRDItems.imgChallenge1}
-            alt='Frame of Papaoutai video'
+            alt='Frame of Dali, ilustrando genios video'
           />
         </div>
       </article>
-      <article className='article-papaoutai-references flex-container'>
-        <h3>References</h3>
-        <p>{jornadasEspanaRDItems.references1}</p>
-        <p>{jornadasEspanaRDItems.references2}</p>
-        <div className='div-papaoutai-references-img'>
+      <article className='article-semanas-espana-events flex-container'>
+        <h3>Events</h3>
+        <p>{jornadasEspanaRDItems.events}</p>
+        <div className='div-semanas-espana-events-img flex-container'>
           <img
-            src={jornadasEspanaRDItems.imgReferences1}
-            alt='Videodance References'
+            src={jornadasEspanaRDItems.imgEvents1}
+            alt='Frame of presentation video'
           />
           <img
-            src={jornadasEspanaRDItems.imgReferences2}
-            alt='Videodance References'
+            src={jornadasEspanaRDItems.imgEvents2}
+            alt='Frame of Regata de la Hispanidad video'
           />
-        </div>
-        <p>{jornadasEspanaRDItems.references3}</p>
-      </article>
-      <article className='article-papaoutai-camera flex-container'>
-        <h3>Camera</h3>
-        <p>{jornadasEspanaRDItems.camera}</p>
-        <div className='div-papaoutai-camera-img flex-container'>
-          <img src={jornadasEspanaRDItems.imgCamera1} alt='Schemes of camera' />
           <img
-            src={jornadasEspanaRDItems.imgCamera2}
-            alt='Frame of the video'
+            src={jornadasEspanaRDItems.imgEvents3}
+            alt='Frame of Dalí, ilustrando genios video'
           />
         </div>
       </article>
-      <article className='article-papaoutai-color-grading flex-container'>
-        <h3>Color Grading</h3>
-        <p>{jornadasEspanaRDItems.colorGrading}</p>
-        <div className='div-papaoutai-color-grading-img1 flex-container'>
-          <img
-            src={jornadasEspanaRDItems.imgColorGrading1}
-            alt='Frame of the original video'
-          />
-          <img
-            src={jornadasEspanaRDItems.imgColorGrading2}
-            alt='Frame of the original video'
-          />
-        </div>
-        <div className='div-papaoutai-color-grading-img2 flex-container'>
-          <img
-            src={jornadasEspanaRDItems.imgColorGrading3}
-            alt='Examples of color grading'
-          />
-          <img
-            src={jornadasEspanaRDItems.imgColorGrading4}
-            alt='Examples of color grading'
-          />
-        </div>
-      </article>
-      <article className='article-papaoutai-learning flex-container'>
+      <article className='article-semanas-espana-learning flex-container'>
         <h3>Learning</h3>
         <p>{jornadasEspanaRDItems.learning}</p>
-        <div className='div-papaoutai-learning-img flex-container'>
+        <div className='div-semanas-espana-learning-img flex-container'>
           <img
-            src={jornadasEspanaRDItems.imgLearning1}
-            alt='Image of making off'
-          />
-          <img
-            src={jornadasEspanaRDItems.imgLearning2}
-            alt='Image of making off'
+            src={jornadasEspanaRDItems.imgLearning}
+            alt='Frame of Dalí, ilustrando genios video'
           />
         </div>
       </article>
-      <article className='article-papaoutai-mistakes flex-container'>
+      <article className='article-semanas-espana-mistakes flex-container'>
         <h3>Mistakes</h3>
         <p>{jornadasEspanaRDItems.mistakes}</p>
-        <div className='div-papaoutai-mistakes-img flex-container'>
+        <div className='div-semanas-espana-mistakes-img flex-container'>
           <img
             src={jornadasEspanaRDItems.imgMistakes}
-            alt='Frame of the video'
+            alt='Frame of Regata de la Hispanidad video'
           />
         </div>
       </article>
       <article className='article-el-perol-link flex-container'>
-        <a href={jornadasEspanaRDItems.link} target='_blank'>
-          Want to check it out?
+        <a href={jornadasEspanaRDItems.link1} target='_blank'>
+          Ready to explore the project? |
+        </a>
+        <a href={jornadasEspanaRDItems.link2} target='_blank'>
+          This is de second one |
+        </a>
+        <a href={jornadasEspanaRDItems.link3} target='_blank'>
+          And the last one!
         </a>
         <BsStars className='logo-link-el-perol' />
       </article>
