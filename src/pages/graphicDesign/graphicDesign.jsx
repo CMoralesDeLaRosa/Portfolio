@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './graphicDesign.css'
@@ -25,6 +26,10 @@ const graphicDesignProjects = [
 ]
 
 const GraphicDesign = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-graphicDesign'>
       <Header />

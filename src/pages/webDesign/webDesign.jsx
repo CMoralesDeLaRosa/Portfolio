@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import Header from '../../components/header/header'
 import './webDesign.css'
 import Footer from '../../components/footer/footer'
+import { useEffect } from 'react'
 
 const webDesignProjects = [
   {
@@ -26,6 +27,9 @@ const webDesignProjects = [
 
 const WebDesign = () => {
   const navigate = useNavigate()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const handleProject = (path) => {
     navigate(path)

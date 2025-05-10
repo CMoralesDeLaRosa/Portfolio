@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import Header from '../../components/header/header'
 import './Audiovisual.css'
 import Footer from '../../components/footer/footer'
+import { useEffect } from 'react'
 
 const audiovisualProjects = [
   {
@@ -26,6 +27,9 @@ const audiovisualProjects = [
 ]
 const Audiovisual = () => {
   const navigate = useNavigate()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const handleProject = (path) => {
     navigate(path)

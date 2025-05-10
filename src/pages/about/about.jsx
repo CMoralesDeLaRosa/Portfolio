@@ -7,6 +7,7 @@ import { GiCactusPot } from 'react-icons/gi'
 import { FaSquarePlus } from 'react-icons/fa6'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
+import { useEffect } from 'react'
 
 const skills = [
   'HTML',
@@ -48,6 +49,10 @@ const links = [
 ]
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section id='section-about' className='flex-container'>
       <Header />
