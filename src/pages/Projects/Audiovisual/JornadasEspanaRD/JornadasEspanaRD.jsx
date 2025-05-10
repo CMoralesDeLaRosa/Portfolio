@@ -16,8 +16,7 @@ const jornadasEspanaRDItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746874955/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-Main-Image.png',
   type: 'Promotional Videos',
   tools: 'Adobe Illustrator - Davinci Resolve',
-  colaboration:
-    'Freelance - Embajada de España en la República Dominicana - ¡Oh!PROJECT',
+  colaboration: 'Freelance - Embajada de España en RD - ¡Oh!PROJECT',
   focus1:
     'The objective of this project was to produce a series of promotional videos for the Spain Weeks in the Dominican Republic, with the purpose of publicizing the event schedule. The videos were designed to appeal to a wide audience in order to encourage strong attendance at the various activities.',
   imgFocus1:
@@ -179,7 +178,7 @@ const JornadasEspanaRD = () => {
           />
         </div>
       </article>
-      <article className='article-el-perol-link flex-container'>
+      <article className='article-semanas-espana-link flex-container'>
         <a href={jornadasEspanaRDItems.link1} target='_blank'>
           Ready to explore the project? |
         </a>
@@ -189,7 +188,7 @@ const JornadasEspanaRD = () => {
         <a href={jornadasEspanaRDItems.link3} target='_blank'>
           And the last one!
         </a>
-        <BsStars className='logo-link-el-perol' />
+        <BsStars className='logo-link-semanas-espana' />
       </article>
       <Footer />
     </section>
