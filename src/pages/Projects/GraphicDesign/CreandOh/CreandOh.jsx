@@ -14,10 +14,10 @@ const creandOhItems = {
   name: 'Creand¡Oh!',
   imgMain:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738352580/Porfolio/El%20Perol/El-perol-main-image.png',
-  type: 'Web site - Backend and Frontend',
+  type: 'Comprehensive Graphic Design for Brand',
   tools:
     'Adobe Illustrator - Adobe Photoshop - Adobe Premiere Pro - Davinci Resolve',
-  colaboration: '',
+  colaboration: 'Freelance',
   focus:
     'The main objective of this project was to develop an interactive web application focused on traditional Spanish cuisine recipes. User experience was key, so functionalities were integrated to allow dynamic and personalized interaction with the content. In addition, the platform aimed to stand out from other recipe websites by implementing an innovative and appealing design, aimed at capturing and maintaining the interest of the target audience. The combination of usability, aesthetics, and functionality was essential to provide a unique and engaging experience.',
   imgFocus1:
