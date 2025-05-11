@@ -44,7 +44,7 @@ const links = [
   {
     icon: <FaSquarePlus />,
     label: 'CV',
-    url: 'https://drive.google.com/file/d/1Kpo3EkhTdGorhdD05E0yTWir7i8W_4XE/view?usp=sharing'
+    url: 'https://drive.google.com/file/d/1wVt74UtBJiqHpMgBN0e0TagT71oX4kR8/view?usp=sharing'
   }
 ]
 
