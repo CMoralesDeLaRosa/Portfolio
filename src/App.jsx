@@ -10,7 +10,7 @@ import {
   webDesignRoutes
 } from './utils/routes'
 import React from 'react'
-import About from './pages/About/about'
+import About from './pages/about/about'
 
 function App() {
   return (
