@@ -5,19 +5,20 @@ import CreandOh from '../pages/Projects/GraphicDesign/CreandOh/CreandOh'
 import ElPerol from '../pages/Projects/WebDesign/ElPerol/ElPerol'
 import PokemonCards from '../pages/Projects/WebDesign/PokemonCards/PokemonCards'
 import RetroGames from '../pages/Projects/WebDesign/RetroGames/RetroGames'
+import WebDesign from '../pages/webDesign/webDesign'
 
 export const webDesignRoutes = [
   {
     path: 'web-design/el-perol',
-    component: ElPerol
+    component: WebDesign
   },
   {
     path: 'web-design/pokemon-cards',
-    component: PokemonCards
+    component: WebDesign
   },
   {
     path: 'web-design/retro-games',
-    component: RetroGames
+    component: WebDesign
   }
 ]
 
@@ -37,15 +38,15 @@ export const audiovisualRoutes = [
 ]
 export const graphicDesignRoutes = [
   {
-    path: 'graphic-design/jornadas-diversidad-cultural',
+    path: 'graphic-design',
     component: Papaoutai
   },
   {
-    path: 'graphic-design/creandoh',
+    path: 'graphic-design',
     component: CreandOh
   },
   {
-    path: 'graphic-design/mopka',
+    path: 'graphic-design',
     component: jornadasEspanaRD
   }
 ]
