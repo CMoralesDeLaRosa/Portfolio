@@ -5,20 +5,19 @@ import CreandOh from '../pages/Projects/GraphicDesign/CreandOh/CreandOh'
 import ElPerol from '../pages/Projects/WebDesign/ElPerol/ElPerol'
 import PokemonCards from '../pages/Projects/WebDesign/PokemonCards/PokemonCards'
 import RetroGames from '../pages/Projects/WebDesign/RetroGames/RetroGames'
-import WebDesign from '../pages/webDesign/webDesign'
 
 export const webDesignRoutes = [
   {
     path: 'web-design/el-perol',
-    component: WebDesign
+    component: ElPerol
   },
   {
     path: 'web-design/pokemon-cards',
-    component: WebDesign
+    component: PokemonCards
   },
   {
     path: 'web-design/retro-games',
-    component: WebDesign
+    component: RetroGames
   }
 ]
 
