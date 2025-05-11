@@ -18,7 +18,7 @@ const skills = [
   'Figma',
   'Git',
   'Adobe Illustrator',
-  'Adobe Premire',
+  'Adobe Premire Pro',
   'Adobe Photoshop',
   'Davinci Resolver',
   'Microsoft Office'

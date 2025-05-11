@@ -4,9 +4,13 @@ import LandingPage from './pages/landingPage/landingPage'
 import WebDesign from './pages/webDesign/webDesign'
 import GraphicDesign from './pages/graphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
-import { audiovisualRoutes, webDesignRoutes } from './utils/routes'
+import {
+  audiovisualRoutes,
+  graphicDesignRoutes,
+  webDesignRoutes
+} from './utils/routes'
 import React from 'react'
-import About from './pages/about/about'
+import About from './pages/About/about'
 
 function App() {
   return (
@@ -25,6 +29,13 @@ function App() {
         />
       ))}
       {audiovisualRoutes.map((route, index) => (
+        <Route
+          key={index}
+          path={route.path}
+          element={React.createElement(route.component)}
+        />
+      ))}
+      {graphicDesignRoutes.map((route, index) => (
         <Route
           key={index}
           path={route.path}

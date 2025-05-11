@@ -2,34 +2,39 @@ import { useEffect } from 'react'
 import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
 import './graphicDesign.css'
+import { useNavigate } from 'react-router-dom'
 
 const graphicDesignProjects = [
   {
     title: 'Jornadas Diversidad Cultural',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738175377/Porfolio/Jornadas-Graphic-Design-project.jpg',
     colaboration: 'Universidad de Alcalá',
-    path: '/web-design'
+    path: '/graphic-design/jornadas-diversidad-cultural'
   },
 
   {
     title: 'Creand¡Oh!',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738263069/Porfolio/Creandoh-Graphic-Design-project.png',
     colaboration: 'Freelance',
-    path: '/web-design'
+    path: '/graphic-design/creandoh'
   },
   {
     title: 'Mopka',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738262823/Porfolio/Mopka-Graphic-Design-project.png',
     colaboration: 'Freelance',
-    path: '/web-design'
+    path: '/graphic-design/mopka'
   }
 ]
 
 const GraphicDesign = () => {
+  const navigate = useNavigate()
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
+  const handleProject = (path) => {
+    navigate(path)
+  }
   return (
     <section id='section-graphicDesign'>
       <Header />

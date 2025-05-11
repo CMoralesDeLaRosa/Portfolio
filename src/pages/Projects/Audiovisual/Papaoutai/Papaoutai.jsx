@@ -15,7 +15,7 @@ const papaoutaiItems = {
   imgMain:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1741636119/Porfolio/Papaoutai/Papaoutai-main-image.png',
   type: 'Videodance project',
-  tools: 'Adobe Illustrator - Davinci Resolve',
+  tools: 'Adobe Premiere Pro - Davinci Resolve',
   colaboration: 'Freelance - Creand¡Oh! - Fernando Corredoira',
   focus1:
     'The main concept of this project is the representation of the emotions experienced by a person in the absence of a father or mother in their life. These emotions range from deep anger to love and admiration. This personal conflict is expressed through the movement of dance, complemented by audiovisual tools.',

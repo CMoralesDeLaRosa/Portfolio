@@ -15,7 +15,7 @@ const jornadasEspanaRDItems = {
   imgMain:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746874955/Porfolio/Semanas%20de%20Espa%C3%B1a%20en%20RD/Semanas-Espa%C3%B1a-RD-Main-Image.png',
   type: 'Promotional Videos',
-  tools: 'Adobe Illustrator - Davinci Resolve',
+  tools: 'Adobe Premiere Pro - Davinci Resolve',
   colaboration: 'Freelance - Embajada de España en RD - ¡Oh!PROJECT',
   focus1:
     'The objective of this project was to produce a series of promotional videos for the Spain Weeks in the Dominican Republic, with the purpose of publicizing the event schedule. The videos were designed to appeal to a wide audience in order to encourage strong attendance at the various activities.',

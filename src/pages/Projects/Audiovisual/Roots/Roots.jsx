@@ -15,7 +15,7 @@ const rootsItems = {
   imgMain:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1743701013/Porfolio/Roots/Roots-main-image.png',
   type: 'Hip Hop Documentary',
-  tools: 'Adobe Illustrator',
+  tools: 'Adobe Premiere Pro',
   colaboration: 'Freelance - Diffraction Productions',
   focus1:
     'Roots: Córdoba Hip-Hop Documentary is a film that aims to give visibility to the urban cultural movement in Córdoba, from its beginnings to the present day, exploring its influences, branches, and some of its most representative artists.',
