@@ -9,6 +9,10 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 import { AiOutlineGift } from 'react-icons/ai'
 import Footer from '../../../../components/footer/footer'
 import { useEffect } from 'react'
+import { FaHandsHelping } from 'react-icons/fa'
+import { HiMiniPaintBrush } from 'react-icons/hi2'
+import { FaPeopleRobbery } from 'react-icons/fa6'
+import { FaMeteor } from 'react-icons/fa'
 
 const creandOhItems = {
   name: 'Creand¡Oh!',
@@ -19,11 +23,13 @@ const creandOhItems = {
     'Adobe Illustrator - Adobe Photoshop - Adobe Premiere Pro - Davinci Resolve',
   colaboration: 'Freelance',
   focus:
-    'The main objective of this project was to develop an interactive web application focused on traditional Spanish cuisine recipes. User experience was key, so functionalities were integrated to allow dynamic and personalized interaction with the content. In addition, the platform aimed to stand out from other recipe websites by implementing an innovative and appealing design, aimed at capturing and maintaining the interest of the target audience. The combination of usability, aesthetics, and functionality was essential to provide a unique and engaging experience.',
+    'This project focused on developing the visual identity for Cread¡Oh!, a performing arts and dance school born from the merger of two associations: Mopka and ¡Oh!PROJECT!. One of the main goals was to preserve the essence of both original brands, blending them into a new, cohesive, and recognizable identity. Additionally, it was essential to create a logo that represented the wide range of artistic disciplines offered by the school and resonated with its diverse target audiences.',
   imgFocus1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738695178/Porfolio/El%20Perol/Elperol-image2.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
   imgFocus2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738697207/Porfolio/El%20Perol/ElPerol-image3.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747074499/Porfolio/Creand%C2%A1Oh%21/CreandOh-image2.jpg',
+  imgFocus3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747074997/Porfolio/Creand%C2%A1Oh%21/CreandOh-image3.jpg',
   challenges:
     "One of the most significant challenges was managing the database information dynamically while ensuring that the web's visual structure remained consistent. It was crucial to maintain precise control over margins, proportions, and content containers, so that despite allowing users the flexibility to add content, the aesthetics and layout of the interface were not compromised.",
   imgChallenge1:
@@ -94,21 +100,27 @@ const CreandOh = () => {
       <article className='article-creandoh-focus'>
         <h3>Project Focus</h3>
         <div className='div-scheme-creandoh'>
-          <IoBulb className='big-icon-scheme-web-design' />
+          <FaHandsHelping className='big-icon-scheme-web-design' />
           <FaPlus className='small-icon-scheme-web-design' />
-          <TbExchange className='big-icon-scheme-web-design' />
+          <HiMiniPaintBrush className='big-icon-scheme-web-design' />
           <FaPlus className='small-icon-scheme-web-design' />
-          <BsPersonArmsUp className='big-icon-scheme-web-design' />
+          <FaPeopleRobbery className='big-icon-scheme-web-design' />
           <FaLongArrowAltRight className='small-icon-scheme-web-design' />
-          <AiFillThunderbolt className='big-icon-scheme-web-design' />
+          <FaMeteor className='big-icon-scheme-web-design' />
         </div>
         <p>{creandOhItems.focus}</p>
         <div className='div-images-focus-creandoh flex-container'>
-          <div>
+          <div className='flex-container'>
             <img src={creandOhItems.imgFocus1} alt='Web site El Perol' />
           </div>
           <div>
-            <img src={creandOhItems.imgFocus2} alt='Web site El Perol' />
+            <img
+              src={creandOhItems.imgFocus2}
+              alt='Cristina Masson in the opening of Creand¡Oh!'
+            />
+          </div>
+          <div>
+            <img src={creandOhItems.imgFocus3} alt='Web site El Perol' />
           </div>
         </div>
       </article>

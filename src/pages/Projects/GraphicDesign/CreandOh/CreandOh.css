@@ -110,32 +110,35 @@
 }
 .div-images-focus-creandoh {
   width: 100%;
-  height: 600px;
-  gap: 60px;
+  height: auto;
+  gap: 30px;
   margin-top: var(--pf-margin-s);
+  flex-direction: column;
 }
 .div-images-focus-creandoh > div:first-child {
   width: 700px;
-  height: 550px;
-  overflow: hidden;
-  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  height: 300px;
   border-radius: var(--pf-br1);
 }
 .div-images-focus-creandoh > div:first-child > img {
-  height: 110%;
-  width: 100%;
+  height: auto;
+  width: 600px;
   object-fit: cover;
 }
-.div-images-focus-creandoh > div:last-of-type {
-  width: 300px;
-  height: 550px;
+.div-images-focus-creandoh > div:last-of-type,
+.div-images-focus-creandoh > div:nth-of-type(2) {
+  width: 850px;
+  height: 450px;
   overflow: hidden;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
   border-radius: var(--pf-br1);
 }
+.div-images-focus-creandoh > div:last-of-type > img,
+.div-images-focus-creandoh > div:nth-of-type(2) > img {
+  width: 100%;
+}
 .div-images-focus-creandoh > div:last-of-type > img {
-  height: 100%;
-  object-position: -30px 0px;
+  object-position: 0 -140px;
 }
 
 /*Article-challenges-creandoh*/
