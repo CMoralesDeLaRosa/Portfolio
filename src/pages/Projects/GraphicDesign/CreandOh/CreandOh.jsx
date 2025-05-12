@@ -13,7 +13,7 @@ import { useEffect } from 'react'
 const creandOhItems = {
   name: 'Creand¡Oh!',
   imgMain:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738352580/Porfolio/El%20Perol/El-perol-main-image.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747070381/Porfolio/Creand%C2%A1Oh%21/Creando-image-main.png',
   type: 'Comprehensive Graphic Design for Brand',
   tools:
     'Adobe Illustrator - Adobe Photoshop - Adobe Premiere Pro - Davinci Resolve',

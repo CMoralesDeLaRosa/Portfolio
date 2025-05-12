@@ -37,15 +37,15 @@ export const audiovisualRoutes = [
 ]
 export const graphicDesignRoutes = [
   {
-    path: 'graphic-design',
+    path: 'graphic-design/jornadas-diversidad-cultural',
     component: Papaoutai
   },
   {
-    path: 'graphic-design',
+    path: 'graphic-design/creandoh',
     component: CreandOh
   },
   {
-    path: 'graphic-design',
+    path: 'graphic-design/mopka',
     component: jornadasEspanaRD
   }
 ]

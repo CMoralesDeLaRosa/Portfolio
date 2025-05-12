@@ -9,20 +9,20 @@ const graphicDesignProjects = [
     title: 'Jornadas Diversidad Cultural',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738175377/Porfolio/Jornadas-Graphic-Design-project.jpg',
     colaboration: 'Universidad de Alcalá',
-    path: '/graphic-design'
+    path: '/graphic-design/jornadas-diversidad-cultural'
   },
 
   {
     title: 'Creand¡Oh!',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738263069/Porfolio/Creandoh-Graphic-Design-project.png',
     colaboration: 'Freelance',
-    path: '/graphic-design'
+    path: '/graphic-design/creandoh'
   },
   {
     title: 'Mopka',
     img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738262823/Porfolio/Mopka-Graphic-Design-project.png',
     colaboration: 'Freelance',
-    path: '/graphic-design'
+    path: '/graphic-design/mopka'
   }
 ]
 
