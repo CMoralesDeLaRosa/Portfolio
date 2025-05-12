@@ -142,16 +142,13 @@
 }
 
 /*Article-challenges-creandoh*/
-.div-creandoh-challenges-img {
-  width: 1100px;
-  height: 600px;
+.div-creandoh-challenges-img1 {
+  width: 700px;
+  height: auto;
 }
-.div-creandoh-challenges-img > img:first-of-type {
+.div-creandoh-challenges-img1 > img {
   width: 100%;
   object-fit: contain;
-}
-.img-creandoh-challenges-mobile {
-  display: none;
 }
 
 /*Article-procces-creandoh*/
