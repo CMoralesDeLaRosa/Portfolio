@@ -1,4 +1,4 @@
-import GraphicDesign from '../pages/GraphicDesign/GraphicDesign'
+import GraphicDesign from '../pages/graphicDesign/graphicDesign'
 import jornadasEspanaRD from '../pages/Projects/Audiovisual/JornadasEspanaRD/JornadasEspanaRD'
 import Papaoutai from '../pages/Projects/Audiovisual/Papaoutai/Papaoutai'
 import Roots from '../pages/Projects/Audiovisual/Roots/Roots'
