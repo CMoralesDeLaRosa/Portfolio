@@ -2,7 +2,6 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import LandingPage from './pages/landingPage/landingPage'
 import WebDesign from './pages/webDesign/webDesign'
-import GraphicDesign from './pages/GraphicDesign/graphicDesign'
 import Audiovisual from './pages/Audiovisual/Audiovisual'
 import {
   audiovisualRoutes,
@@ -11,6 +10,7 @@ import {
 } from './utils/routes'
 import React from 'react'
 import About from './pages/about/about'
+import GraphicDesign from './pages/GraphicDesign/graphicDesign'
 
 function App() {
   return (
