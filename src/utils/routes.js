@@ -1,3 +1,4 @@
+import GraphicDesign from '../pages/GraphicDesign/graphicDesign'
 import jornadasEspanaRD from '../pages/Projects/Audiovisual/JornadasEspanaRD/JornadasEspanaRD'
 import Papaoutai from '../pages/Projects/Audiovisual/Papaoutai/Papaoutai'
 import Roots from '../pages/Projects/Audiovisual/Roots/Roots'
@@ -37,15 +38,15 @@ export const audiovisualRoutes = [
 ]
 export const graphicDesignRoutes = [
   {
-    path: 'graphic-design/jornadas-diversidad-cultural',
-    component: Papaoutai
+    path: 'graphic-design',
+    component: GraphicDesign
   },
   {
     path: 'graphic-design/creandoh',
     component: CreandOh
   },
   {
-    path: 'graphic-design/mopka',
-    component: jornadasEspanaRD
+    path: 'graphic-design',
+    component: GraphicDesign
   }
 ]
