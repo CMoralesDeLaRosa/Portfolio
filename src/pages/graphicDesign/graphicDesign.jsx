@@ -4,6 +4,7 @@ import Header from '../../components/header/header'
 import './GraphicDesign.css'
 import { useNavigate } from 'react-router-dom'
 
+/*Forzar cambios*/
 const graphicDesignProjects = [
   {
     title: 'Jornadas Diversidad Cultural',
