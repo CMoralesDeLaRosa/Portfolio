@@ -1,9 +1,7 @@
 import Header from '../../../../components/header/header'
 import './CreandOh.css'
 import { FaSquare } from 'react-icons/fa6'
-import { IoBulb } from 'react-icons/io5'
 import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa'
-import { AiOutlineGift } from 'react-icons/ai'
 import Footer from '../../../../components/footer/footer'
 import { useEffect } from 'react'
 import { FaHandsHelping } from 'react-icons/fa'
@@ -30,15 +28,17 @@ const creandOhItems = {
   challenges2:
     'In addition to the logo design, it was essential to maintain a coherent visual identity across all elements related to the school. This included not only the interior design of the space but also the advertising materials and signage. The goal was to create a unified visual identity that connected all aspects of the project, while being flexible enough to adapt to different activities and styles without losing its essence.',
   imgChallenge1:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747155309/Porfolio/Creand%C2%A1Oh%21/Creando-image4.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158341/Porfolio/Creand%C2%A1Oh%21/Creando-image4.png',
   imgChallenge2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746554260/Porfolio/El%20Perol/El-Perol-Scheme-Mobile.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156028/Porfolio/Creand%C2%A1Oh%21/CreandOh-image5.jpg',
+  imgChallenge3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156040/Porfolio/Creand%C2%A1Oh%21/CreandOh-image6.jpg',
   process1:
     'To achieve a unified design, I first selected the most representative elements from each visual identity: the isotypes. From there, I chose a standard yet fluid typeface that reflected the artistic nature of the project. Finally, I retained the original colors —purple and yellow— in subtle accents, providing visual continuity while allowing greater flexibility for the new logo.',
   imgProcess1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
   imgProcess2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158840/Porfolio/Creand%C2%A1Oh%21/CreandOh-image7.png',
   process2:
     'This graphic line has been used for five years with excellent results, thanks to its adaptability to all types of projects and the strong visual identity it has provided to the center. This latter aspect has been key in positioning the business ahead of similar centers in the Community of Madrid. Nowadays, the project is led by another professional who has adapted the graphic line to reflect his own background. ',
   learning:
@@ -46,9 +46,7 @@ const creandOhItems = {
   mistakes:
     'Regarding the mistakes made, I believe the graphic line had such a strong personality that, in some projects, it was difficult to adapt without compromising quality. This led to longer design times, whereas a similar but more flexible approach could have streamlined the process without losing visual coherence.',
   imgLearning:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1739820184/Porfolio/El%20Perol/El-perol-learning-image.png',
-  imgLearning2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1746555426/Porfolio/El%20Perol/El-Perol-image10.png'
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747159014/Porfolio/Creand%C2%A1Oh%21/CreandOh-image8.jpg'
 }
 const creandOhDetails = [
   { icon: <FaSquare className='square-green' />, text: creandOhItems.type },
@@ -95,12 +93,15 @@ const CreandOh = () => {
         <p>{creandOhItems.focus}</p>
         <div className='div-images-focus-creandoh flex-container'>
           <div className='flex-container'>
-            <img src={creandOhItems.imgFocus1} alt='Web site El Perol' />
+            <img
+              src={creandOhItems.imgFocus1}
+              alt='Cristina Masson in the opening of Creand¡Oh!'
+            />
           </div>
           <div className='flex-container'>
             <img
               src={creandOhItems.imgFocus2}
-              alt='Cristina Masson in the opening of Creand¡Oh!'
+              alt='Choco S and Asterisko in the opening of Creand¡Oh!'
             />
           </div>
         </div>
@@ -109,29 +110,42 @@ const CreandOh = () => {
         <h3>Challenges</h3>
         <p>{creandOhItems.challenges1}</p>
         <div className='div-creandoh-challenges-img1'>
-          <img src={creandOhItems.imgChallenge1} />
+          <img src={creandOhItems.imgChallenge1} alt="Poster's examples" />
         </div>
         <p>{creandOhItems.challenges2}</p>
+        <div className='div-creandoh-challenges-img2 flex-container'>
+          <img
+            src={creandOhItems.imgChallenge2}
+            alt='Inner space of Creand¡Oh!'
+          />
+          <img
+            src={creandOhItems.imgChallenge3}
+            alt='Inner space of Creand¡Oh!'
+          />
+        </div>
       </article>
       <article className='article-creandoh-process flex-container'>
         <h3>Project Process</h3>
         <p>{creandOhItems.process1}</p>
         <div className='div-creandoh-process-img1'>
-          <img src={creandOhItems.imgProcess1} alt='Scheme of the process' />
-          <img src={creandOhItems.imgProcess3} alt='Scheme of the process' />
+          <img
+            src={creandOhItems.imgProcess1}
+            alt='Scheme of the process of th design'
+          />
         </div>
         <p>{creandOhItems.process2}</p>
         <div className='div-creandoh-process-img2'>
-          <img src={creandOhItems.imgProcess2} alt='Register part' />
+          <img src={creandOhItems.imgProcess2} alt='Examples of posters' />
         </div>
-        <p>{creandOhItems.process3}</p>
       </article>
       <article className='article-creandoh-learning flex-container'>
         <h3>Learning and mistakes</h3>
-        <img src={creandOhItems.imgLearning} />
-        <img src={creandOhItems.imgLearning2} />
         <p>{creandOhItems.learning}</p>
         <p>{creandOhItems.mistakes}</p>
+        <img
+          src={creandOhItems.imgLearning}
+          alt='Frame of a promotional video of Creand¡Oh!'
+        />
       </article>
       <Footer />
     </section>
