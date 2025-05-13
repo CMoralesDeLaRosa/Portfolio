@@ -19,7 +19,7 @@ function App() {
       <Route path='*' element={<LandingPage />} />
       <Route path='web-design' element={<WebDesign />} />
       <Route path='audiovisual' element={<Audiovisual />} />
-      <Route path='graphic-design' element={<GraphicDesign />} />
+      <Route path='graphic-design' element={<graphicDesign />} />
       <Route path='about' element={<About />} />
       {webDesignRoutes.map((route, index) => (
         <Route
