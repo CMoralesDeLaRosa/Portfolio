@@ -10,7 +10,7 @@ import {
 } from './utils/routes'
 import React from 'react'
 import About from './pages/about/about'
-import GraphicDesign from './pages/GraphicDesign/graphicDesign'
+import GraphicDesign from './pages/GraphicDesign/GraphicDesign'
 
 function App() {
   return (
