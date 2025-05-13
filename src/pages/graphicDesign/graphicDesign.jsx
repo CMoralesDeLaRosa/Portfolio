@@ -25,7 +25,7 @@ const graphicDesignProjects = [
   }
 ]
 
-const graphicDesign = () => {
+const GraphicDesign = () => {
   const navigate = useNavigate()
   const [showAlert, setShowAlert] = useState(false)
   const [alertTitle, setAlertTitle] = useState('')
@@ -73,4 +73,4 @@ const graphicDesign = () => {
   )
 }
 
-export default graphicDesign
+export default GraphicDesign

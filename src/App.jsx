@@ -10,7 +10,7 @@ import {
 } from './utils/routes'
 import React from 'react'
 import About from './pages/about/about'
-import graphicDesign from './pages/graphicDesign/graphicDesign'
+import GraphicDesign from './pages/graphicDesign/graphicDesign'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route path='*' element={<LandingPage />} />
       <Route path='web-design' element={<WebDesign />} />
       <Route path='audiovisual' element={<Audiovisual />} />
-      <Route path='graphic-design' element={<graphicDesign />} />
+      <Route path='graphic-design' element={<GraphicDesign />} />
       <Route path='about' element={<About />} />
       {webDesignRoutes.map((route, index) => (
         <Route
