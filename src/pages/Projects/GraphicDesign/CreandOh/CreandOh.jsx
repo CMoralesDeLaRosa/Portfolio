@@ -33,12 +33,18 @@ const creandOhItems = {
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156028/Porfolio/Creand%C2%A1Oh%21/CreandOh-image5.jpg',
   imgChallenge3:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156040/Porfolio/Creand%C2%A1Oh%21/CreandOh-image6.jpg',
+  imgChallenge4:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161082/Porfolio/Creand%C2%A1Oh%21/CreandOh-image-10.png',
   process1:
     'To achieve a unified design, I first selected the most representative elements from each visual identity: the isotypes. From there, I chose a standard yet fluid typeface that reflected the artistic nature of the project. Finally, I retained the original colors —purple and yellow— in subtle accents, providing visual continuity while allowing greater flexibility for the new logo.',
   imgProcess1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
   imgProcess2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158840/Porfolio/Creand%C2%A1Oh%21/CreandOh-image7.png',
+  imgProcess3:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161082/Porfolio/Creand%C2%A1Oh%21/CreandOh-image9.png',
+  imgProcess4:
+    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161650/Porfolio/Creand%C2%A1Oh%21/CreandOh-image11.png',
   process2:
     'This graphic line has been used for five years with excellent results, thanks to its adaptability to all types of projects and the strong visual identity it has provided to the center. This latter aspect has been key in positioning the business ahead of similar centers in the Community of Madrid. Nowadays, the project is led by another professional who has adapted the graphic line to reflect his own background. ',
   learning:
@@ -111,6 +117,7 @@ const CreandOh = () => {
         <p>{creandOhItems.challenges1}</p>
         <div className='div-creandoh-challenges-img1'>
           <img src={creandOhItems.imgChallenge1} alt="Poster's examples" />
+          <img src={creandOhItems.imgChallenge4} alt="Poster's examples" />
         </div>
         <p>{creandOhItems.challenges2}</p>
         <div className='div-creandoh-challenges-img2 flex-container'>
@@ -132,10 +139,15 @@ const CreandOh = () => {
             src={creandOhItems.imgProcess1}
             alt='Scheme of the process of th design'
           />
+          <img
+            src={creandOhItems.imgProcess4}
+            alt='Scheme of the process of th design'
+          />
         </div>
         <p>{creandOhItems.process2}</p>
         <div className='div-creandoh-process-img2'>
           <img src={creandOhItems.imgProcess2} alt='Examples of posters' />
+          <img src={creandOhItems.imgProcess3} alt='Examples of posters' />
         </div>
       </article>
       <article className='article-creandoh-learning flex-container'>
