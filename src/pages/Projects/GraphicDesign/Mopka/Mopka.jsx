@@ -13,44 +13,43 @@ const mopkaItems = {
   name: 'Mopka',
   imgMain:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747242035/Porfolio/Mopka/Mokpa-image-main.jpg',
-  type: 'Comprehensive Graphic Design for Brand',
-  tools:
-    'Adobe Illustrator - Adobe Photoshop - Adobe Premiere Pro - Davinci Resolve',
+  type: 'Urban art project',
+  tools: 'Adobe Illustrator - Adobe Photoshop',
   colaboration: 'Freelance',
   focus:
-    'This project focused on developing the visual identity for Cread¡Oh!, a performing arts and dance school born from the merger of two associations: Mopka and ¡Oh!PROJECT! One of the main goals was to preserve the essence of both original brands, blending them into a new, cohesive, and recognizable identity. Additionally, it was essential to create a logo and a visual identity that represented the wide range of artistic disciplines offered by the school and resonated with its diverse target audiences.',
+    'Mopka is a platform focused on improving urban spaces by using visual arts as a tool and involving citizens directly in projects carried out in their neighborhoods or cities. We advocate for the renewal of cities and their adaptation to the evolving needs of human beings. We believe that transforming the city must go hand in hand with the transformation of the individuals who inhabit it and visual arts is the perfect tool to achive this goal.',
   imgFocus1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747074499/Porfolio/Creand%C2%A1Oh%21/CreandOh-image2.jpg',
   imgFocus2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747074997/Porfolio/Creand%C2%A1Oh%21/CreandOh-image3.jpg',
-  challenges1:
-    "One of the main challenges was merging both logos while preserving the essence of each and conveying that the space represented both projects. Another key difficulty was creating a visual identity that could encompass a wide range of activities, from children's workshops to Hip Hop battle events.",
-  challenges2:
-    'In addition to the logo design, it was essential to maintain a coherent visual identity across all elements related to the school. This included not only the interior design of the space but also the advertising materials and signage. The goal was to create a unified visual identity that connected all aspects of the project, while being flexible enough to adapt to different activities and styles without losing its essence.',
-  imgChallenge1:
+  goals1:
+    "We believe that art needs a place within the urban spaces. That is why we support the presence of different art forms in public spaces, as they are often confined to venues that can be difficult to access—sometimes for economic reasons. Art should have greater visibility in the streets, encouraging both artistic creation and the public's engagement with cultural and artistic expression.",
+  goals2:
+    'We advocate for a reflection on these urban spaces and the implementation of changes and actions aimed at improving them. Citizens should take part in the project process. In doing so, we promote a sense of responsibility toward our surroundings—public spaces, buildings, the environment, and more—by allowing individuals to share their perspectives based on their lived experiences in or near those places, to participate in decision-making, and to contribute to the execution of the project. In this way, we build a civic network dedicated to enhancing the quality of urban life through the involvement of its residents—fostering individual purpose that extends toward collective benefit.',
+  imgGoals1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158341/Porfolio/Creand%C2%A1Oh%21/Creando-image4.png',
-  imgChallenge2:
+  imgGoals2:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156028/Porfolio/Creand%C2%A1Oh%21/CreandOh-image5.jpg',
-  imgChallenge3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747156040/Porfolio/Creand%C2%A1Oh%21/CreandOh-image6.jpg',
-  imgChallenge4:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161082/Porfolio/Creand%C2%A1Oh%21/CreandOh-image-10.png',
-  process1:
-    'To achieve a unified design, I first selected the most representative elements from each visual identity: the isotypes. From there, I chose a standard yet fluid typeface that reflected the artistic nature of the project. Finally, I retained the original colors —purple and yellow— in subtle accents, providing visual continuity while allowing greater flexibility for the new logo.',
-  imgProcess1:
+  projects1:
+    'Various initiatives have been carried out in public schools such as Ciudad del Aire School, Hemingway School, and the semi-private Minerva School in Alcalá de Henares. These projects involved the collaboration of students, families, and teaching staff to implement on-site actions through both theoretical and practical workshops.',
+  projects2:
+    'As a result of these initiatives, the #WeAreSchool project was developed, aimed specifically at educational institutions. #WeAreSchool is a school support program that includes a range of activities applying the Mopka methodology, which is based on addressing the challenges that 21st-century education faces.',
+  projects3:
+    'Urban art workshops for teenagers have also been held at IES Atenea in Alcalá de Henares, IES Lázaro Carreter, and Las Naves - Salesianos in Alcalá de Henares. Several murals have been created across the city in collaboration with the Alcalá de Henares City Council, the Espartales Norte Neighborhood Association, the Ciudad del Val Sports Center, the organization Otra Forma de Moverte, the University of Alcalá, and the CAIF Family Support Center, among others.',
+  imgProjects1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
-  imgProcess2:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158840/Porfolio/Creand%C2%A1Oh%21/CreandOh-image7.png',
-  imgProcess3:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161082/Porfolio/Creand%C2%A1Oh%21/CreandOh-image9.png',
-  imgProcess4:
-    'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747161650/Porfolio/Creand%C2%A1Oh%21/CreandOh-image11.png',
-  process2:
-    'This graphic line has been used for five years with excellent results, thanks to its adaptability to all types of projects and the strong visual identity it has provided to the center. This latter aspect has been key in positioning the business ahead of similar centers in the Community of Madrid. Nowadays, the project is led by another professional who has adapted the graphic line to reflect his own background. ',
-  learning:
-    'One of the most valuable lessons I’ve learned from this project has been in the field of graphic design. Creating a logo that balances two distinct brand identities, conveys a renewed image, and remains adaptable to all types of projects was a real challenge. Through this process, I’ve learned how to develop a cohesive graphic line and how to apply it consistently across different materials—each one maintaining its own unique personality while staying aligned with the overall visual identity.',
+  method1:
+    'Regarding the methodology, the participation and integration of the attendees in the project was a key element. The process began with the selection of the space by the organization, followed by an analysis of the site—both to design the mural and to plan the workshop.Depending on the audience and the number of sessions available prior to the mural execution, the level of participation in the design process varied. In some cases, participants were fully involved, with only the theme provided as a starting point. In other instances, a pre-designed layout was presented, and attendees contributed by choosing and applying the colors.',
+  method1:
+    'This closer, collaborative design process often led to discussions around the proposed themes, creating valuable spaces for dialogue and reflection.',
+  method3:
+    'When it came to executing the design, the participation of the attendees was always complete. They were encouraged to organize their work, plan how they would carry it out, and manage their time, always with someone to guide them. This approach gave each individual a sense of ownership and involvement in the project, leading to a profound transformation of the space—not just in a physical sense but also emotionally.',
+  learning1:
+    'I consider this to be one of the projects where I have learned the most. From a graphic design perspective, I developed skills in adaptability to different materials, spaces, and concepts, learning how to create designs that are accessible for everyone while ensuring an optimal final result. Additionally, I gained flexibility when dealing with unexpected challenges and working in outdoor spaces, which are often more complex and subject to harsher conditions.',
+  learning2:
+    'On the other hand, seeing how people react when given the opportunity to transform a space in their city, school, or neighborhood has been an enriching experience. The level of engagement achieved, regardless of age or background, has deeply impressed me. In every project, the unity and collaboration established at the completion of the work were remarkable—something I have rarely seen in other contexts. Egos were set aside, and all participants shared the same goal: ensuring the mural turned out as best as possible. This was further reinforced by the ongoing care of the space, as participants felt it was their creation and did not want it to be damaged.',
   mistakes:
-    'Regarding the mistakes made, I believe the graphic line had such a strong personality that, in some projects, it was difficult to adapt without compromising quality. This led to longer design times, whereas a similar but more flexible approach could have streamlined the process without losing visual coherence.',
+    'Regarding mistakes, I believe that in some projects, the development time was insufficient. Some spaces were quite large, making it difficult to complete them within the allotted workshop time, and in other cases, the sessions leading up to the mural creation were too brief. This resulted in an overload for the organizing team, a problem that could have been avoided with better planning of the necessary time.',
   imgLearning:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747159014/Porfolio/Creand%C2%A1Oh%21/CreandOh-image8.jpg'
 }
