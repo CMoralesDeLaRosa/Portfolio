@@ -54,8 +54,9 @@
 
 /*Article-focus-mopka*/
 .article-mopka-focus,
-.article-mopka-challenges,
-.article-mopka-process,
+.article-mopka-goals,
+.article-mopka-projects,
+.article-mopka-method,
 .article-mopka-learning {
   width: 1200px;
   height: auto;
@@ -69,8 +70,9 @@
   padding: var(--pf-padding-xl) var(--pf-padding-l);
 }
 .article-mopka-focus > h3,
-.article-mopka-challenges > h3,
-.article-mopka-process > h3,
+.article-mopka-goals > h3,
+.article-mopka-projects > h3,
+.article-mopka-method > h3,
 .article-mopka-learning > h3 {
   width: 100%;
   text-align: start;
@@ -99,8 +101,9 @@
   color: var(--pf-color5);
 }
 .article-mopka-focus > p,
-.article-mopka-challenges > p,
-.article-mopka-process > p,
+.article-mopka-goals > p,
+.article-mopka-projects > p,
+.article-mopka-method > p,
 .article-mopka-learning > p {
   width: 100%;
   text-align: justify;
@@ -127,26 +130,26 @@
   object-position: 0 -70px;
 }
 
-/*Article-challenges-mopka*/
-.div-mopka-challenges-img1 {
+/*Article-goals-mopka*/
+.div-mopka-goals-img1 {
   width: 850px;
   height: auto;
   margin: var(--pf-margin-l) 0;
 }
-.div-mopka-challenges-img1 > img:first-of-type {
+.div-mopka-goals-img1 > img:first-of-type {
   width: 100%;
   object-fit: contain;
 }
-.div-mopka-challenges-img1 > img:last-of-type {
+.div-mopka-goals-img1 > img:last-of-type {
   display: none;
 }
-.div-mopka-challenges-img2 {
+.div-mopka-goals-img2 {
   width: 850px;
   height: auto;
   margin: var(--pf-margin-l) 0;
   gap: 40px;
 }
-.div-mopka-challenges-img2 > img {
+.div-mopka-goals-img2 > img {
   width: 530px;
   height: auto;
   box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
@@ -154,29 +157,29 @@
 }
 
 /*Article-procces-mopka*/
-.div-mopka-process-img1 {
+.div-mopka-projects-img1 {
   width: 600px;
   height: auto;
   border-radius: var(--pf-br1);
   margin: var(--pf-margin-l) 0;
 }
-.div-mopka-process-img1 > img:first-of-type {
+.div-mopka-projects-img1 > img:first-of-type {
   width: 100%;
 }
-.div-mopka-process-img1 > img:last-of-type {
+.div-mopka-projects-img1 > img:last-of-type {
   display: none;
 }
-.div-mopka-process-img2 {
+.div-mopka-projects-img2 {
   width: 1080px;
   height: auto;
   overflow: hidden;
   margin-top: var(--pf-margin-l);
 }
-.div-mopka-process-img2 > img:first-of-type {
+.div-mopka-projects-img2 > img:first-of-type {
   width: 100%;
   height: 100%;
 }
-.div-mopka-process-img2 > img:last-of-type {
+.div-mopka-projects-img2 > img:last-of-type {
   display: none;
 }
 
@@ -206,8 +209,8 @@
     letter-spacing: 1.2px;
   }
   .article-mopka-focus,
-  .article-mopka-challenges,
-  .article-mopka-process,
+  .article-mopka-goals,
+  .article-mopka-projects,
   .article-mopka-learning {
     width: 1000px;
     padding: var(--pf-padding-xl) var(--pf-padding-m);
@@ -217,15 +220,15 @@
     width: 55px;
   }
   .article-mopka-focus > p,
-  .article-mopka-challenges > p,
-  .article-mopka-process > p,
+  .article-mopka-goals > p,
+  .article-mopka-projects > p,
   .article-mopka-learning > p {
     width: 950px;
     text-align: justify;
   }
   .article-mopka-focus > h3,
-  .article-mopka-challenges > h3,
-  .article-mopka-process > h3,
+  .article-mopka-goals > h3,
+  .article-mopka-projects > h3,
   .article-mopka-learning > h3 {
     width: 100%;
     text-align: start;
@@ -252,18 +255,18 @@
   .div-images-focus-mopka > div:last-of-type > img {
     object-position: 0;
   }
-  .div-mopka-challenges-img1 {
+  .div-mopka-goals-img1 {
     width: 850px;
     height: auto;
   }
-  .div-mopka-challenges-img2 {
+  .div-mopka-goals-img2 {
     margin-bottom: 0;
   }
-  .div-mopka-challenges-img2 > img {
+  .div-mopka-goals-img2 > img {
     width: 440px;
     height: auto;
   }
-  .div-mopka-process-img2 {
+  .div-mopka-projects-img2 {
     width: 900px;
     height: auto;
   }
@@ -294,22 +297,22 @@
     height: auto;
   }
   .article-mopka-focus,
-  .article-mopka-challenges,
-  .article-mopka-process,
+  .article-mopka-goals,
+  .article-mopka-projects,
   .article-mopka-learning {
     width: 800px;
     padding: var(--pf-padding-m) var(--pf-padding-m);
   }
   .article-mopka-focus > p,
-  .article-mopka-challenges > p,
-  .article-mopka-process > p,
+  .article-mopka-goals > p,
+  .article-mopka-projects > p,
   .article-mopka-learning > p {
     width: 100%;
     line-height: 2.2;
   }
   .article-mopka-focus > h3,
-  .article-mopka-challenges > h3,
-  .article-mopka-process > h3,
+  .article-mopka-goals > h3,
+  .article-mopka-projects > h3,
   .article-mopka-learning > h3 {
     text-align: center;
   }
@@ -331,20 +334,20 @@
     width: 100%;
     object-fit: cover;
   }
-  .div-mopka-challenges-img1 {
+  .div-mopka-goals-img1 {
     width: 700px;
   }
-  .div-mopka-challenges-img2 {
+  .div-mopka-goals-img2 {
     margin-bottom: var(--pf-margin-m);
   }
-  .div-mopka-challenges-img2 > img {
+  .div-mopka-goals-img2 > img {
     width: 330px;
   }
-  .div-mopka-process-img1 {
+  .div-mopka-projects-img1 {
     width: 650px;
     height: auto;
   }
-  .div-mopka-process-img2 {
+  .div-mopka-projects-img2 {
     width: 700px;
     height: auto;
   }
@@ -375,23 +378,23 @@
     width: auto;
   }
   .article-mopka-focus,
-  .article-mopka-challenges,
-  .article-mopka-process,
+  .article-mopka-goals,
+  .article-mopka-projects,
   .article-mopka-learning {
     width: 550px;
     padding: var(--pf-padding-m) 0;
   }
   .article-mopka-focus > p,
-  .article-mopka-challenges > p,
-  .article-mopka-process > p,
+  .article-mopka-goals > p,
+  .article-mopka-projects > p,
   .article-mopka-learning > p {
     line-height: 2;
     font-size: 14px;
     letter-spacing: 0.3px;
   }
   .article-mopka-focus > h3,
-  .article-mopka-challenges > h3,
-  .article-mopka-process > h3,
+  .article-mopka-goals > h3,
+  .article-mopka-projects > h3,
   .article-mopka-learning > h3 {
     text-align: center;
     font-size: 17px;
@@ -411,20 +414,20 @@
     height: 110%;
     width: 100%;
   }
-  .div-mopka-challenges-img1 {
+  .div-mopka-goals-img1 {
     width: 520px;
   }
-  .div-mopka-challenges-img2 {
+  .div-mopka-goals-img2 {
     flex-direction: column;
     margin-bottom: var(--pf-margin-xs);
   }
-  .div-mopka-challenges-img2 > img {
+  .div-mopka-goals-img2 > img {
     width: 520px;
   }
-  .div-mopka-process-img1 {
+  .div-mopka-projects-img1 {
     width: 520px;
   }
-  .div-mopka-process-img2 {
+  .div-mopka-projects-img2 {
     width: 520px;
     height: auto;
   }
@@ -466,15 +469,15 @@
     flex-wrap: wrap;
   }
   .article-mopka-focus,
-  .article-mopka-challenges,
-  .article-mopka-process,
+  .article-mopka-goals,
+  .article-mopka-projects,
   .article-mopka-learning {
     width: 250px;
     padding: var(--pf-padding-m) 0;
   }
   .article-mopka-focus > h3,
-  .article-mopka-challenges > h3,
-  .article-mopka-process > h3,
+  .article-mopka-goals > h3,
+  .article-mopka-projects > h3,
   .article-mopka-learning > h3 {
     font-size: 15px;
   }
@@ -507,42 +510,42 @@
     width: 250px;
     height: 350px;
   }
-  .div-mopka-challenges-img1 > img:first-of-type {
+  .div-mopka-goals-img1 > img:first-of-type {
     display: none;
   }
-  .div-mopka-challenges-img1 > img:last-of-type {
+  .div-mopka-goals-img1 > img:last-of-type {
     display: block;
     margin: auto;
     width: 230px;
     height: auto;
   }
-  .div-mopka-challenges-img2 {
+  .div-mopka-goals-img2 {
     gap: 30px;
   }
-  .div-mopka-challenges-img2 > img {
+  .div-mopka-goals-img2 > img {
     width: 230px;
     height: auto;
   }
-  .div-mopka-process-img1 {
+  .div-mopka-projects-img1 {
     height: auto;
     margin: var(--pf-margin-m);
   }
-  .div-mopka-process-img1 > img:first-of-type {
+  .div-mopka-projects-img1 > img:first-of-type {
     display: none;
   }
-  .div-mopka-process-img1 > img:last-of-type {
+  .div-mopka-projects-img1 > img:last-of-type {
     display: block;
     width: 150px;
     margin: auto;
   }
-  .div-mopka-process-img2 {
+  .div-mopka-projects-img2 {
     width: 250px;
     height: auto;
   }
-  .div-mopka-process-img2 > img:first-of-type {
+  .div-mopka-projects-img2 > img:first-of-type {
     display: none;
   }
-  .div-mopka-process-img2 > img:last-of-type {
+  .div-mopka-projects-img2 > img:last-of-type {
     display: block;
     width: 230px;
     height: auto;

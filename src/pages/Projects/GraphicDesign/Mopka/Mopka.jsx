@@ -25,7 +25,7 @@ const mopkaItems = {
   goals1:
     "We believe that art needs a place within the urban spaces. That is why we support the presence of different art forms in public spaces, as they are often confined to venues that can be difficult to access—sometimes for economic reasons. Art should have greater visibility in the streets, encouraging both artistic creation and the public's engagement with cultural and artistic expression.",
   goals2:
-    'We advocate for a reflection on these urban spaces and the implementation of changes and actions aimed at improving them. Citizens should take part in the project process. In doing so, we promote a sense of responsibility toward our surroundings—public spaces, buildings, the environment, and more—by allowing individuals to share their perspectives based on their lived experiences in or near those places, to participate in decision-making, and to contribute to the execution of the project. In this way, we build a civic network dedicated to enhancing the quality of urban life through the involvement of its residents—fostering individual purpose that extends toward collective benefit.',
+    'We advocate for a reflection on these urban spaces and the implementation of changes and actions aimed at improving them. Citizens should take part in the project projects. In doing so, we promote a sense of responsibility toward our surroundings—public spaces, buildings, the environment, and more—by allowing individuals to share their perspectives based on their lived experiences in or near those places, to participate in decision-making, and to contribute to the execution of the project. In this way, we build a civic network dedicated to enhancing the quality of urban life through the involvement of its residents—fostering individual purpose that extends toward collective benefit.',
   imgGoals1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747158341/Porfolio/Creand%C2%A1Oh%21/Creando-image4.png',
   imgGoals2:
@@ -39,9 +39,9 @@ const mopkaItems = {
   imgProjects1:
     'https://res.cloudinary.com/dmztjnlrp/image/upload/v1747073722/Porfolio/Creand%C2%A1Oh%21/Creando-image1.png',
   method1:
-    'Regarding the methodology, the participation and integration of the attendees in the project was a key element. The process began with the selection of the space by the organization, followed by an analysis of the site—both to design the mural and to plan the workshop.Depending on the audience and the number of sessions available prior to the mural execution, the level of participation in the design process varied. In some cases, participants were fully involved, with only the theme provided as a starting point. In other instances, a pre-designed layout was presented, and attendees contributed by choosing and applying the colors.',
-  method1:
-    'This closer, collaborative design process often led to discussions around the proposed themes, creating valuable spaces for dialogue and reflection.',
+    'Regarding the methodology, the participation and integration of the attendees in the project was a key element. The projects began with the selection of the space by the organization, followed by an analysis of the site—both to design the mural and to plan the workshop.Depending on the audience and the number of sessions available prior to the mural execution, the level of participation in the design projects varied. In some cases, participants were fully involved, with only the theme provided as a starting point. In other instances, a pre-designed layout was presented, and attendees contributed by choosing and applying the colors.',
+  method2:
+    'This closer, collaborative design projects often led to discussions around the proposed themes, creating valuable spaces for dialogue and reflection.',
   method3:
     'When it came to executing the design, the participation of the attendees was always complete. They were encouraged to organize their work, plan how they would carry it out, and manage their time, always with someone to guide them. This approach gave each individual a sense of ownership and involvement in the project, leading to a profound transformation of the space—not just in a physical sense but also emotionally.',
   learning1:
@@ -111,41 +111,36 @@ const Mopka = () => {
           </div>
         </div>
       </article>
-      <article className='article-mopka-challenges flex-container'>
-        <h3>Challenges</h3>
-        <p>{mopkaItems.challenges1}</p>
-        <div className='div-mopka-challenges-img1'>
-          <img src={mopkaItems.imgChallenge1} alt="Poster's examples" />
-          <img src={mopkaItems.imgChallenge4} alt="Poster's examples" />
-        </div>
-        <p>{mopkaItems.challenges2}</p>
-        <div className='div-mopka-challenges-img2 flex-container'>
-          <img src={mopkaItems.imgChallenge2} alt='Inner space of Creand¡Oh!' />
-          <img src={mopkaItems.imgChallenge3} alt='Inner space of Creand¡Oh!' />
+      <article className='article-mopka-goals flex-container'>
+        <h3>Goals</h3>
+        <p>{mopkaItems.goals1}</p>
+        <p>{mopkaItems.goals2}</p>
+        <div className='div-mopka-goals-img1'>
+          <img src={mopkaItems.imgGoals1} alt="Poster's examples" />
+          <img src={mopkaItems.imgGoals2} alt="Poster's examples" />
         </div>
       </article>
-      <article className='article-mopka-process flex-container'>
-        <h3>Project Process</h3>
-        <p>{mopkaItems.process1}</p>
-        <div className='div-mopka-process-img1'>
+      <article className='article-mopka-projects flex-container'>
+        <h3>Projects</h3>
+        <p>{mopkaItems.projects1}</p>
+        <div className='div-mopka-projects-img1'>
           <img
-            src={mopkaItems.imgProcess1}
-            alt='Scheme of the process of th design'
-          />
-          <img
-            src={mopkaItems.imgProcess4}
-            alt='Scheme of the process of th design'
+            src={mopkaItems.imgProjects1}
+            alt='Scheme of the projects of th design'
           />
         </div>
-        <p>{mopkaItems.process2}</p>
-        <div className='div-mopka-process-img2'>
-          <img src={mopkaItems.imgProcess2} alt='Examples of posters' />
-          <img src={mopkaItems.imgProcess3} alt='Examples of posters' />
-        </div>
+        <p>{mopkaItems.projects2}</p>
+        <p>{mopkaItems.projects3}</p>
+      </article>
+      <article className='article-mopka-method flex-container'>
+        <h3>Method</h3>
+        <p>{mopkaItems.method1}</p>
+        <p>{mopkaItems.method2}</p>
+        <p>{mopkaItems.method3}</p>
       </article>
       <article className='article-mopka-learning flex-container'>
         <h3>Learning and mistakes</h3>
-        <p>{mopkaItems.learning}</p>
+        <p>{mopkaItems.learning1}</p>
         <p>{mopkaItems.mistakes}</p>
         <img
           src={mopkaItems.imgLearning}
