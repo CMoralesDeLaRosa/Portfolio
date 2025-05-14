@@ -35,7 +35,7 @@ const GraphicDesign = () => {
   }, [])
 
   const handleProject = (path, title) => {
-    if (title === 'Jornadas Diversidad Cultural' || title === 'Mopka') {
+    if (title === 'Jornadas Diversidad Cultural') {
       setAlertTitle(title)
       setShowAlert(true)
       setTimeout(() => {

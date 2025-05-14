@@ -1,0 +1,558 @@
+/*CreandOh*/
+#section-mopka-project {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: var(--pf-padding-xl) var(--pf-padding-section) var(--pf-padding-m)
+    var(--pf-padding-section);
+  background-color: var(--pf-fifth-bg);
+}
+.square-green-last {
+  width: 7px;
+  color: var(--pf-color4);
+  margin-top: 7px;
+}
+
+/*Article-main*/
+.article-mopka-main {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: 20px;
+  margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
+}
+.div-mopka-main-image {
+  width: 1200px;
+  height: 300px;
+  border-radius: var(--pf-br2) var(--pf-br2) var(--pf-br1) var(--pf-br1);
+  overflow: hidden;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  margin-bottom: var(--pf-margin-xl);
+  background-color: white;
+}
+.div-mopka-main-image > img {
+  width: 100%;
+  object-position: 0 -60px;
+  object-fit: contain;
+}
+.ul-mopka-main {
+  width: 900px;
+  height: auto;
+  gap: 20px;
+  margin-top: var(--pf-margin-s);
+  flex-wrap: wrap;
+}
+.ul-mopka-main > li {
+  width: auto;
+  font-weight: 400;
+  font-size: 17px;
+  gap: 20px;
+  text-align: center;
+  margin-top: 8px;
+  letter-spacing: 1.5px;
+}
+
+/*Article-focus-mopka*/
+.article-mopka-focus,
+.article-mopka-challenges,
+.article-mopka-process,
+.article-mopka-learning {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  padding: var(--pf-padding-xl) var(--pf-padding-l);
+}
+.article-mopka-focus > h3,
+.article-mopka-challenges > h3,
+.article-mopka-process > h3,
+.article-mopka-learning > h3 {
+  width: 100%;
+  text-align: start;
+  font-weight: 400;
+}
+.div-scheme-mopka {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  justify-items: start;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--pf-color6);
+  margin-top: var(--pf-margin-s);
+}
+.big-icon-scheme-web-design {
+  height: 60px;
+  width: 60px;
+}
+.big-icon-scheme-web-design:last-of-type {
+  color: var(--pf-color4);
+}
+.big-icon-scheme-web-design:last-of-type:hover {
+  color: var(--pf-color5);
+}
+.article-mopka-focus > p,
+.article-mopka-challenges > p,
+.article-mopka-process > p,
+.article-mopka-learning > p {
+  width: 100%;
+  text-align: justify;
+}
+.div-images-focus-mopka {
+  width: 100%;
+  height: auto;
+  gap: 30px;
+  margin-top: var(--pf-margin-s);
+  flex-direction: column;
+}
+
+.div-images-focus-mopka > div {
+  width: 850px;
+  height: 450px;
+  overflow: hidden;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+.div-images-focus-mopka > div > img {
+  width: 100%;
+}
+.div-images-focus-mopka > div:last-of-type > img {
+  object-position: 0 -70px;
+}
+
+/*Article-challenges-mopka*/
+.div-mopka-challenges-img1 {
+  width: 850px;
+  height: auto;
+  margin: var(--pf-margin-l) 0;
+}
+.div-mopka-challenges-img1 > img:first-of-type {
+  width: 100%;
+  object-fit: contain;
+}
+.div-mopka-challenges-img1 > img:last-of-type {
+  display: none;
+}
+.div-mopka-challenges-img2 {
+  width: 850px;
+  height: auto;
+  margin: var(--pf-margin-l) 0;
+  gap: 40px;
+}
+.div-mopka-challenges-img2 > img {
+  width: 530px;
+  height: auto;
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  border-radius: var(--pf-br1);
+}
+
+/*Article-procces-mopka*/
+.div-mopka-process-img1 {
+  width: 600px;
+  height: auto;
+  border-radius: var(--pf-br1);
+  margin: var(--pf-margin-l) 0;
+}
+.div-mopka-process-img1 > img:first-of-type {
+  width: 100%;
+}
+.div-mopka-process-img1 > img:last-of-type {
+  display: none;
+}
+.div-mopka-process-img2 {
+  width: 1080px;
+  height: auto;
+  overflow: hidden;
+  margin-top: var(--pf-margin-l);
+}
+.div-mopka-process-img2 > img:first-of-type {
+  width: 100%;
+  height: 100%;
+}
+.div-mopka-process-img2 > img:last-of-type {
+  display: none;
+}
+
+/*Article-learning-mopka*/
+.article-mopka-learning > img {
+  width: 850px;
+  border-radius: var(--pf-br1);
+  box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+  margin: var(--pf-margin-m) 0 var(--pf-margin-xl) 0;
+}
+
+/*MediaQueries*/
+@media (max-width: 1550px) {
+  .div-mopka-main-image {
+    width: 1000px;
+    height: 220px;
+  }
+  .div-mopka-main-image > img {
+    object-position: 40px -25px;
+  }
+  .ul-mopka-main {
+    gap: 15px;
+  }
+  .ul-mopka-main > li {
+    font-size: 15px;
+    gap: 15px;
+    letter-spacing: 1.2px;
+  }
+  .article-mopka-focus,
+  .article-mopka-challenges,
+  .article-mopka-process,
+  .article-mopka-learning {
+    width: 1000px;
+    padding: var(--pf-padding-xl) var(--pf-padding-m);
+  }
+  .big-icon-scheme-graphic-design {
+    height: 55px;
+    width: 55px;
+  }
+  .article-mopka-focus > p,
+  .article-mopka-challenges > p,
+  .article-mopka-process > p,
+  .article-mopka-learning > p {
+    width: 950px;
+    text-align: justify;
+  }
+  .article-mopka-focus > h3,
+  .article-mopka-challenges > h3,
+  .article-mopka-process > h3,
+  .article-mopka-learning > h3 {
+    width: 100%;
+    text-align: start;
+    font-weight: 400;
+  }
+  .div-images-focus-mopka {
+    width: 1000px;
+    height: auto;
+    gap: 60px;
+    margin-top: var(--pf-margin-s);
+  }
+  .div-images-focus-mopka > div {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
+    border-radius: var(--pf-br1);
+  }
+  .div-images-focus-mopka > div > img {
+    height: 110%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .div-images-focus-mopka > div:last-of-type > img {
+    object-position: 0;
+  }
+  .div-mopka-challenges-img1 {
+    width: 850px;
+    height: auto;
+  }
+  .div-mopka-challenges-img2 {
+    margin-bottom: 0;
+  }
+  .div-mopka-challenges-img2 > img {
+    width: 440px;
+    height: auto;
+  }
+  .div-mopka-process-img2 {
+    width: 900px;
+    height: auto;
+  }
+  .article-mopka-learning > img {
+    width: 850px;
+  }
+}
+@media (max-width: 1300px) {
+  .div-mopka-main-image {
+    width: 750px;
+    height: 200px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-mopka-main-image > img {
+    object-position: 42px -5px;
+  }
+  .ul-mopka-main {
+    gap: 15px;
+    width: 700px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-mopka-main > li {
+    font-size: 14px;
+    width: auto;
+    gap: 15px;
+    letter-spacing: 1.2px;
+    height: auto;
+  }
+  .article-mopka-focus,
+  .article-mopka-challenges,
+  .article-mopka-process,
+  .article-mopka-learning {
+    width: 800px;
+    padding: var(--pf-padding-m) var(--pf-padding-m);
+  }
+  .article-mopka-focus > p,
+  .article-mopka-challenges > p,
+  .article-mopka-process > p,
+  .article-mopka-learning > p {
+    width: 100%;
+    line-height: 2.2;
+  }
+  .article-mopka-focus > h3,
+  .article-mopka-challenges > h3,
+  .article-mopka-process > h3,
+  .article-mopka-learning > h3 {
+    text-align: center;
+  }
+  .div-scheme-mopka {
+    margin-top: 0;
+    justify-content: center;
+    justify-items: center;
+  }
+  .big-icon-scheme-graphic-design {
+    height: 45px !important;
+    width: 45px !important;
+  }
+  .div-images-focus-mopka > div {
+    width: 700px;
+    height: 400px;
+  }
+  .div-images-focus-mopka > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .div-mopka-challenges-img1 {
+    width: 700px;
+  }
+  .div-mopka-challenges-img2 {
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-mopka-challenges-img2 > img {
+    width: 330px;
+  }
+  .div-mopka-process-img1 {
+    width: 650px;
+    height: auto;
+  }
+  .div-mopka-process-img2 {
+    width: 700px;
+    height: auto;
+  }
+  .article-mopka-learning {
+    margin-bottom: 0;
+  }
+  .article-mopka-learning > img {
+    width: 700px;
+  }
+}
+@media (max-width: 850px) {
+  .div-mopka-main-image {
+    width: 550px;
+    height: 150px;
+    margin-bottom: var(--pf-margin-m);
+  }
+  .div-mopka-main-image > img {
+    object-position: 30px 0;
+  }
+  .ul-mopka-main {
+    gap: 15px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-mopka-main > li {
+    font-size: 14px;
+    width: auto;
+  }
+  .article-mopka-focus,
+  .article-mopka-challenges,
+  .article-mopka-process,
+  .article-mopka-learning {
+    width: 550px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-mopka-focus > p,
+  .article-mopka-challenges > p,
+  .article-mopka-process > p,
+  .article-mopka-learning > p {
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .article-mopka-focus > h3,
+  .article-mopka-challenges > h3,
+  .article-mopka-process > h3,
+  .article-mopka-learning > h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  .big-icon-scheme-graphic-design {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .div-images-focus-mopka {
+    gap: 30px;
+  }
+  .div-images-focus-mopka > div {
+    width: 430px;
+    height: 400px;
+  }
+  .div-images-focus-mopka > div > img {
+    height: 110%;
+    width: 100%;
+  }
+  .div-mopka-challenges-img1 {
+    width: 520px;
+  }
+  .div-mopka-challenges-img2 {
+    flex-direction: column;
+    margin-bottom: var(--pf-margin-xs);
+  }
+  .div-mopka-challenges-img2 > img {
+    width: 520px;
+  }
+  .div-mopka-process-img1 {
+    width: 520px;
+  }
+  .div-mopka-process-img2 {
+    width: 520px;
+    height: auto;
+  }
+  .article-mopka-learning {
+    margin-bottom: 0;
+  }
+  .article-mopka-learning > img {
+    width: 520px;
+  }
+}
+@media (max-width: 650px) {
+  #section-mopka-project {
+    padding: 0 var(--pf-padding-section) var(--pf-padding-m)
+      var(--pf-padding-section);
+  }
+  .article-mopka-main {
+    gap: 10px;
+    margin: var(--pf-margin-section) 0 var(--pf-margin-xl) 0;
+  }
+  .div-mopka-main-image {
+    width: 300px;
+    height: 130px;
+    border-radius: 80px 80px var(--pf-br1) var(--pf-br1);
+  }
+  .div-mopka-main-image > img {
+    object-position: -57px 0;
+    width: 140%;
+  }
+  .ul-mopka-main {
+    gap: 5px;
+    width: 280px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .ul-mopka-main > li {
+    font-size: 11px;
+    gap: 5px;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .article-mopka-focus,
+  .article-mopka-challenges,
+  .article-mopka-process,
+  .article-mopka-learning {
+    width: 250px;
+    padding: var(--pf-padding-m) 0;
+  }
+  .article-mopka-focus > h3,
+  .article-mopka-challenges > h3,
+  .article-mopka-process > h3,
+  .article-mopka-learning > h3 {
+    font-size: 15px;
+  }
+  .div-scheme-mopka {
+    gap: 5px;
+  }
+  .big-icon-scheme-graphic-design {
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .div-images-focus-mopka {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .div-images-focus-mopka > div {
+    width: 250px;
+    height: 350px;
+  }
+  .div-images-focus-mopka > div > img {
+    height: 110%;
+    width: 100%;
+  }
+  .div-images-focus-mopka > div:first-of-type > img {
+    object-position: -300px 0;
+  }
+  .div-images-focus-mopka > div:last-of-type > img {
+    object-position: -100px 0;
+  }
+  .div-images-focus-mopka > div:last-of-type {
+    width: 250px;
+    height: 350px;
+  }
+  .div-mopka-challenges-img1 > img:first-of-type {
+    display: none;
+  }
+  .div-mopka-challenges-img1 > img:last-of-type {
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: auto;
+  }
+  .div-mopka-challenges-img2 {
+    gap: 30px;
+  }
+  .div-mopka-challenges-img2 > img {
+    width: 230px;
+    height: auto;
+  }
+  .div-mopka-process-img1 {
+    height: auto;
+    margin: var(--pf-margin-m);
+  }
+  .div-mopka-process-img1 > img:first-of-type {
+    display: none;
+  }
+  .div-mopka-process-img1 > img:last-of-type {
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+  .div-mopka-process-img2 {
+    width: 250px;
+    height: auto;
+  }
+  .div-mopka-process-img2 > img:first-of-type {
+    display: none;
+  }
+  .div-mopka-process-img2 > img:last-of-type {
+    display: block;
+    width: 230px;
+    height: auto;
+    margin: auto;
+  }
+
+  .article-mopka-learning > img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: -0px 0;
+  }
+}

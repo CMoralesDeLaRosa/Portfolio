@@ -3,6 +3,7 @@ import jornadasEspanaRD from '../pages/Projects/Audiovisual/JornadasEspanaRD/Jor
 import Papaoutai from '../pages/Projects/Audiovisual/Papaoutai/Papaoutai'
 import Roots from '../pages/Projects/Audiovisual/Roots/Roots'
 import CreandOh from '../pages/Projects/GraphicDesign/CreandOh/CreandOh'
+import Mopka from '../pages/Projects/GraphicDesign/Mopka/Mopka'
 import ElPerol from '../pages/Projects/WebDesign/ElPerol/ElPerol'
 import PokemonCards from '../pages/Projects/WebDesign/PokemonCards/PokemonCards'
 import RetroGames from '../pages/Projects/WebDesign/RetroGames/RetroGames'
@@ -46,7 +47,7 @@ export const graphicDesignRoutes = [
     component: CreandOh
   },
   {
-    path: 'graphic-design',
-    component: GraphicDesign
+    path: 'graphic-design/mopka',
+    component: Mopka
   }
 ]
