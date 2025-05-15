@@ -253,7 +253,7 @@
     height: 220px;
   }
   .div-mopka-main-image > img {
-    object-position: 40px -25px;
+    object-position: 0 -200px;
   }
   .ul-mopka-main {
     gap: 15px;
@@ -266,6 +266,7 @@
   .article-mopka-focus,
   .article-mopka-goals,
   .article-mopka-projects,
+  .article-mopka-method,
   .article-mopka-learning {
     width: 1000px;
     padding: var(--pf-padding-xl) var(--pf-padding-m);
@@ -277,6 +278,7 @@
   .article-mopka-focus > p,
   .article-mopka-goals > p,
   .article-mopka-projects > p,
+  .article-mopka-method > p,
   .article-mopka-learning > p {
     width: 950px;
     text-align: justify;
@@ -284,49 +286,40 @@
   .article-mopka-focus > h3,
   .article-mopka-goals > h3,
   .article-mopka-projects > h3,
+  .article-mopka-method > h3,
   .article-mopka-learning > h3 {
     width: 100%;
     text-align: start;
     font-weight: 400;
   }
   .div-images-focus-mopka {
-    width: 1000px;
+    width: 100%;
     height: auto;
-    gap: 60px;
+    gap: 30px;
     margin-top: var(--pf-margin-s);
   }
-  .div-images-focus-mopka > div {
-    width: 800px;
-    height: 500px;
-    overflow: hidden;
-    box-shadow: 0 5px 35px 0px rgba(135, 87, 124, 0.5);
-    border-radius: var(--pf-br1);
-  }
-  .div-images-focus-mopka > div > img {
-    height: 110%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .div-images-focus-mopka > div:last-of-type > img {
-    object-position: 0;
+  .div-images-focus-mopka > img {
+    width: 340px;
+    height: 450px;
   }
   .div-mopka-goals-img1 {
-    width: 850px;
+    width: 100%;
     height: auto;
+    margin: var(--pf-margin-l) 0;
+    gap: 30px;
+  }
+  .div-mopka-goals-img1 > img {
+    width: 550px;
+    height: 380px;
   }
   .div-mopka-goals-img2 {
-    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: var(--pf-margin-l) 0 var(--pf-margin-s) 0;
   }
   .div-mopka-goals-img2 > img {
-    width: 440px;
-    height: auto;
-  }
-  .div-mopka-projects-img2 {
-    width: 900px;
-    height: auto;
-  }
-  .article-mopka-learning > img {
-    width: 850px;
+    width: 930px;
+    height: 500px;
   }
 }
 @media (max-width: 1300px) {
@@ -336,7 +329,7 @@
     margin-bottom: var(--pf-margin-m);
   }
   .div-mopka-main-image > img {
-    object-position: 42px -5px;
+    object-position: 0 -140px;
   }
   .ul-mopka-main {
     gap: 15px;
@@ -354,6 +347,7 @@
   .article-mopka-focus,
   .article-mopka-goals,
   .article-mopka-projects,
+  .article-mopka-method,
   .article-mopka-learning {
     width: 800px;
     padding: var(--pf-padding-m) var(--pf-padding-m);
@@ -361,6 +355,7 @@
   .article-mopka-focus > p,
   .article-mopka-goals > p,
   .article-mopka-projects > p,
+  .article-mopka-method > p,
   .article-mopka-learning > p {
     width: 100%;
     line-height: 2.2;
@@ -368,6 +363,7 @@
   .article-mopka-focus > h3,
   .article-mopka-goals > h3,
   .article-mopka-projects > h3,
+  .article-mopka-method > h3,
   .article-mopka-learning > h3 {
     text-align: center;
   }
@@ -380,37 +376,44 @@
     height: 45px !important;
     width: 45px !important;
   }
-  .div-images-focus-mopka > div {
-    width: 700px;
-    height: 400px;
+  .div-images-focus-mopka > img {
+    width: 340px;
+    height: 380px;
   }
-  .div-images-focus-mopka > div > img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .div-mopka-goals-img1 {
-    width: 700px;
-  }
-  .div-mopka-goals-img2 {
-    margin-bottom: var(--pf-margin-m);
+  .div-mopka-goals-img1 > img {
+    width: 550px;
+    height: 280px;
   }
   .div-mopka-goals-img2 > img {
-    width: 330px;
+    width: 850px;
+    height: 400px;
   }
   .div-mopka-projects-img1 {
-    width: 650px;
+    width: 100%;
     height: auto;
+    gap: 30px;
+    margin: var(--pf-margin-s) 0 var(--pf-margin-xl) 0;
   }
-  .div-mopka-projects-img2 {
-    width: 700px;
-    height: auto;
+  .div-mopka-projects-img1 > img {
+    width: 850px;
+    height: 400px;
   }
-  .article-mopka-learning {
-    margin-bottom: 0;
+  .div-mopka-projects-img2 > img {
+    width: 355px;
+    height: 280px;
   }
-  .article-mopka-learning > img {
-    width: 700px;
+  .div-mopka-method-img1 > img {
+    width: 355px;
+    height: 280px;
+  }
+  .div-mopka-method-img2 > img {
+    width: 850px;
+    height: 400px;
+  }
+  .div-mopka-learning-img1 > img,
+  .div-mopka-learning-img2 > img {
+    width: 850px;
+    height: 400px;
   }
 }
 @media (max-width: 850px) {
@@ -507,10 +510,9 @@
     height: 130px;
     border-radius: 80px 80px var(--pf-br1) var(--pf-br1);
   }
-  .div-mopka-main-image > img {
-    object-position: -57px 0;
-    width: 140%;
-  }
+  /* .div-mopka-main-image > img {
+    object-position: 50px -0dvh;
+  } */
   .ul-mopka-main {
     gap: 5px;
     width: 280px;
