@@ -162,7 +162,7 @@ const PokemonCards = () => {
         <h3>Extra game</h3>
         <p>{pokemonCardsItems.extraGame}</p>
         <div className='div-pokemon-cards-game-video flex-container'>
-          <video loop muted autoPlay width='100%'>
+          <video loop muted autoPlay playsInline width='100%'>
             <source src={pokemonCardsItems.gameVideo} type='video/mp4' />
             Tu navegador no soporta el video.
           </video>
