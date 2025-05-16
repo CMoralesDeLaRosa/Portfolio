@@ -8,6 +8,7 @@ import { BiSolidData } from 'react-icons/bi'
 import Footer from '../../../../components/footer/footer'
 import { IoLogoSnapchat } from 'react-icons/io5'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const pokemonCardsItems = {
   name: 'Pokemon Cards',
@@ -179,6 +180,7 @@ const PokemonCards = () => {
         </a>
         <IoLogoSnapchat className='logo-link-pokemon-cards' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

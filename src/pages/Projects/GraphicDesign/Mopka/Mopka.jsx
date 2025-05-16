@@ -9,6 +9,7 @@ import { HiMiniPaintBrush } from 'react-icons/hi2'
 import { FaPeopleRobbery } from 'react-icons/fa6'
 import { FaMeteor } from 'react-icons/fa'
 import { AiOutlineGift } from 'react-icons/ai'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const mopkaItems = {
   name: 'Mopka',
@@ -205,6 +206,7 @@ const Mopka = () => {
         </a>
         <AiOutlineGift className='logo-link-mopka' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

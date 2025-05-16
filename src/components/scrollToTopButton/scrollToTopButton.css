@@ -1,0 +1,43 @@
+.scrollButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  background: none;
+  color: rgb(25, 23, 23);
+  border: none;
+  cursor: pointer;
+}
+
+.scrollButton-icon {
+  width: 35px;
+  height: 35px;
+}
+
+/*MediaQueries*/
+
+@media (max-width: 1000px) {
+  .scrollButton {
+    bottom: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  .scrollButton-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .scrollButton {
+    bottom: 20px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .scrollButton-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

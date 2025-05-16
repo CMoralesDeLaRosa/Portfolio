@@ -9,6 +9,7 @@ import { PiSneakerMoveFill } from 'react-icons/pi'
 import { BsCameraReelsFill } from 'react-icons/bs'
 import { BsStars } from 'react-icons/bs'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const papaoutaiItems = {
   name: 'Papaoutai',
@@ -204,6 +205,7 @@ const Papaoutai = () => {
         </a>
         <BsStars className='logo-link-el-perol' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

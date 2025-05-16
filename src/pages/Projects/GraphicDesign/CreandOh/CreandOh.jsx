@@ -8,6 +8,7 @@ import { FaHandsHelping } from 'react-icons/fa'
 import { HiMiniPaintBrush } from 'react-icons/hi2'
 import { FaPeopleRobbery } from 'react-icons/fa6'
 import { FaMeteor } from 'react-icons/fa'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const creandOhItems = {
   name: 'Creand¡Oh!',
@@ -159,6 +160,7 @@ const CreandOh = () => {
           alt='Frame of a promotional video of Creand¡Oh!'
         />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

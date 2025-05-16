@@ -3,6 +3,7 @@ import Header from '../../components/header/header'
 import './Audiovisual.css'
 import Footer from '../../components/footer/footer'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../components/scrollToTopButton/scrollToTopButton'
 
 const audiovisualProjects = [
   {
@@ -51,6 +52,7 @@ const Audiovisual = () => {
         ))}
       </article>
       <Footer />
+      <ScrollToTopButton />
     </section>
   )
 }

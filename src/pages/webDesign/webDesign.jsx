@@ -3,6 +3,7 @@ import Header from '../../components/header/header'
 import './webDesign.css'
 import Footer from '../../components/footer/footer'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../components/scrollToTopButton/scrollToTopButton'
 
 const webDesignProjects = [
   {
@@ -51,6 +52,7 @@ const WebDesign = () => {
           </div>
         ))}
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

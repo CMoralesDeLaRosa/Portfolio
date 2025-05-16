@@ -3,6 +3,7 @@ import Footer from '../../components/footer/footer'
 import './graphicDesign.css'
 import { useNavigate } from 'react-router-dom'
 import Header from '../../components/header/header'
+import ScrollToTopButton from '../../components/scrollToTopButton/scrollToTopButton'
 
 const graphicDesignProjects = [
   {
@@ -69,6 +70,7 @@ const GraphicDesign = () => {
           </div>
         ))}
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

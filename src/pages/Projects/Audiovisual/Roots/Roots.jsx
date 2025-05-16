@@ -9,6 +9,7 @@ import { GiBeanstalk } from 'react-icons/gi'
 import { BsCameraReelsFill } from 'react-icons/bs'
 import { BsStars } from 'react-icons/bs'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const rootsItems = {
   name: 'Roots',
@@ -195,6 +196,7 @@ const Roots = () => {
         </a>
         <BsStars className='logo-link-el-perol' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

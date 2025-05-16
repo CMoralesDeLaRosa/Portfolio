@@ -8,6 +8,7 @@ import { FaSquarePlus } from 'react-icons/fa6'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../components/scrollToTopButton/scrollToTopButton'
 
 const skills = [
   'HTML',
@@ -167,6 +168,7 @@ const About = () => {
           </div>
         </article>
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

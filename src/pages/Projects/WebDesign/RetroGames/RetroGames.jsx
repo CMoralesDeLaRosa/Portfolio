@@ -7,6 +7,7 @@ import { TbMoodCrazyHappyFilled } from 'react-icons/tb'
 import Footer from '../../../../components/footer/footer'
 import { BiSolidParty } from 'react-icons/bi'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const retroGamesItems = {
   name: 'Retro Games',
@@ -151,6 +152,7 @@ const RetroGames = () => {
         </a>
         <BiSolidParty className='logo-link-retro-games' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

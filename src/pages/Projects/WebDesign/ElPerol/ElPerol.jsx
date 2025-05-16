@@ -9,6 +9,7 @@ import { AiFillThunderbolt } from 'react-icons/ai'
 import { AiOutlineGift } from 'react-icons/ai'
 import Footer from '../../../../components/footer/footer'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const elPerolItems = {
   name: 'El Perol',
@@ -160,6 +161,7 @@ const ElPerol = () => {
         </a>
         <AiOutlineGift className='logo-link-el-perol' />
       </article>
+      <ScrollToTopButton />
       <Footer />
     </section>
   )

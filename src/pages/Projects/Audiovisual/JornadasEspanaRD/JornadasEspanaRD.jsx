@@ -9,6 +9,7 @@ import { FaPeopleCarry } from 'react-icons/fa'
 import { MdSlideshow } from 'react-icons/md'
 import { BsStars } from 'react-icons/bs'
 import { useEffect } from 'react'
+import ScrollToTopButton from '../../../../components/scrollToTopButton/scrollToTopButton'
 
 const jornadasEspanaRDItems = {
   name: 'Jornadas de España en RD',
@@ -191,6 +192,7 @@ const JornadasEspanaRD = () => {
         <BsStars className='logo-link-semanas-espana' />
       </article>
       <Footer />
+      <ScrollToTopButton />
     </section>
   )
 }
