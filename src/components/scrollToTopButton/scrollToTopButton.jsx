@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { LuCircleArrowUp } from 'react-icons/lu'
+import { CiCircleChevUp } from 'react-icons/ci'
 import './scrollToTopButton.css'
 
 function ScrollToTopButton() {
@@ -26,7 +26,7 @@ function ScrollToTopButton() {
       onClick={scrollToTop}
       className={`scrollButton ${isVisible ? 'show' : ''}`}
     >
-      <LuCircleArrowUp className='scrollButton-icon' />
+      <CiCircleChevUp className='scrollButton-icon' />
     </button>
   )
 }
