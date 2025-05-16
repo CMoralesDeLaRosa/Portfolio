@@ -7,11 +7,7 @@ function ScrollToTopButton() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setIsVisible(true)
-      } else {
-        setIsVisible(false)
-      }
+      setIsVisible(window.scrollY > 300)
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -26,11 +22,12 @@ function ScrollToTopButton() {
   }
 
   return (
-    isVisible && (
-      <button onClick={scrollToTop} className='scrollButton'>
-        <LuCircleArrowUp className='scrollButton-icon' />
-      </button>
-    )
+    <button
+      onClick={scrollToTop}
+      className={`scrollButton ${isVisible ? 'show' : ''}`}
+    >
+      <LuCircleArrowUp className='scrollButton-icon' />
+    </button>
   )
 }
 
