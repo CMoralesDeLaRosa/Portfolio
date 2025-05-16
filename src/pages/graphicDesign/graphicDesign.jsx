@@ -6,10 +6,10 @@ import Header from '../../components/header/header'
 
 const graphicDesignProjects = [
   {
-    title: 'Jornadas Diversidad Cultural',
-    img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738175377/Porfolio/Jornadas-Graphic-Design-project.jpg',
-    colaboration: 'Universidad de Alcalá',
-    path: '/graphic-design/jornadas-diversidad-cultural'
+    title: 'Mopka',
+    img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738262823/Porfolio/Mopka-Graphic-Design-project.png',
+    colaboration: 'Freelance',
+    path: '/graphic-design/mopka'
   },
   {
     title: 'Creand¡Oh!',
@@ -17,11 +17,12 @@ const graphicDesignProjects = [
     colaboration: 'Freelance',
     path: '/graphic-design/creandoh'
   },
+
   {
-    title: 'Mopka',
-    img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738262823/Porfolio/Mopka-Graphic-Design-project.png',
-    colaboration: 'Freelance',
-    path: '/graphic-design/mopka'
+    title: 'Jornadas Diversidad Cultural',
+    img: 'https://res.cloudinary.com/dmztjnlrp/image/upload/v1738175377/Porfolio/Jornadas-Graphic-Design-project.jpg',
+    colaboration: 'Universidad de Alcalá',
+    path: '/graphic-design/jornadas-diversidad-cultural'
   }
 ]
 
